@@ -1,0 +1,24 @@
+Computing Innovation is the creation and application of ideas, technologies and approaches withing the computer field.
+
+5 items that are computing innovations:
+
+    i. Quantum Computing: Quantum circuits made from logical qubits can process enormous datasets simultaneously with different operations, improving efficiency by many orders of magnitude for certain problems.
+    
+    ii. Data Mining: Data mining helps businesses optimize their operations by identifying inefficiencies and opportunities for improvement.
+    
+    iii.Cloud Storage: Cloud computing gives your business more flexibility. You can quickly scale resources and storage up to meet business demands without having to invest in physical infrastructure.
+    
+    iv. Artificial Intelligence: Artificial intelligence can help automate specific innovation tasks, provide 3D models, and generate simulations.
+    
+    v.Machine Learning: It focuses on the use of data and algorithms to imitate the way that humans learn. As a result, it is able to gradually improve its accuracy over time.
+    
+5 items that are not computing innovations:    
+    i. Physical Mail: Unlike email, physical mails take a long time arrive and costs money to send a letter or something to someone. 
+    
+    ii. Paper: Paper is just something to write with, where you can preserve any important information but it is not that much reliable like wirting and saving in a computer.
+    
+    iii. Pencil: A tool used for writing something, it takes more time to write something with a pencil than typing it out in a computer.
+    
+    iv. File Cabinet: A place to store files, but not as convenient and safe as saving in a cloud storage.
+    
+    v. Notebook: Used for storing or jotting down informations, etc. But it isn't that much realiable like a computer.

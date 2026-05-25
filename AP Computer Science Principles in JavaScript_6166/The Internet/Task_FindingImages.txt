@@ -1,0 +1,3 @@
+What do each of the options mean?
+
+Type of license, like open is mainly for freeuse

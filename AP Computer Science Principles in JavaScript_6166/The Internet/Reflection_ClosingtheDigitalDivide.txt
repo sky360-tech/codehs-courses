@@ -1,0 +1,9 @@
+1. Cyber security
+
+2. The gap between demographics and regions that have access to modern information and communications technology (ICT), and those that don't or have restricted access. 
+
+3. I do
+
+4. Yes
+
+5. The more digital our systems become the more ways hackers find to hack them. From IoT devices to cloud and mobile computing and from the utilisation of big data analytics to reliance on third-party applications, though every development improves efficiency, they also provide entry points to cybercriminals.

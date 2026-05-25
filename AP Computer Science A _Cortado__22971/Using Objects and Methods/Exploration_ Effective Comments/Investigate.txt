@@ -1,0 +1,17 @@
+1) Ineffective, since it talks about the variable that is declared.
+
+2) Effective, since it declares the code that is needed to record the data from the user.
+
+3) Ineffective, since it explains what the variable is.
+
+4) Effective, since in comment 3 it already talks about the user input.
+
+5) Ineffective, since it mentions the code needed for performing calculations.
+
+6) Ineffective, print lines needs to be commented.
+
+7) Ineffective, shows the correct code needed for casting a sum into a double.
+
+8) Effective, print lines needs to be commented.
+
+Optional Extension:

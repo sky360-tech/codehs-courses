@@ -1,0 +1,55 @@
+h2 {
+    color: Orange;
+}
+
+body {
+    background-color: #ecddff;
+}
+
+img {
+    width:49%;
+}
+
+img:hover {
+    width:50%;
+}
+
+img.hue-rotate-filter:hover {
+    filter: hue-rotate(90deg);
+}
+
+img.blur-filter:hover {
+    filter: blur(4px);
+}
+
+img.grayscale-filter:hover {
+    filter: grayscale(100%);
+}
+
+img.opacity-filter:hover {
+    filter: opacity(50%);
+}
+
+img.saturate-filter:hover {
+    filter: saturate(5);
+}
+
+img.sepia-filter:hover {
+    filter: sepia(100%);
+}
+
+img.invert-filter:hover {
+    filter: invert(100%);
+}
+
+img.shadow-filter:hover {
+    filter: drop-shadow(8px 8px 10px blue);
+}
+
+img.brightness-filter:hover {
+    filter: brightness(200%);
+}
+
+img.contrast-filter:hover {
+    filter: contrast(200%);
+}

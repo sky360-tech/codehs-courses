@@ -1,0 +1,5 @@
+4. Describe at least three advantages to having these 
+class methods in the `Calculator` class (as compared 
+to completing the calculations right in the `main` method).
+
+Reusability (Write Once, Use Many Times) If you write the code for the distance formula inside a method, you can use it hundreds of times throughout your program by simply calling Calculator.distance(). If you wrote the calculation directly in main, you would have to rewrite the complex math formula every single time you wanted to find a distance, which is a waste of time and space.

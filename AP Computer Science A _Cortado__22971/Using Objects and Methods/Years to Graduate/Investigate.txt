@@ -1,0 +1,29 @@
+You can use this file to record any observations
+
+What line of code creates a Scanner object? What
+is the name of the variable that stores this object?
+
+
+
+Why does line 13 use the `nextLine` method?
+
+
+
+Why does line 18 use the `nextInt` method?
+
+
+
+What happens when you try and input a number for 
+the first prompt to enter your name? Why? 
+
+
+
+What happens if you change line 18 to 
+`String grade = nextInt()`? Why?
+
+
+
+What happens if you change line 13 to 
+`int name = nextLine()`? Why?
+
+

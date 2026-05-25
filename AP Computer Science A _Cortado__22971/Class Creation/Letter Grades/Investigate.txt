@@ -1,0 +1,9 @@
+6. What problems might occur if the instance variables were declared as public instead of private? How do the correct variable and method modifiers help prevent such issues?
+If score and letterGrade were public, an external class could change the score to a 95 but set the grade to an "F" manually. This creates "stale" or mismatched data. By using private, we force the user to use retakeExam(), which ensures that whenever the score changes, the updateLetterGrade() method is automatically called to keep the data consistent.
+
+
+7. What is the reason for making the updateLetterGrade method private?
+The updateLetterGrade method is a "helper method." The user of the class should never need to trigger a grade update manually; it should happen automatically when a score is set. Making it private simplifies the interface for the user and prevents them from accidentally triggering logic that only the Exam class should control.
+
+8. How do the privacy modifiers for the methods getScore, getLetterGrade, and retakeExam demonstrate best encapsulation practices?
+These methods are public, providing a controlled "API" for the object. getScore and getLetterGrade allow read-only access (the user can see the data but not overwrite it), and retakeExam provides a valid pathway for modification that maintains the internal logic of the class.

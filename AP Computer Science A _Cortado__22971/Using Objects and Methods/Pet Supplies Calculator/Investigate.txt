@@ -1,0 +1,19 @@
+You can use this file to record any observations
+
+* What lines use the `totalForOneCat` variable to 
+perform a calculation? What does this reveal about 
+storing the value of an arithmetic expression in a 
+variable?
+
+
+
+* What does line 22 do?
+
+
+
+* What is the value of `amountForAllCats` on line 17? 
+What is its value on line 25? Why are these values 
+different? Use evidence from the program to support 
+your answer.
+
+

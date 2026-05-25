@@ -1,0 +1,12 @@
+1. Why is it important to consider the quality of data when using a data set?
+
+
+2. What makes the data described above poor quality?
+
+
+3. What biases does this data have based on the data collection methods? 
+Identify specific groups that are favored and specific groups that might get overlooked.
+
+
+4. Have you ever seen or experienced a situation where someone was evaluated unfairly
+because of missing or biased information? How would better data have changed the outcome?

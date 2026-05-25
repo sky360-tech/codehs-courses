@@ -1,0 +1,14 @@
+1. How many times does the outer loop repeat when the program runs?
+
+3 times. It starts at row = 0 and runs while row < 3 (so for 0, 1, and 2).
+
+2. How many times does the print statement in the inner loop execute
+when the program runs?
+
+15 times. 
+
+3. What happens if you comment out line 20? 
+
+
+All 15 stars will print in a single, long horizontal line: * * * * * * * * * * * * * * * .
+Why: That println() is what tells the computer, "I'm done with this row, start a new line now." Without it, the "rectangle" never breaks into rows.

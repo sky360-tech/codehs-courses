@@ -1,0 +1,16 @@
+. What line uses the split method?
+javaString[] arrayLine = line.split(" ");
+```
+
+**2. What delimiter is used, and why is it appropriate?**
+A single space `" "` is the delimiter. It's appropriate because the lyrics file separates every word with a space, so splitting on spaces naturally breaks each line into individual words.
+
+**3. What is the value of `arrayLine` for the first line?**
+```
+{"I", "stay", "out", "too", "late"}
+Each word becomes its own element in the array.
+4. What is the for loop doing?
+It loops through every word in arrayLine (the split-up version of one line). For each word, it checks if it matches the target word. If it does, the counter goes up by 1. It's basically scanning every single word in the line one at a time.
+
+Modify — count changes with .toLowerCase():
+Before adding .toLowerCase(), words like "Shake" at the start of a line wouldn't be counted since it doesn't exactly match "shake". After adding it, those get caught too, so the shake count goes up. Same idea for you — any capitalized version like "You" would've been missed before.

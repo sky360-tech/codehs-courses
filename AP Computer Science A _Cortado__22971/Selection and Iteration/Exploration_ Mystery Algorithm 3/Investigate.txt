@@ -1,0 +1,27 @@
+1. Look closely at the for loop header on line 18.
+What is the starting value of `i`? What is the 
+ending value of `i`? How does `i` change after
+each loop?
+
+
+
+
+2. Why does this algorithm use this approach 
+(question #1) in the `for` loop header? 
+
+
+
+
+3. How does this algorithm isolate each letter?
+
+
+
+
+4. Like in the previous exercise (with `algorithm2`),
+this algorithm has the line `String newString = "";`
+right before the `for` loop. Why is this line 
+necessary? What does it do?
+
+
+
+ 

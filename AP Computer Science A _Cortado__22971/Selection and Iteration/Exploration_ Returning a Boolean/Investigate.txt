@@ -1,0 +1,14 @@
+1. What are the parameters of the isGreater method?
+
+
+2. What are the possible return values of the isGreater method?
+
+
+3. What are the values of the arguments when the isGreater method
+is called in the main method?
+
+
+4. Why might the isGreater method return the boolean expression 
+directly instead of assigning it to a variable like boolean 
+result = a > b; and then returning the variable?
+

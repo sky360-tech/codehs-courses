@@ -1,0 +1,19 @@
+You can use this file to record any observations
+
+How do they compare? 
+
+
+
+Which one is easier to read and understand? 
+
+
+
+Which do you think is more effective? 
+
+
+
+Are you able to use the `reverse` method without knowing how the code actually works?
+
+
+
+ 

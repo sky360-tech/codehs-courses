@@ -1,0 +1,18 @@
+You can use this file to record any observations
+
+On line 10, would this expression, 
+`(numPicsPerWeekday * 5) + (numPicsPerWeekendDay * 2)`
+result in the same value? Why or why not? 
+
+
+
+Line 16 and line 19 show the difference between division
+using `ints` and division using at least one `double`. 
+What is the difference between these expressions? How are
+these expressions evaluated differently? 
+
+
+
+Why does line 22 use the modulus?
+
+

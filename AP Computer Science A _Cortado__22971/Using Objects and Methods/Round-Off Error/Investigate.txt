@@ -1,0 +1,11 @@
+1. What is the expected output of the program?
+Mathematically, $100,000 \times 0.034567$ should equal exactly 3456.7.
+
+2. How does the program output differ from the expected output?
+the output is likely 3456.699
+
+3. This discrepancy is due to a round-off error. 
+In your own words, explain why this specific error occurs.
+
+
+This occurs because of Floating-Point Round-off Error. In our base-10 system, some fractions like $1/3$ result in repeating decimals ($0.333...$) that we can never write out fully. Computers face the same problem in binary. Many decimal numbers (like $0.034567$) cannot be represented exactly in binary. The computer has to "round off" the number to the closest possible binary value it can store in 64 bits of memory.

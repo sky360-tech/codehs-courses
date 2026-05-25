@@ -1,0 +1,38 @@
+Use the space to below to trace the code OR use this google doc:
+
+Handout submission link: 
+
+list1
+------------------
+Index: | 0 | 1 | 2 | 3 | 4 | 
+Value: |   |   |   |   |   | 
+
+
+list2
+------------------
+Index: | 0 | 1 | 2 | 3 | 4 | 
+Value: |   |   |   |   |   | 
+
+
+For Loop Trace Table
+
+i | array1Item | array2Item | sum
+----------------------------------
+0
+1
+2
+3
+4
+
+
+summedList
+------------------
+Index: | 0 | 1 | 2 | 3 | 4 | 
+Value: |   |   |   |   |   | 
+
+
+
+
+
+
+

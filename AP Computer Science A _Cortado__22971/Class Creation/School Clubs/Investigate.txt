@@ -1,0 +1,17 @@
+Look at the constructor. How do class variables behave differently
+from instance variables when multiple Club objects are created?
+
+
+Why is `getTotalClubs` a class method, and how is it 
+accessed in the `ClubRunner` class?
+
+
+Why is it appropriate to make `MAX_MEMBERS` both `static` and `final`?
+
+
+How is the `MAX_MEMBERS` variable used in the `Club` class?
+
+
+What type of method is `addMembers`? Why? 
+What type of variable does it modify?
+

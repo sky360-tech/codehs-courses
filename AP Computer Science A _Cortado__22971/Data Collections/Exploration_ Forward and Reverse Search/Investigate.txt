@@ -1,0 +1,29 @@
+1. Based on the 2D array `goldMedals` and the 
+algorithm outlined in `findNumGoldMedals`, how
+many loop iterations will execute before the 
+year 1992 is found?
+
+
+
+
+2. Think back to the lesson on 2D Array Traversals
+-- is this algorithm an example of row-major or 
+column-major traversal? Why?
+
+
+
+
+6. How did the number of passes through the 2D 
+array change when switching from the forward to
+the reverse method?
+
+
+
+
+7. Imagine you have a very large dataset that includes
+every country for every year of the Olympics. Why do
+you think a reverse method like this could help improve
+the search efficiency of the program? In other words,
+how could the ability to choose which end of the array
+to start the search from impact how long it takes the
+program to run?

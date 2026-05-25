@@ -1,0 +1,15 @@
+You can use this file to record any observations
+
+What happens when you try to add two numbers *before*
+concatenating with a string?
+
+
+
+What happens when you try to add two numbers *after*
+concatenating with a string?
+
+
+
+How can you ensure that an addition statement is 
+executed *before* Java converts the number into a string?
+

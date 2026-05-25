@@ -1,0 +1,32 @@
+1. What are the first three values of the arrays current, left,
+and right?
+
+* current:
+
+* left:
+
+* right:
+
+
+
+3. Match each of the following steps with a letter in the image:
+
+* Step 2: 
+
+* Step 7: 
+
+* Step 11: 
+
+* Step 13: 
+
+
+4. Modify the array and predict first values of current,
+left, and right:
+
+* Modified array: 
+
+* current: 
+
+* left: 
+
+* right:

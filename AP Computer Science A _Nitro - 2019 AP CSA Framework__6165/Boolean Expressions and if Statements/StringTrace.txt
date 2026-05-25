@@ -1,0 +1,3 @@
+1. In the program, the first if statement compares the concatenated user input  with the expected result. This check ensures that both the password and the secret code are correct. The memory holds the string values for the password, company secret code, and user input, and it compares them using `.equals(). Once the comparison is done, the program prints either "Access granted" or the denied message. 
+
+2. The two if statements that could be commented out are any additional checks beyond the main comparison that do not affect the outcome. For example, if there was an unnecessary separate check for password correctness or secret code correctness instead of checking both together, those could be removed as the main comparison already covers that case.

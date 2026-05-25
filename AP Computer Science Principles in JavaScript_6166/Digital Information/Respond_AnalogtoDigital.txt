@@ -1,0 +1,12 @@
+1. Digital representation simplifies the continuous, infinite values of analog data into discrete, manageable units (like samples or bits). This is a form of abstraction because it involves capturing essential details of the original analog signal without preserving every possible nuance. By breaking down complex, continuous data into simple digital values, we create an abstract version that can be processed, stored, and transmitted efficiently by digital systems.
+
+2. The quality improves with more samples because each additional sample provides a more detailed snapshot of the original analog signal. In digital music, for example, a higher sampling rate allows the digital recording to approximate the analog sound waves more accurately, reducing distortions and capturing subtle details. In photos, more samples (higher resolution) provide a clearer, sharper image with less pixelation. Essentially, higher sampling rates reduce information loss, resulting in a more faithful reproduction of the original data.
+
+3. Other examples of analog data include:
+        Temperature readings over time
+        Light intensity in a room throughout the day
+        Heart rate or blood pressure as it naturally varies
+        Waves or tides in the ocean
+        The colors in a natural landscape or a painting
+        Sound from nature, like bird calls or wind sounds
+        Speed of a car as it accelerates and decelerates

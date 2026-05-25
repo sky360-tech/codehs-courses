@@ -1,0 +1,28 @@
+1. Line 9: Focus on the expression to the right
+of the assignment operator: `(int) (value1 + 0.5)`. 
+What part of the expression is evaluated first? 
+What is the result?
+
+The expression inside the parentheses, (value1 + 0.5), is evaluated first.Result: $10.0 + 0.5 = 10.5$.
+
+
+2. Line 9: What part of the expression is evaluated
+second? What is the result?
+
+
+The casting operator (int) is applied next. It takes the result ($10.5$) and chops off the decimal.Result: $10$.
+
+3. Line 10: What do you think will happen if you 
+change Line 10 to this command: 
+`int rounded2 = (int) value2 + 0.5`? 
+
+If you remove the outer parentheses, the order of operations changes. Casting has a higher precedence than addition.
+
+Prediction: The program will fail to compile (Error).
+
+
+4. Make the change and then run the program. What 
+happens? Why? Add the parentheses back to line 10
+so that it reads `int rounded2 = (int) (value2 + 0.5);`.
+
+Java performs (int) value2 first, which results in the integer 10. Then it tries to add 0.5 to that integer, resulting in the double 10.5. Finally, it tries to save that double into an int variable (rounded2), which isn't allowed without another cast.

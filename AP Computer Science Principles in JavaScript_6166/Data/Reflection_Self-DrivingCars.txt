@@ -1,0 +1,7 @@
+1. The speed, time on road, total miles, fuel left.
+
+2. Help to maintain speed, navigation, watch for cars.
+
+3. My setting limits on car speeds.
+
+4. I think it people who are beginner needs the help of computers to stay safe on roads.

@@ -1,0 +1,92 @@
+Mystery Algorithm 1
+-------------------
+1. What do you think will happen if you pass in a 
+different student name or a student name that is not 
+in the list when you call the `mysteryAlgorithm1` method? 
+How do you think this will impact how the algorithm works? 
+Predict the output.
+
+
+
+2. Run the program a few times with different parameters. 
+Did the algorithm behave as expected? Why or why not?
+
+
+
+3. Look at the `LineOrderAlgorithms` class. In your own words, 
+describe what the if statement is checking for.
+
+
+
+4. Why is the `.equals` method used here?
+
+
+
+5. What would be a better name for the `mysteryAlgorithm1` method 
+and its parameter `element`?
+
+
+
+===========================================================
+
+Mystery Algorithm 2
+--------------------
+1. What does line 19 do?
+
+
+
+2. Look closely at the for loop on line 21. What is the
+starting value of `i`? Which element in the `lineOrder` 
+list has that index? 
+
+
+
+3. What does this method return?
+
+
+
+4. Look at line 38 of the `LineOrderRunner` class. What do you think 
+would happen if you call the method without saving the result? Change 
+the line to: `LineOrderAlgorithms.mysteryAlgorithm2(lineOrder);` and 
+run the program.
+
+
+
+
+5. After making the change in #4, did the program behave as 
+expected? Why or why not?
+
+
+
+
+6. What would be a better name for the `mysteryAlgorithm2` 
+method and the `mysteryList` variable?
+
+
+
+===========================================================
+
+Mystery Algorithm 3
+--------------------
+1.  Look closely at the for loop. When `i` is 0, what 
+value is added to `mysteryList`? What about when `i` is 2?
+
+
+
+2. What is the last element that is added to 
+`mysteryList` in the for loop?
+
+
+
+3. Comment out lines 37-38. How do you think this 
+will impact how the algorithm works? Predict the output.
+
+
+
+4. Run the program. Did the algorithm behave as expected? 
+Based on your exploration, what is the purpose of these two lines?
+
+
+
+5. What would be a better name for the `mysteryAlgorithm3` method, 
+the `mysteryList` variable , and `element` variable?

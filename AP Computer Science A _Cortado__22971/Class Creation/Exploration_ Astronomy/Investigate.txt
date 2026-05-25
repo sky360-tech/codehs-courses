@@ -1,0 +1,30 @@
+1. What factors contribute to the current
+printed output for myStar? Explain what is
+happening with the constructor and attribute
+values.
+Since Star has no defined constructor, Java auto-generates a default no-arg constructor. When new Star() runs, name gets set to null (default for String) and luminosity to 0.0 (default for double). So it prints: Star [name = null, luminosity = 0.0]
+
+
+
+2. What happens if you replace the current star creation
+code on line 6 in the `SpaceRunner` class with the following:
+`Star myStar = new Star("Betelgeuse", 70000);`. Why does 
+this happen?
+
+It causes a compile error — Star has no constructor that accepts a String and an int. Java only provides the default no-arg constructor when you define zero constructors, and even then it doesn't accept parameters.
+
+
+3. How could relying solely on the default Java
+constructor limit your ability to control the data
+in the Star class? How could adding a constructor
+change that?
+
+
+With only the default constructor, you can't set initial values at object creation — you'd have to call setters manually every time, which is repetitive and easy to forget. Adding a custom constructor lets you require certain data upfront, so the object is never created in an invalid or incomplete state.
+
+4. The Comet class contains two defined constructors,
+called overloaded constructors. What is the purpose
+of having more than one constructor in a class? What
+flexibility does it provide?
+
+Overloaded constructors give flexibility for different use cases. The one-parameter Comet(String) constructor is handy when you don't have speed/tail data yet — it fills in sensible defaults. The three-parameter version gives full control. This way, the class works in more situations without forcing the caller to always have every value ready.

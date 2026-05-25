@@ -1,0 +1,13 @@
+1. How do the selection and insertion sort algorithms compare with relatively small numbers of items in the list (less than 10)?
+
+
+2. As you increase the number of items in the list (e.g., from 5 to 50 to 100), how does the performance of selection and insertion sort change? What do you observe? Which appears to scale more efficiently, and why?
+
+
+3. Does the initial arrangement of the list affect the efficiency of the two sorting algorithms? How do you know?
+
+
+4. Based on your experiments, which algorithm sorted random lists more efficiently (in terms of speed or number of operations)? What evidence supports your answer?
+
+
+5. Is there an arrangement where the insertion algorithm is the most efficient? Why do you think that is?

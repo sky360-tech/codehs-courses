@@ -1,0 +1,50 @@
+public class UserAccount
+{
+    // (a) Instance variable declarations with appropriate access
+    private String username;
+    private String email;
+    private int birthYear;
+
+    // (b) Constructor with parameters
+    public UserAccount(String uName, String uEmail, int bYear)
+    {
+        username = uName;
+        email = uEmail;
+        birthYear = bYear;
+    }
+
+    // (b) No-parameter constructor
+    public UserAccount()
+    {
+        username = "none";
+        email = "none";
+        birthYear = 2000;
+    }
+
+    // Returns the user's username
+    public String getUsername()
+    {
+        return username;
+    }
+    
+    // Returns the user's email
+    public String getEmail()
+    {
+        return email;
+    }
+
+    // Computes and returns the user's current age
+    public int getAge(int currentYear)
+    {
+        return currentYear - birthYear;
+    }
+}
+
+/*
+=================================================
+
+(d) Write your short response here:
+
+I chose private access modifiers for the instance variables to enforce encapsulation, while making the constructors and methods public to allow controlled external interaction. This design supports reliability by preventing unauthorized classes from directly modifying sensitive user data, ensuring the internal state remains consistent. From a privacy perspective, these modifiers ensure that user data is only accessed through specific "getter" methods rather than being exposed globally. One realistic social impact of platform design is the risk of data over-exposure, where personal details are shared unnecessarily. My use of abstraction via the getAge method helps mitigate this by allowing the system to verify a user's age-appropriateness without needing to expose or transmit their exact birth year across all layers of the application.
+
+*/

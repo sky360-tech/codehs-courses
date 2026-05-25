@@ -1,0 +1,78 @@
+Mystery Algorithm 1
+-------------------
+1.  What do you think will happen if you 
+initialize `mysteryNum` to be 1 instead of 0? What about 10?
+
+
+
+2. Run the program with each change. Did it behave as expected?
+Why or why not?
+
+
+
+3. Reset mysteryNum to 0. Then, change the first value in the 
+babysittingTotals list from 15.50 to 16.00. How will this affect the
+result?
+
+
+
+4. Run the program again. Did the behavior match your prediction?
+
+
+
+5. What would be a more meaningful name for the mysteryAlgorithm1
+method and the mysteryNum variable?
+
+
+
+===========================================================
+
+Mystery Algorithm 2
+--------------------
+1. Change the second parameter that is passed into `mysteryAlgorithm2`.
+How do you think this will impact how the algorithm works? 
+Predict the output.
+
+
+
+2. Run the program with your change. Did the algorithm work as expected? 
+What does this reveal about how the algorithm works?
+
+
+
+3. What would be better names for the mysteryAlgorithm2 method and the mysteryList variable?
+
+
+
+===========================================================
+
+Mystery Algorithm 3
+--------------------
+1. In the EarningsAnalysisRunner class, change the second parameter
+that is passed into mysteryAlgorithm3 to 10, then 80. How do you 
+think this will impact how the algorithm works? Predict the output.
+
+
+
+2. Run the program with your change. Did the algorithm work as expected? 
+What does this reveal about how the algorithm works?
+
+
+
+3. In the EarningsAnalysis class, look at lines 32–33. What are these
+lines doing? What are their values when i = 0?
+
+
+
+4. What condition is being checked on line 35? What does the if 
+statement ensure?
+
+
+
+5. Comment out the return statement. Run the program. How does this
+impact the program? What purpose does the return serve?
+
+
+
+6. What would be clearer names for the mysteryAlgorithm3 method and the
+element1 and element2 variables?

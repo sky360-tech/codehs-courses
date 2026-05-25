@@ -1,0 +1,15 @@
+Which option are you choosing, #1 or #2? 
+
+option 2
+
+Answer the questions for your option here:
+
+What can the compiler perceive? What does it notice? 
+It sees every character and notices syntax violations like missing semicolons, mismatched braces, or incorrect types.
+
+What might the compiler know about or believe? 
+
+It knows Java’s rules and believes code must strictly follow them to be translatable into valid bytecode.
+
+What might the compiler care about? 
+It cares only about syntactic and type correctness—not program logic, intent, or runtime behavior.

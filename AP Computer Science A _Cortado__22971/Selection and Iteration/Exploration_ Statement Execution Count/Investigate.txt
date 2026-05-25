@@ -1,0 +1,17 @@
+1. What values of `j` exist in the `while` loop during a
+complete run of the program? How many times does the `while`
+loop repeat in total?
+
+
+
+2. What values of `k` exist in the `for` loop during one cycle
+of the `while` loop? How many times does the `for` loop repeat
+for each value of `j`? 
+
+
+3. How many times does the command `System.out.println(*)` execute?
+
+
+4. What would be the statement execution count of the print 
+statement if line 13 changed from `j++` to `j += 2`?
+

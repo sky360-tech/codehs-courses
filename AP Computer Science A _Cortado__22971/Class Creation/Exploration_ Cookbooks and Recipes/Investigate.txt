@@ -1,0 +1,26 @@
+1. The original Recipe object's state DID change. Even though we only called
+   myCookbook.updateRecipeIngredient(), myRecipe's ingredient also switched
+   from "Flour" to "Sugar".
+
+2. When you pass myRecipe into the Cookbook constructor and do recipe = inputRecipe,
+   you're not copying the object — you're copying the reference (memory address).
+   Both myRecipe and cookbook's recipe variable point to the exact same object in
+   memory. So when the cookbook modifies it, the original changes too.
+
+3. All three cookbooks (myCookbook, myCookbook2, myCookbook3) point to the same
+   Recipe object. When myCookbook updates the ingredient, all three cookbooks and
+   the original myRecipe reflect that change, since they all share one object.
+
+4. See Cookbook.java below for the modified constructor.
+
+5. After the fix, the original myRecipe stays as "Flour" after the cookbook updates
+   its ingredient to "Sugar". This is because the Cookbook now stores its own
+   separate copy of the Recipe, so modifying one no longer affects the other.
+
+6. When you assign a parameter object directly to an instance variable, you're
+   sharing a reference — any class holding that reference can mutate the object,
+   which causes unintended side effects everywhere (as seen with all three cookbooks
+   and myRecipe all changing together). Creating a copy gives each object true
+   ownership of its own data. In a real app like this, a cookbook author changing
+   their recipe shouldn't silently change every other cookbook that used the same
+   recipe — that would be a serious bug.

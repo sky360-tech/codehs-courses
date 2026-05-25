@@ -1,0 +1,8 @@
+You can use this file to record any observations
+
+Can you see how the access modifiers practice 
+encapsulation in this program? In this case, 
+preventing the user from making changes to `grade`
+or `school` that would be inconsistent with the other?
+
+

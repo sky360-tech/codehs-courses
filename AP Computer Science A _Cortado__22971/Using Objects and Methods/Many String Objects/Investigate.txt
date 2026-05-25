@@ -1,0 +1,32 @@
+Question 1: Based on what you know of how string
+objects are stored in memory and variables, how 
+many string objects have you created at this point?
+Explain.
+At the end of Part 1, you have created two String objects in memory. stringOne points to the first object ("Hello") and stringTwo points to the second object ("World"). When you set stringThree = stringOne, you are not creating a new object; you are simply making stringThree point to the exact same memory address that stringOne is currently pointing to.
+
+
+
+
+
+Question 2: Predict what happened to the value of
+`stringThree` when you changed the value of 
+`stringOne` at the end of the code. Why do 
+you think that happens?
+
+Prediction: stringThree will remain "Hello". Reasoning: When you reassign stringOne, you are changing its "remote control" to point to a brand new object ("Goodbye"). This does not move or change the original "Hello" object that stringThree is still pointing to.
+
+
+
+Question 3: Now that you see the values of each of
+the three variables, were you right in your prediction
+in Question #2? Explain why or why not.
+
+Yes, the prediction was correct. The output shows stringOne is "Goodbye" but stringThree is still "Hello". This confirms that stringThree was holding a reference to the object, not a reference to the variable stringOne. Once stringThree grabbed the address for "Hello", it didn't care what stringOne did later.
+
+
+
+Question 4: How does reassigning a string variable
+affect the original object it was pointing to?
+
+
+Reassigning a variable does not change or destroy the original object. It only changes which object that specific variable is currently referencing. If no other variables are pointing to the original object (like "Hello"), it becomes "unreachable," and Java's Garbage Collector will eventually remove it from memory to save space. Strings are immutable, meaning the objects themselves cannot be changed once created; you can only change which object a variable points to.

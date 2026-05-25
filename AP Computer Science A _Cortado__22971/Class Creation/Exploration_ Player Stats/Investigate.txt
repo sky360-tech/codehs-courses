@@ -1,0 +1,6 @@
+Class vs. Instance Variable: totalPlayers is a static (class) variable because it needs to be shared by all instances. It tracks the collective total of players created, rather than a value unique to just one individual player.
+Class Methods: findTopPlayer and getTotalPlayers are class methods.
+Why it makes sense: getTotalPlayers provides data about the whole class (the count), and findTopPlayer acts as a utility that compares multiple objects rather than performing an action on just one specific player.
+Static levelUp: If you change levelUp to a class method, the code will fail to compile. A static method cannot access non-static instance variables (like level) because the class doesn't know which player's level to increase without an object reference.
+Determining the Top Player: It uses a nested conditional (if/else). It first compares the level of all three players. If there is a tie in levels, it then compares their highScore to determine the winner.
+Accessing Variables: Since findTopPlayer is inside the Player class, it can access the private instance variables (p1.level, p2.highScore, etc.) directly using the dot operator on the objects passed into the parameters.

@@ -1,0 +1,28 @@
+1. What does Line 9 do? Where does the value of 50 come from?
+Line 9 (String[] students = new String[50];) creates an array that can hold 50 String values. All slots start as null. The value 50 is hardcoded — whoever wrote the program manually counted the lines in StudentNames.txt and used that number. That's exactly what the note at the top warns about.
+
+
+2. What would need to change if another student was added to 
+the StudentNames.txt file?
+You'd have to manually update the 50 in new String[50] to 51 (or whatever the new count is). If you don't, the extra student just doesn't get stored — no crash, just silently dropped data, which is dangerous.
+
+
+3. What role does the variable `index` play in the program? 
+Why is this important?
+index tracks which slot in the array to write to next. Since arrays don't auto-expand, you need to know exactly where you are. Without it, you'd either overwrite the same slot every time or have no way to place names in order. It's basically a moving bookmark.
+
+
+4. In your own words, describe what happens during each iteration 
+of the while loop on lines 17-22.
+Each time the loop runs: it checks if there's another line in the file, reads that line into name, stores it in students[index], then bumps index up by 1 so the next iteration writes to the next slot. Repeat until the file runs out of lines.
+
+
+5. Look at the `mystery` method. What does this algorithm do? 
+
+It searches through the array and prints name once for every element that contains that name as a substring. So mystery(students, "Maya") would print "Maya" once because "Maya Gupta" contains "Maya". It also skips null slots safely. It's essentially a search/count-by-substring printer.
+
+6. What are the benefits of loading the student names data into an array?You can loop through all names repeatedly without re-reading the file every time
+You can pass the whole dataset to methods easily
+You can access any student by index (students[0], students[38], etc.)
+The file only needs to be opened once — faster and safer
+You can apply multiple algorithms (search, sort, filter) on the same data in memory

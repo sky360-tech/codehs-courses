@@ -1,0 +1,13 @@
+What was wrong with the program?
+The if progranms were causing the issues 
+
+
+
+What expression was the programmer trying to use that gave the error? Relate your answer to De Morgan's Laws.
+
+He trying to solve it without mentioning the program properly
+
+
+How did you resolve the error?
+
+Fixed it with the proper codes

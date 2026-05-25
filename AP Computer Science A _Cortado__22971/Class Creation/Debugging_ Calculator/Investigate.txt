@@ -1,0 +1,14 @@
+1. Summarize the types of bugs you encountered 
+while debugging this program.
+
+Variable Shadowing in the Constructor: A local variable with the same name as an instance variable (e.g., int total = startingValue;) was declared inside the constructor. This creates a new local total that disappears when the constructor ends, leaving the actual instance variable total uninitialized.
+Redeclaring Variables in Methods: In methods like add() or multiple(), the code may have incorrectly used int total = ... instead of simply total = .... This redeclaration creates a local scope variable that "hides" the class-level variable, meaning the calculator's running total never actually updates.
+This Keyword Omission: In the setValue method, the code likely looked like value = value;. Without using the this keyword (this.value = value;), the compiler assumes you are assigning the parameter to itself rather than updating the class's instance variable.
+Out-of-Scope Access: Some methods might attempt to use a variable that was only declared inside another method or a loop, leading to a "cannot find symbol" compilation error. 
+
+
+2. What are 2 key takeaways related to variable scope 
+that you should keep in mind when writing a program?
+
+Avoid Redeclaring Instance Variables Locally: If you want to update a class-level variable (like a total), do not include the data type (like int or double) inside the method. Including the data type creates a new, temporary local variable that shadows the original.
+Use this for Clarity with Identical Names: When a method parameter has the exact same name as an instance variable, use the this keyword to explicitly tell the program you are referring to the class's variable (e.g., this.variableName = parameterName). This prevents the parameter from "masking" the instance variable.

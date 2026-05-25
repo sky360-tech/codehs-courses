@@ -1,0 +1,23 @@
+Why didn't we include `status` as a parameter
+in the constructor, where the user could submit
+a value about creation of the person object? 
+
+
+
+
+Why is the `determineStatus` method private?
+
+
+
+
+Why is there no public `setStatus` method, 
+similar to the methods that update the values of
+the other attributes? What programming practice
+is this an example of?
+
+
+
+
+Why does the `person1` object's state change
+when the `set` methods are called on lines 10-12
+in the `main` class?

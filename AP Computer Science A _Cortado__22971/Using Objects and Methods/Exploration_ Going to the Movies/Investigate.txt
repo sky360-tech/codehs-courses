@@ -1,0 +1,40 @@
+1. Why does each bug occur?
+There are two main compilation errors preventing the code from running initially:
+
+Type Mismatch (Line 15): The code tries to store the result of input.nextLine() (which is text/String) into the variable ticketPrice (which is a double/number). Java cannot automatically convert a String to a double this way.
+
+Missing Variable/Undefined Symbol (Lines 21 & 23): On line 21, input.nextDouble() reads a number but doesn't save it anywhere. Later, on line 23, the code tries to use a variable named snackPrice to calculate the total, but snackPrice was never created or named.
+
+
+2. What change can be made to fix each bug? 
+Describe the change and then make the change 
+in the editor.
+
+Change 1: Update the scanner method to read a double instead of a line for the ticket price. 
+Change 2: Declare the variable snackPrice and assign the input to it.
+
+3. Now that you have the program running, you
+can find the logic error. Run through the program
+and follow the prompts to input the correct values.
+What unexpected behavior occurs?
+
+Now that the compilation errors are fixed, if you run the program and input a movie name and a ticket price (e.g., 12.50), the program will likely print "What snack will you get?" and immediately skip it, not allowing you to type the name of the snack. It jumps straight to asking for the snack price.
+
+
+4. Think back to the "Scanner Buffer Problem" note
+you read in the previous activity. Why do you think
+this error happens? 
+
+This happens because of how the Scanner works between numbers and text:
+
+When you type the ticket price (e.g., 12.50) and hit Enter, the number 12.50 is read by nextDouble().
+
+However, the "Enter" key press (the newline character \n) is left sitting in the computer's input buffer.
+
+When the program reaches input.nextLine() for the snack name, it sees that waiting newline character, thinks the user has already pressed Enter (entering an empty line), and moves on immediately.
+
+
+5. What change can be made to fix this logic error?
+Describe the change and then make the change in 
+the editor.
+You need to "clear the buffer" by adding an extra input.nextLine() command immediately after reading the number. This extra command consumes the leftover "Enter" key press so the scanner is fresh for the actual snack name input.

@@ -1,0 +1,34 @@
+// Write your CoffeeCard class here
+
+public class CoffeeCard
+{
+    private int coffeeCount;
+    private int threshold;
+
+    public CoffeeCard(int threshold)
+    {
+        this.threshold = threshold;
+        coffeeCount = 0;
+    }
+
+    public CoffeeCard()
+    {
+        this(10);
+    }
+
+    public boolean purchaseCoffee()
+    {
+        coffeeCount++;
+        if (coffeeCount >= threshold)
+        {
+            coffeeCount = 0;
+            return true;
+        }
+        return false;
+    }
+
+    public int getCoffeeCount()
+    {
+        return coffeeCount;
+    }
+}

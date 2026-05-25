@@ -1,0 +1,22 @@
+1. How do you know which object this refers to?
+this always refers to whichever object the method was called on. So when student1.enroll(karelHigh) runs, every this inside enroll refers to student1. When student2.enroll(karelHigh) runs, this refers to student2. The object before the dot determines it.
+
+2. Required or Optional?
+Line 8 (this.name = name) — Required
+Without it, Java can't tell the difference between the instance variable name and the parameter name. this.name specifies you mean the field.
+Line 9 (this.enrolled = false) — Optional
+There's no parameter called enrolled, so there's no naming conflict. Java would find the instance variable fine without this.
+Line 15 (this.enrolled = true) — Optional
+Same reason as line 9 — no local variable named enrolled exists, so this isn't needed but is fine to include for clarity.
+Line 16 (es.processEnrollment(this)) — Required
+this is being passed as an argument — it's the only way to send the current Student object into the method. There's no other way to refer to the current object here.
+Line 21 (return this.name) — Optional
+No naming conflict in getName(), so Java finds name fine without this.
+Line 26 (this.name and this.enrolled in toString) — Optional
+No local variables conflict with those names, so this is optional but improves readability.
+
+3. Breaking down es.processEnrollment(this) on line 16:
+
+es — the EnrollmentSystem object passed in as a parameter; it's the specific school the student is enrolling in
+processEnrollment — the method being called on that EnrollmentSystem object
+this — the current Student object being passed as an argument so the enrollment system knows which student to process

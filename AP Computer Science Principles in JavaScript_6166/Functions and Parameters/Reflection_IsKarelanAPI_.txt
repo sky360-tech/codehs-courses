@@ -1,0 +1,4 @@
+1) API is set of functions that allow the creation of applications that  access the features or data of an operating system, application, or other service.
+
+
+2) I think the built in fuctions in karel are API because they are set of fuctions that allow us to command certain thinks to Karel.

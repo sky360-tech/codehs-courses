@@ -1,0 +1,45 @@
+public class PacketInspector
+{
+    /**
+     * Returns true if packet starts and ends with the same
+     * character and has an even length.
+     * Precondition: packet is not null
+     */
+     
+    public boolean isValidPacket(String packet)
+    {
+        if (packet.length() > 0 && packet.length() % 2 == 0)
+        {
+            char first = packet.charAt(0);
+            char last = packet.charAt(packet.length() - 1);
+            
+            return first == last;
+        }
+        
+        return false;
+    }
+
+    /**
+     * Counts the number of valid packets in a string 
+     * of packet data. Packet data contains packets 
+     * separated by a single space.
+     * Precondition: data is not null
+     */
+     
+    public int countValidPackets(String data)
+    {
+        String[] packets = data.split(" ");
+        int count = 0;
+        
+        for (String p : packets)
+        {
+            // Call the method from part (a) to check validity
+            if (isValidPacket(p))
+            {
+                count++;
+            }
+        }
+        
+        return count;
+    }
+}

@@ -1,0 +1,44 @@
+Algorithm: The School Morning Routine
+Step 1: Wake up and make the bed.
+
+Step 2: [REPETITION] * Check time: Is it before 7:15 AM?
+
+Action: If yes, stay in bed and browse your phone.
+
+Condition: Repeat this check every 2 minutes until the clock reaches 7:15 AM.
+
+Step 3: [SELECTION]
+
+Check the weather: Look out the window.
+
+Decision: * If it is raining, put on a raincoat and boots.
+
+Else, put on a standard school hoodie and sneakers.
+
+Step 4: Walk to the kitchen and find breakfast.
+
+Step 5: [REPETITION]
+
+Action: Take a bite of cereal and chew.
+
+Condition: Repeat until the bowl is empty.
+
+Step 6: [SELECTION]
+
+Check the bag: Do I have my math homework?
+
+Decision:
+
+If "Yes," walk to the front door.
+
+Else (If "No"), go back to the desk, grab the homework, and then walk to the door.
+
+Step 7: Leave the house and head to the bus stop.
+
+Step 8: [REPETITION]
+
+Action: Stand at the bus stop and look down the road.
+
+Condition: Repeat until the bus arrives.
+
+Step 9: Board the bus and arrive at school.

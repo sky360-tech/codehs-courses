@@ -1,0 +1,17 @@
+* What is the base case in this recursive method?
+What happens if you remove it? Why?
+
+
+
+* Add a print statement to the top of the method 
+that prints the value of `n` every time the method
+executes. What's happening to the value of `n` in 
+the method? Why?
+
+
+
+* Use a tree diagram to map out the recursive calls 
+of a different argument value with `sum`. Then change
+the value in the program to check your answer.
+
+

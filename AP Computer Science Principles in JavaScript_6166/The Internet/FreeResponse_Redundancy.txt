@@ -1,0 +1,1 @@
+I think redundancy is the a routing system is redundant because there are multiple paths available for packets to travel through the internet. Redundancy is a good thing, in case some routers fail because then packets will be rerouted and still successfully send.

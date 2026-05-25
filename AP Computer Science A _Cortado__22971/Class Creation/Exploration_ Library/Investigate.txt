@@ -1,0 +1,4 @@
+1.Line of code: book.setCheckedOut(true); within the checkOutBook method in the Library class.
+2.Object References: The checkOutBook method receives a reference to the book1 object. Even though the variable was created in LibraryRunner, the reference points to the same memory location, allowing the method to modify the object's internal state.
+3.Direct Access: It uses otherBook.title and otherBook.author. This is allowed because Java permits an object to access the private attributes of another object as long as they are the same class type (in this case, both are Book).
+4.Difference: In the Library class, the method must use a public setter (book.setCheckedOut(true)) because a Library object is not the same type as a Book object and cannot see its private variables.

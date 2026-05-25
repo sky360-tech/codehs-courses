@@ -1,0 +1,25 @@
+Why is `temp` created as a default integer 
+array on line 14?
+
+
+
+
+Is there a reason why a traditional for loop 
+is used on line 17 instead of enhanced for loop, 
+or could it be coded either way?
+
+
+
+
+
+Why does that for loop have a condition of 
+`numbers.length - 1`? What would happen if you 
+removed the `- 1`? Why?
+
+
+
+
+
+What would happen, if anything, to the Reorderd 
+Array output if you include this code, 
+`temp[2] = 999;`, on line 27? Why?

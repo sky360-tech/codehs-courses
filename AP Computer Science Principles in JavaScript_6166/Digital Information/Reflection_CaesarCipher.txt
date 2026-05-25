@@ -1,0 +1,7 @@
+1. It’s simple to understand and easy to implement.
+
+2.  It’s very weak and can be easily broken by brute force.
+
+3.  The Caesar Cipher uses symmetric encryption because the same key is used for both encryption and decryption.
+
+4.   Since there are only 26 possible shifts, the maximum attempts needed are 25

@@ -1,0 +1,55 @@
+public class CellConnection
+{
+    private int strength;
+    private int frequency;
+    private boolean connected;
+
+    /** 
+     * Part (a)
+     * Finds a new available signal. 
+     * Updates frequency to a random int [600, 650] and strength to [5, 10].
+     */
+     
+    private void getAvailableSignal()
+    {
+        this.frequency = (int) (Math.random() * 51) + 600;
+        this.strength = (int) (Math.random() * 6) + 5;
+    }
+
+    /**
+     * Part (b)
+     * Determines if the current signal is good for a connection.
+     * Signal strength must be greater than minStrength and frequency
+     * must be a multiple of 3.
+     */
+     
+    private boolean goodConnection(int minStrength)
+    {
+        return (this.strength > minStrength) && (this.frequency % 3 == 0);
+    }
+
+    /**
+     * Part (c)
+     * Attempts to connect to a tower by repeatedly adjusting
+     * frequency and strength until a good connection is made.
+     */
+     
+    public int attemptToConnect(int minStrength)
+    {
+        int attempts = 0;
+
+        while (!this.connected && attempts < 10)
+        {
+            getAvailableSignal();
+            attempts++;
+
+            if (goodConnection(minStrength))
+            {
+                this.connected = true;
+                return this.strength;
+            }
+        }
+
+        return -1;
+    }
+}

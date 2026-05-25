@@ -1,0 +1,17 @@
+1. Which structure did you choose to use (nested 
+if statements or if-else-if statements)? Why?  
+
+
+2. What are the advantages and disadvantages of 
+your chosen approach?  
+
+
+3. How would your code change if you switched to
+the other structure? Would it 
+be more or less readable?  
+
+
+4. If another category (e.g., "Extremely Hot" for
+temperatures above 40°C) was added, would that 
+impact your chosen structure?  
+

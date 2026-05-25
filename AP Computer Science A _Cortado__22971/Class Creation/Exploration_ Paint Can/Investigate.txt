@@ -1,0 +1,19 @@
+1. The accessor method is getPaintAmount(). It's an accessor because it has a return type (double), doesn't take any parameters, and only reads the instance variable without changing anything.
+
+2. usePaint() is a mutator method. You can tell because its return type is void and it modifies the paintAmount instance variable directly. (setPaintAmount() is the other one.)
+
+3. From the signature public boolean canPaint(double requiredAmount) you can tell it's public, returns a boolean (true/false), and takes one double parameter — so it's checking some condition about a paint amount.
+
+4. From public void usePaint(double amount) you can tell it's public, returns nothing (void), and takes a double parameter — so it performs an action using some amount without giving anything back.
+
+5. Step by step on can.canPaint(amountNeeded):
+
+amountNeeded (3.5) is passed as the argument
+Inside canPaint, it checks paintAmount >= requiredAmount, so 5.0 >= 3.5
+That evaluates to true, so the if-block runs
+
+6. Step by step on can.usePaint(amountNeeded):
+
+amountNeeded (3.5) is passed as the argument
+Inside usePaint, it runs paintAmount = paintAmount - amount, so 5.0 - 3.5 = 1.5
+paintAmount is now updated to 1.5 in the object

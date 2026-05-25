@@ -1,0 +1,17 @@
+A. Is there a connection between heart rate and sleep quality among the participants?
+
+
+B. How does weather affect participants' physical activity levels?
+
+
+C. How does the total amount of physical activity (in minutes) vary across different days of the week?
+
+
+D. Do people with healthier diets tend to exercise more?
+
+
+E. How does socioeconomic background impact fitness levels?
+
+
+Reflection: What are the risks of trying to answer a question using a dataset 
+that is not designed for that purpose?

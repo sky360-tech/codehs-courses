@@ -1,0 +1,26 @@
+1. On line 6, remove `int` so that the statement 
+is `snapchatsSent = 353;`. What happens? Why? 
+
+It produces an error that it can't find the symbol, since we didn't specify the variable as int, it is getting confused about the data.
+
+2. On line 6, assign an initial value of 353.5 
+to the variable `snapchatsSent`. What happens? Why?
+
+It prodices an possible loosy conversion error, because the variable is declared as int, not double which is used for fractions.
+
+
+3. On line 10, assign an initial value of 130 to the 
+variable `youTubeVideosWatched`. What happens? 
+
+No errors happen, since int can be used a output in a double variable.
+
+What does this tell you about assigning an integer
+value to a `double` variable? 
+
+Java automatically convers an interger into a double variable.
+
+4. On line 15, add `int` to the beginning of the 
+statement so that it is `int snapchatsSent = 400;`. 
+What happens? Why?
+
+It gives a error, it is because the variable is already defined, so redifing is not a option for the variable.

@@ -1,0 +1,10 @@
+You can use this file to record any observations
+
+Can you find where the instance methods are called
+in the `main` method? 
+
+
+What happens if you remove the object variable name
+and just try calling the method on its own? 
+
+

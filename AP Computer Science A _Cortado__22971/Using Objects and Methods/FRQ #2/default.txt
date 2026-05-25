@@ -1,0 +1,52 @@
+public class StudentUtil 
+{
+    /**
+     * Calculates and returns the student's grade percentage.
+     * earnedPoints – points the student earned  
+     * totalPoints  – total points possible (must be > 0)  
+     * The result is a value from 0.0 to 100.0.
+     */
+    public static double calcPercentage(int earnedPoints, int totalPoints)
+    {
+        /* to be implemented in part (a) */
+    }
+
+    /**
+     * Builds an email address in the form
+     * first.lastNN@school.edu, where first and last are the
+     * the names (optionally lowercase) and NN is the combined
+     * length of the two names.
+     */
+    public static String genStudentEmail(String firstName, String lastName)
+    {
+        /* to be implemented in part (b) */
+    }
+
+    /**
+     * Creates a six-character student ID made up of the first three
+     * letters of lastName (optionally uppercase) followed by a random
+     * three-digit number from 100 to 999 inclusive.
+     * Precondition: lastName has at least three characters.
+     */
+    public static String genStudentID(String lastName)
+    {
+        /* to be implemented in part (c) */
+    }
+}
+
+========================================================
+
+public class StudentRunner
+{
+    public static void main(String[] args)
+    {
+        // Student information to test methods
+        String studentFirst = "Gabbi";
+        String studentLast = "Martinez";
+        int earned = 340;
+        int possible = 400;
+        
+        /* to be implemented in part (d) */
+        
+    }
+}

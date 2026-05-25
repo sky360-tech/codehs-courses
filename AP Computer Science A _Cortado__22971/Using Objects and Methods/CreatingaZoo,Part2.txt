@@ -1,0 +1,60 @@
+== Paste the information of your zoo animal class from Part 1 ==
+
+Superclass Name:
+
+Attributes:
+
+
+
+
+
+Methods:
+
+
+
+
+
+
+
+=============== Subclass 1 ===============
+Subclass Name:
+
+Attributes:
+
+
+
+
+
+Methods:
+
+
+
+
+
+
+
+=============== Subclass 2 ===============
+Subclass Name:
+
+Attributes:
+
+
+
+
+
+Methods:
+
+
+
+
+
+
+
+========== Reflection Questions ==========
+
+1. What is similar and different between your superclass (zoo animal) and your subclasses?
+
+
+
+
+2. What did you have to consider when defining your subclasses' attributes and methods?

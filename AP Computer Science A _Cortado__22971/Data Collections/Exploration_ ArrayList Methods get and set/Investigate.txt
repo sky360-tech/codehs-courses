@@ -1,0 +1,8 @@
+Changing the parameter: Changing the number inside get() changes which vegetable is retrieved. If you change it to 0, it prints "Carrot"; if you use a number like 4 (which doesn't exist), the program will crash with an IndexOutOfBoundsException.
+What get does: It returns the element located at the specified index without changing the list.
+Changing set parameters: The first parameter determines where the change happens, and the second determines what the new vegetable is. Changing these updates the list at that specific spot.
+What line 29 prints: It prints "Zucchini".
+Differences and Return Values:
+Line 28 saves the "old" value being replaced into a variable (element2), while Line 32 just performs the replacement without saving the old value.
+Return values: get returns the element at the index. set returns the previous element that was just replaced.
+What set does: It replaces the existing element at a specific index with a new one.

@@ -1,0 +1,15 @@
+You can use this file to record any observations
+
+What packages need to be imported for this program
+to run?
+
+
+
+What happens if you change the value of the txt file 
+path to "Haiku.txt" on line 9? Why?
+
+
+
+
+Open the **haiku.txt** file and add another line of text.
+What happens when you run the program now?

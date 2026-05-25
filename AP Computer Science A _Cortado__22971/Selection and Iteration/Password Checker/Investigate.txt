@@ -1,0 +1,24 @@
+What will be printed if the user enters 
+"#coding"?
+
+
+
+Which line of code represents a valid 
+password?
+
+
+
+
+Why do you need nested `if` statements? Why 
+can't you just do two `if-else` statements, one 
+after another?
+
+
+
+Is there a reason why the outside `if` statement
+checks for the password length instead of if it starts
+with a #? Could the inner and outer `if` statements be
+reversed?
+
+
+ 

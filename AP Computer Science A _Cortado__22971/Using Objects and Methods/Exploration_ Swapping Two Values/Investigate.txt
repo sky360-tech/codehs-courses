@@ -1,0 +1,35 @@
+1. What value is assigned to `one` on line 14?
+
+The value is two.
+
+2. Based on your answer to #1, what value is 
+assigned to `two` in line 15? 
+
+The value is one.
+
+3. Modify task. See Assignment description for instructions.
+
+String temp = one;
+one = two; 
+two = temp;
+
+4. What are the values of `one`, `two`, and `temp`
+on line 14 (`String temp = one`)?
+
+one:"Value one"
+two:"Value two"
+temp:"Value one"
+
+5. What are the values of `one`, `two`, and `temp`
+on line 15 (`one = two`)?
+
+one: "Value two"
+two: "Value two"
+temp: "Value one"
+
+6. What are the values of `one`, `two`, and `temp`
+on line 16 (`two = temp`)?
+
+one: "Value two"
+two: "Value one"
+temp: "Value one"

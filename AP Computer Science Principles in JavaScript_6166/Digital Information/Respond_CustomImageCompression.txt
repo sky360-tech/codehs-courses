@@ -1,0 +1,11 @@
+1. It only takes 2 bits to represent the colors.
+
+2. With 2 bits, we can assign each of the 4 colors a unique binary code:
+        Red: 00
+        Blue: 01
+        Black: 10
+        White: 11
+    This custom encoding uses only 2 bits per color instead of the typical 24 bits per pixel in RGB.
+    
+3. The number of bits saved would be 8160−680=7480 bits.
+4. Since each color in the image is uniquely represented by a specific 2-bit code, there would be no loss of quality. We can perfectly reconstruct the original image using this encoding, as it’s a lossless compression tailored for images with exactly 4 colors.

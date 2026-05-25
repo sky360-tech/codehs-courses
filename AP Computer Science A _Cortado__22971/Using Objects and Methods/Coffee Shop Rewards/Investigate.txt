@@ -1,0 +1,14 @@
+You can use this file to record any observations
+
+Where do you see the following being used: 
+
+* Addition compound assignment operator
+
+* Subtraction compound assignment operator
+
+* Increment operator
+
+* Decrement operator
+
+Do you find using these, or the longer, equivalent expressions easier to use?
+

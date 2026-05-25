@@ -1,0 +1,21 @@
+You can use this file to record any observations
+
+What happens when you enter a temperature above 80°F?
+How many messages are printed? Why?
+
+
+How does the program respond differently to 
+temperatures below 32°F compared to those above?
+
+
+What temperature must be entered in order for the
+following three messages to be printed:
+
+    It's hot outside. Stay hydrated!
+    It's freezing outside, stay warm!
+    Have a nice day!
+
+
+How does the if statement behave differently than
+the if/else statement?
+

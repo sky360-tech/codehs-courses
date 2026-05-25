@@ -1,0 +1,32 @@
+1. Imagine you were asked to write a program, from scratch, 
+that involves calculating the square root of a number. 
+Which of the three approaches would you choose? Why?
+
+
+
+
+2. You did such a good job with your first program, you've 
+now been asked to develop six more different programs that 
+also need to take the square root of a number. Does this 
+change your answer? Why or why not?
+
+
+
+
+3. Let's say you chose to use Approach #1 to calculate the 
+square root in all seven of the programs you developed, 
+but whoops, you just discovered that you made a mistake 
+in your custom method. What do you have to do now? How 
+could have this been avoided if you used Approach #3? Why?
+
+
+
+
+
+4. In summary, what are the pros and cons of using the square
+root method from the pre-made `Math` class (Approach #3)?
+
+
+
+
+  

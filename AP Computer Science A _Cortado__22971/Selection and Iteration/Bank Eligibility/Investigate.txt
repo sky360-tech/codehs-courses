@@ -1,0 +1,16 @@
+You can use this file to record any observations
+
+The first if statement checks if a person is at least 
+18 years old and has an ID. What happens if you change age
+to 17 or set hasID to false? Explain why the output changes.
+
+
+The second if statement checks if a person qualifies for
+the young saver discount. Try setting bankBalance to 120 and
+age to 30. What is the output, and why?
+
+
+The third if statement uses the ! operator to check if 
+the person does not have an ID. Change hasID to false and 
+observe what happens. Why does the output change?
+

@@ -1,0 +1,4 @@
+1. hasDuplicates checks whether any value appears more than once anywhere in the array — the two values don't have to be next to each other.
+2. The outer loop picks each element as a "reference" value at index i. The inner loop then compares that reference against every element that comes after it (j = i + 1), so no pair gets compared twice and nothing gets compared to itself. If any match is found, it immediately returns true.
+3. It returns true the moment it finds a duplicate. If the loops finish without ever finding one, it returns false. The early return true is key — it stops searching as soon as the answer is known.
+For countAdjacentDuplicates, the loop only goes to length - 1 since you're always looking at i and i + 1 — if you went all the way to length, the last i + 1 would be out of bounds.

@@ -1,0 +1,53 @@
+De Morgan's Law Exploration
+
+Part 1: !(a && b) vs. !a || !b
+
+Try the following combinations and record the outputs:
+
+a = true, b = false
+!(a && b) = _______
+!a || !b = _______
+
+a = false, b = true
+!(a && b) = _______
+!a || !b = _______
+
+a = true, b = true
+!(a && b) = _______
+!a || !b = _______
+
+a = false, b = false
+!(a && b) = _______
+!a || !b = _______
+
+Based on your results, are these two expressions equivalent? Why or why not?
+_____________________________________________________________________
+
+Part 2: !(x || y) vs. !x && !y
+
+Try the following combinations and record the outputs:
+
+x = true, y = false
+!(x || y) = _______
+!x && !y = _______
+
+x = false, y = true
+!(x || y) = _______
+!x && !y = _______
+
+x = true, y = true
+!(x || y) = _______
+!x && !y = _______
+
+x = false, y = false
+!(x || y) = _______
+!x && !y = _______
+
+Based on your results, are these two expressions equivalent? Why or why not?
+_____________________________________________________________________
+
+Reflection:
+What do these results tell you about how De Morgan's Laws 
+apply to Boolean logic?
+
+

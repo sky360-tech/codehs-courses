@@ -1,0 +1,22 @@
+1. Which operation(s) resulted in integer overflow? 
+Min minus 1 (becomes the maximum positive value).
+Max plus 1
+Max multiplied by 2
+
+2. Why did these scenarios result in integer overflow?
+In Java, an int uses 32 bits of memory. When you add 1 to the largest possible value, the binary math "carries" a 1 into the sign bit
+
+3. Which operation(s) did not result in integer overflow? 
+Min divided by 2.
+
+4. Why did these scenarios not result in integer overflow?
+Division by 2 makes the number smaller in magnitude (closer to zero). Since the original value was already within the allowed range, making it smaller ensures it stays within that range.
+
+5. What could be a real-world scenario where an integer 
+overflow error might occur?
+
+Video Game Scores: If a player's score is stored as an int and they play long enough to exceed 2.14 billion points, their score could suddenly flip to a negative number. (This famously happened in early versions of Pac-Man and Donkey Kong).
+
+YouTube View Counts: YouTube originally used a 32-bit integer to store view counts. When the "Gangnam Style" music video exceeded 2,147,483,647 views, it broke the counter, forcing YouTube to upgrade to a 64-bit long.
+
+Bank Transactions: If a banking system uses integers to track cents and a massive transfer occurs, it could result in an overflow, causing money to "vanish" or balances to become negative.

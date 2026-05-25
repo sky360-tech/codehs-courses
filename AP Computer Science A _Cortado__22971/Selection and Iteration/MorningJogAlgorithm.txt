@@ -1,0 +1,28 @@
+Record your answers to the questions below.
+
+1. Selection:
+a. Where do you see decisions being made in this algorithm? Decisions (often called Selection or If-Statements) occur at "gatekeeper" moments. You’ll see them at the very beginning when checking the weather or the park's status, and potentially during the run if there is a check for fatigue or time.
+
+b. How does the algorithm handle different weather conditions or the park's availability? The algorithm uses Conditional Logic.
+
+If the weather is "Good" AND the park is "Open," the jog proceeds.
+
+If either condition is false (e.g., it's raining or the gate is locked), the algorithm triggers an alternative path, such as "Stay home" or "Wait until tomorrow."
+
+
+
+2. Repetition:
+a. What part of the algorithm repeats? The repetition (or Loop) is almost always the physical act of jogging—specifically, the individual laps around the park or the minutes spent running.
+
+b. How does the repetition ensure the jog is completed? The loop continues until a Termination Condition is met. This ensures the jog isn't infinite. For example: "Repeat lap until 5 laps are completed" or "Repeat running while time is less than 30 minutes." Once that condition is satisfied, the loop breaks and the algorithm moves to the "Cool down" phase.
+
+
+
+3.Algorithm Behavior:
+a. If the weather is sunny and the park is closed, what actions will the algorithm take? Because most jogging algorithms require both conditions to be true to proceed (an "AND" operation), the algorithm will fail the check. Even though the weather is sunny, the closed park acts as a "False" trigger, likely leading the algorithm to skip the jog and move straight to the "End" or "Stay home" command.
+
+b. If you want to add a condition like "If it's snowing, skip the jog," where would it go?
+
+Placement: This should go at the very beginning of the algorithm, in the initial "Pre-check" section.
+
+Updates: You would need to nest this within your existing weather check or add it as an OR statement (e.g., "If it is raining OR snowing, then skip"). You’d also need to ensure that the "Skip" action bypasses the repetition loop entirely so the runner doesn't accidentally start laps in a blizzard!

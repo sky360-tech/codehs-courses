@@ -1,0 +1,18 @@
+In the `TriangleRunner` class, which 
+line(s) of code use an accessor method?
+
+
+In the `TriangleRunner` class, which 
+line(s) of code use a mutator method?
+
+
+In the `Triangle` class, find the accessor 
+methods for `base` and `height`. What do these methods have in common?
+
+
+In the `Triangle` class, find the mutator 
+methods for `base` and `height`. What do these methods have in common?
+
+
+In the `Triangle` class, look at the `area` method. 
+What type of value does this method return? How do you know?

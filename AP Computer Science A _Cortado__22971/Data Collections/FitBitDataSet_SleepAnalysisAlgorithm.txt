@@ -1,0 +1,3 @@
+Develop an algorithm in written language to find two things: 
+- Each participant's average amount of sleep per night
+- Whether the participant gets the recommended amount of sleep

@@ -1,0 +1,9 @@
+You can use this file to record any observations
+
+What is the data type of this variable? 
+
+
+
+Why was this data type used?
+
+

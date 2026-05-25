@@ -1,0 +1,16 @@
+1. For each method, list the variables the method has access to:
+
+   * sum method:
+
+   * difference method:
+
+   * product method: 
+    
+   * circCircumference method:
+    
+   * circArea method:
+
+2. What is the one variable all of the methods have access to? Why do all methods have access to this variable?
+
+
+3. Both the `sum` method and the `difference` method have variables named `one` and `two`.  Are these variables the same or different? Why?

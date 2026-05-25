@@ -1,0 +1,13 @@
+You can use this file to record any observations
+
+Why does the output on line 16 match the expected
+output of 4?
+
+
+Why does the output on line 29 **not** match the
+expected output of 3.33..?
+
+
+Why does the output on line 36 match the expected
+output of 3.33..?
+

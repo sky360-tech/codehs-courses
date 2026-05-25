@@ -1,0 +1,71 @@
+1. Problem: To develop a management system that tracks books, members, and multiple library branches to ensure efficient borrowing, returns, and inventory oversight across the community.
+
+2. Key objects: 
+LibraryBranch: To manage the physical locations and their specific inventories.
+
+Book: To store details about individual titles and their availability.
+
+Member: To track user information, contact details, and borrowing history.
+
+3. Build out each class:
+
+Object #1 Class Name: LibraryBranch
+-------------
+Attributes:
+branchName: String
+
+address: String
+
+inventory: Book[]
+
+
+Methods:
+addBook(newBook: Book): Adds a book to this branch's collection.
+
+removeBook(bookID: int): Removes a lost or weeded book.
+
+findBookByTitle(title: String): Searches the local inventory.
+
+
+===================================
+Object #2 Class Name:
+-------------
+Attributes:
+title: String
+
+author: String
+
+isbn: String (Unique identifier)
+
+isAvailable: boolean
+
+currentHolder: Member (Links to the person who has the book)
+
+
+Methods:
+checkOut(borrower: Member): Marks the book as unavailable and assigns it to a member.
+
+checkIn(): Marks the book as available.
+
+getDetails(): Returns a formatted string of book info.
+
+===================================
+Object #3 Class Name:
+-------------
+Attributes:
+name: String
+
+memberID: int
+
+email: String
+
+borrowedBooks: Book[] (A list of books currently in their possession)
+
+
+Methods:
+
+updateContactInfo(newEmail: String): Updates the member's record.
+
+getOverdueFine(): Calculates if the member owes money.
+
+canBorrow(): Returns true if the member has fewer than the limit of books.

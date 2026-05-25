@@ -1,0 +1,27 @@
+1. Which constructor in the `DataPoint` class is 
+called on line 5 of the `DataPointRunner` class 
+(the constructor on line 7 or line 14)? How do you know?
+
+
+
+
+
+2. Looking at just the method definitions in the 
+`DataPoint` class, how do you know if these are 
+class or instance methods?
+
+
+
+
+
+
+3. Looking at just the method calls in the 
+`DataPointRunner` class, how do you know if these 
+are class or instance methods?
+
+
+
+
+
+
+  

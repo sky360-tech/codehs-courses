@@ -1,0 +1,54 @@
+Class Name:
+
+Attributes:
+
+
+
+
+
+Methods:
+
+
+
+
+
+
+
+================== Object 1 ==================
+Name:
+
+Attribute Values:
+
+
+
+
+
+
+================== Object 2 ==================
+Name:
+
+Attribute Values:
+
+
+
+
+
+
+
+
+
+
+============ Reflection Questions ============
+
+1. What is the relationship between a class and its objects?
+
+
+
+
+2. What did you have to consider when choosing your class attributes and methods in this exercise?
+
+
+
+
+
+3. How does the process of assigning values to the attributes of your objects demonstrate the connection between the class blueprint and the actual objects?

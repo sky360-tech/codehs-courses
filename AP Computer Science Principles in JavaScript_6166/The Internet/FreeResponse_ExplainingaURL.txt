@@ -1,0 +1,7 @@
+1. Domain = www.example.com
+
+2. Path = homepage.html
+
+3. Router
+
+4. the homepage of the website

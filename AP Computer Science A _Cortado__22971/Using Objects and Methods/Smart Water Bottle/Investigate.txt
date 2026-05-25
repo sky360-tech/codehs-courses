@@ -1,0 +1,26 @@
+1. What purpose does `Math.min()` on line 27 
+have in the `drink` method?
+
+It acts as a "safety check" to ensure the user cannot drink more water than is actually in the bottle. If a user tries to drink 0.5L but only 0.2L remains, Math.min(0.5, 0.2) returns 0.2L, preventing the currentVolume from becoming a negative number.
+
+
+2. What purpose does `Math.min()` on line 56 
+have in the `refill` method?
+
+It prevents "overflow." It compares the new volume (after adding the refill amount) against the bottle's maximum capacity. If the addition exceeds the capacity, it caps the currentVolume at the maximum capacity.
+
+
+
+3. What is the purpose of having an overloaded `refill` 
+method (lines 49 and 67)? What benefit does it have
+when working with a water bottle object?
+
+It provides flexibility (convenience). One version allows a specific amount (like adding 0.2L from a fountain), while the version with no parameters allows the user to quickly "top off" the bottle to its max capacity without needing to know exactly how much space is left.
+
+
+
+4. What other method in the `WaterBottle` class 
+could be overloaded in a similar way? What purpose 
+could it serve?
+
+The drink method could be overloaded. For example, a drink() method with no parameters could be created to represent a "standard sip" (e.g., always drinking 0.1L). This would allow the user to record a drink quickly without inputting a double value every time.

@@ -1,0 +1,17 @@
+1. In the AT&T breach, what personal data was accessed?
+
+
+2. In the AT&T breach, how many users were impacted?
+
+
+3. Company name: 
+
+Data impacted: 
+
+Number of users impacted: 
+
+How the breach impacted the company: 
+
+
+4. In your own words, explain the risks to privacy 
+when apps collect and store users' personal data.

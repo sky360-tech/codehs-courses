@@ -1,0 +1,7 @@
+1: Software helps the user to fully utilize the system.
+
+2: Programming language is ready to read and change.
+
+3: I want to learn more about circuits and how binary numbers work.
+
+4: Why do we need softwares if we can directly make the computer do something through coding.

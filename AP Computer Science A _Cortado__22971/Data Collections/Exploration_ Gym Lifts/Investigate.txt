@@ -1,0 +1,37 @@
+1. Passing a primitive double to a method expecting Double
+When lightPercent (a primitive double) is passed to printSquatVolumeWorkout(Double percentage), Java automatically wraps it into a Double object behind the scenes. This works because Java handles the conversion for you — you don't have to manually write new Double(lightPercent). This process is called autoboxing.
+
+2. Passing a Double object to a method expecting a primitive double
+When newMax (a Double object) is passed into setBench(double newMax), Java automatically unwraps it back to a primitive double. Java allows this because it recognizes that a Double can safely be converted to a double without any data loss. This process is called unboxing.
+
+3. Modify — null check in printSquatVolumeWorkout
+Updated GymLifts:
+javapublic void printSquatVolumeWorkout(Double percentage)
+{
+    if (percentage == null)
+    {
+        System.out.println("Error: No percentage provided!");
+    }
+    else
+    {
+        double weight = ((int)(maxSquat * percentage * 100)) / 100.0;
+        System.out.println("Squats: 6 sets x 3 reps at " + weight + " lbs");
+    }
+}
+Updated GymLiftsRunner (line 9 change):
+javaDouble percent = null;
+weights.printSquatVolumeWorkout(percent);
+When you run it, the first call now prints Error: No percentage provided! instead of crashing. This is the key advantage of using the Double wrapper class — primitives can't be null, so you couldn't do this check with a plain double. The wrapper class lets you represent "no value provided" as a valid state.
+
+4. Modify — change computePlateWeight to accept Integer
+javapublic int computePlateWeight(Integer weight)
+{
+    return (weight - 45) / 2;
+}
+The call in GymLiftsRunner still works fine:
+javaInteger totalWeight = 180;
+System.out.println("\nWeight to add to each side of the barbell: " 
+    + weights.computePlateWeight(totalWeight) + " lbs");
+
+5. Does changing computePlateWeight to accept Integer affect behavior?
+No, the behavior stays exactly the same. Java automatically unboxes the Integer to a primitive int when the arithmetic (weight - 45) is performed, so the math works identically. The method still returns the same result. The only practical difference is that the method could now theoretically receive null — which would cause a NullPointerException at runtime if that ever happened, since you can't do arithmetic on null. So functionally it's the same, but using Integer introduces a small risk that didn't exist with int.

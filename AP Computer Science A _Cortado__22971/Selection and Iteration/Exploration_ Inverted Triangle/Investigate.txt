@@ -1,0 +1,18 @@
+1. What is the outer loop responsible for? 
+
+It is responsible for the rows. It determines how many lines of text will be printed in total.
+
+2. What is the inner loop responsible for? 
+It is responsible for the columns (the individual characters) within a single row. It decides exactly how many stars to draw before moving to the next line.
+
+
+3. When `i` is 2, how many times does the inner loop repeat?
+5 times. The condition is j <= 7 - 2, which simplifies to j <= 5.
+
+4. How would the output change if `System.out.print("*")` 
+was replaced with `System.out.print(i)`?
+Instead of stars, you would see the row number repeated. The first row would be all 0s, the second row all 1s, and so on.
+
+5. When does the print statement on line 16 run?
+
+It runs exactly once per row, immediately after the inner loop finishes drawing all the stars for that specific line.

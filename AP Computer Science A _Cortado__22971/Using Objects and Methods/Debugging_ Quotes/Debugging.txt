@@ -1,0 +1,34 @@
+PART 1: BUG DOCUMENTATION
+
+Bug #1
+-Line number: 6
+-Type of error and explain why: Syntax error because there are three quotation marks, which creates an invalid string literal that doesn't follow Java's syntax rules.
+
+Bug #2
+-Line number: 7
+-Type of error and explain why: Syntax error because the statement is missing a semicolon at the end, which is required in Java to terminate a statement.
+
+Bug #3
+-Line number: 9
+-Type of error and explain why: Syntax error because the text is not enclosed in quotation marks, so Java treats it as an undefined variable instead of a string.
+
+Bug #4
+-Line number: 9
+-Type of error and explain why: Syntax error because "System" was misspelled (e.g., as "system"), and Java is case-sensitive, so it cannot find the correct class.
+
+Bug #5
+-Line number: 5
+-Type of error and explain why: Syntax error because there is no dot (.) between "out" and "println", making it an invalid method call (should be System.out.println).
+
+Bug #6
+-Line number: 8
+-Type of error and explain why: Logic error because the program compiles and runs, but the output is missing the attribution "-Donald Knuth", which makes the quote appear unattributed and changes the meaning.
+
+===========================================
+PART 2: DEBUGGING REFLECTION
+1. First, I ran the code and identify the errors and fix them
+   Second, I manually read all the code and found and fixed errors and missing parts.
+
+2. The most challenging part was to find the missing name.
+
+3. Reviewing the code I write.

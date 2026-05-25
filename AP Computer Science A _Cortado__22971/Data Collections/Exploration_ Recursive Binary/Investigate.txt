@@ -1,0 +1,19 @@
+1. Output prediction when searching for index1:
+
+
+
+2. Run the program to test your prediction.
+
+
+
+3. What's the difference between lines 9 and 10? Output
+prediction for index2?
+
+
+
+4. Run the program to test your prediction.
+
+
+
+5. What's the difference between lines 9 and 10 and 11? Output
+prediction for index3?

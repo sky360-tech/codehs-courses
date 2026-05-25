@@ -1,0 +1,41 @@
+1a. loop1 method
+  * Predicted output:
+1, 2, 3, 4, 5
+
+  * Was your prediction correct? If not, what was
+    your mistake:
+Starts at 1, ends at 5 (inclusive).
+
+1b. loop2 method
+  * Predicted output:
+5, 4, 3, 2
+
+  * Was your prediction correct? If not, what was
+    your mistake:
+Starts at 5, but stops before 1 because of i > 1
+
+1c. loop3 method
+  * Predicted output:
+0, 2, 4, 6, 8
+
+  * Was your prediction correct? If not, what was
+    your mistake:
+Starts at 0, counts by 2, stops before reaching 10.
+
+1d. loop4 method
+  * Predicted output:
+
+Infinite Loop!
+
+  * Was your prediction correct? If not, what was
+    your mistake:
+
+Mistake Alert: i starts at 0. Since 0×3=0, the value of i never changes, and the loop never ends.
+
+1e. loop5 method
+  * Predicted output:
+100, 20
+
+  * Was your prediction correct? If not, what was
+    your mistake:
+Starts at 100. 100/5=20. Then 20/5=4. 4/5=0 (integer math), so it stops.

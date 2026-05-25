@@ -1,0 +1,19 @@
+You can use this file to record any observations
+
+What happens when you print something *after* a print
+statement that uses `System.out.print`? 
+
+
+
+How can you use `print` and/or `println` to print the
+value of a variable and a string on the same line?
+
+
+
+When might you want to use `System.out.print` over 
+`System.out.println`?
+
+
+
+What can you do to add a new line in the middle of
+a print statement?

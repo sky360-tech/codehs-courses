@@ -1,0 +1,64 @@
+import java.util.ArrayList;
+
+public class RepairSchedule
+{
+    private ArrayList<CarRepair> schedule;  // List of repair assignments
+    private int numberOfMechanics;          // Number of mechanics at the shop
+
+    /** * Constructs a RepairSchedule with a specified number of 
+     * mechanics
+     */
+    public RepairSchedule(int numMechanics)
+    {
+        schedule = new ArrayList<CarRepair>();
+        numberOfMechanics = numMechanics;
+    }
+
+    /**
+     * Part (a)
+     * Adds a repair if the mechanic and bay are available.
+     * Returns true if the repair was successfully scheduled, 
+     * false otherwise.
+     */
+    public boolean addRepair(int mechanicNum, int bayNum)
+    {
+        for (CarRepair repair : schedule)
+        {
+            if (repair.getMechanicNum() == mechanicNum || repair.getBayNum() == bayNum)
+            {
+                return false;
+            }
+        }
+        schedule.add(new CarRepair(mechanicNum, bayNum));
+        return true;
+    }
+
+    /**
+     * Part (b)
+     * Returns an ArrayList containing identifiers of all available
+     * mechanics. If no mechanics are available, returns an empty list
+     */
+    public ArrayList<Integer> availableMechanics()
+    {
+        ArrayList<Integer> available = new ArrayList<Integer>();
+
+        for (int i = 0; i < numberOfMechanics; i++)
+        {
+            boolean isAssigned = false;
+            for (CarRepair repair : schedule)
+            {
+                if (repair.getMechanicNum() == i)
+                {
+                    isAssigned = true;
+                    break;
+                }
+            }
+
+            if (!isAssigned)
+            {
+                available.add(i);
+            }
+        }
+        return available;
+    }
+}

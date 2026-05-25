@@ -1,0 +1,17 @@
+1. Method Definition - [line #s], [method name]
+
+2. Calling the Method - [line #], [call statement]
+
+3. Argument - [line #], [data type], [name]
+
+4. Parameter - [line #], [data type], [name]
+
+5. Method Return Type - [data type]
+
+6. Prediction - [predicted output]
+
+7. Was your prediction correct? Why or why not?
+
+
+
+ 

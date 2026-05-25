@@ -1,0 +1,6 @@
+What instance variables should the Pizza class have?
+Toppings, type, size, cut or uncut, etc
+
+What do the instance variables represent? What are the types of those instance variables?
+
+Instance variables reperesent the characteristics of a object. Types: int, string and etc.

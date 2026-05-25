@@ -1,0 +1,11 @@
+turnRight();
+move();
+move();
+move();
+turnLeft();
+function turnRight(){
+    turnLeft();
+    turnLeft();
+    turnLeft();
+    
+}

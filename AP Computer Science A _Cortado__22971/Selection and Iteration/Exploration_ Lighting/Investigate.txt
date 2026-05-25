@@ -1,0 +1,34 @@
+1. Which method uses iteration?
+
+
+2. What is the condition of the loop?
+
+
+3. How many times does the loop repeat?
+
+
+4. What happens during each loop?
+
+
+
+5. Why does iteration make sense within the
+context of this method and not in the context
+of the other method?
+
+
+
+
+
+6-7. Modify tasks. See Assignment description for instructions.
+
+
+8. Did you choose to use iteration in the 
+`warningLight` method? Why or why not? When
+justifying your answer, be sure to consider 
+aspects like clarity, readability, manageability,
+efficiency, etc.
+
+
+
+
+

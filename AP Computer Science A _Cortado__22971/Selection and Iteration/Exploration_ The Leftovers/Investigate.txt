@@ -1,0 +1,19 @@
+1. Explain why the calculation, `totalCans % NUM_CANS_PER_BOX`
+on line 35, is being used to determine the number of leftover 
+cans? How does this relate to the earlier activity, *Factors*?
+
+In the Factors activity, we checked if the remainder was 0 to see if a number fit perfectly.
+In this activity, we aren't looking for a perfect fit; we are looking for the "scraps." If totalCans is 65 and NUM_CANS_PER_BOX is 10, the calculation is 
+ with a remainder of 5. That remainder is exactly the number of cans that couldn't fill a final box of 10.
+
+
+
+
+
+2. Why does this algorithm use a for loop
+instead of a while loop?
+
+
+
+Fixed Count: We know exactly how many crates there are before we start (in this case, 5).
+Efficiency: A for loop is cleaner for "counting" iterations. It handles the initialization (int i = 1), the condition (i <= NUM_CRATES), and the increment (i++) all in one line, making it perfect for cycling through a known number of items.

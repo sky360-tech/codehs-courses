@@ -1,0 +1,19 @@
+0. Before tracing prediction of return:
+
+
+1. Return value: 
+
+
+2. What does this algorithm do? What would be a good name for this method?
+
+
+3. In your own words, how does this method use recursion to accomplish its task?
+
+
+4. Submit your tracing:
+
+If completed digitally: 
+--Link to completed assignment:
+
+Otherwise:
+--Note describing method of submission:

@@ -1,0 +1,42 @@
+1. Without using the logical operators 
+you've learned about in this lesson, why 
+are the nested if statements needed for 
+this method?
+
+
+
+
+
+2. What is ineffective or inefficient or 
+confusing about the current structure with 
+the nested if statement?
+
+
+
+
+3. Document how many lines of code the 
+entire nested if-else structure uses (from 
+the outer if statement to the last brace).
+
+
+
+
+4. Modify task. See Assignment description for instructions.
+
+
+5. Do you think the modified if-else structure
+with logical operators is more or less clear
+than the nested if statements?
+
+
+
+
+
+6. How many lines of code does your new if-else
+structure use? How does that compare to the nested
+if statement structure (question #3)?
+
+
+
+
+  

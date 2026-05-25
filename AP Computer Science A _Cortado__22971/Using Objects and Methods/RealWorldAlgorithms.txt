@@ -1,0 +1,10 @@
+Everyday Task: (Making the bed)
+i) Get out of the bed
+ii) Organize the pillows
+iii) Make the bed sheets clean
+iv) Put comfoter on the bed and organize it.
+
+------------------------------------------------
+Create an algorithm for your task:
+- If creating a diagram, add the link here: 
+- If using written language, write your steps below.

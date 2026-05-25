@@ -1,0 +1,35 @@
+1. What does `first.equals(second)` return? Why 
+does this happen?
+
+
+
+2. What does `first == second` return? Is the result
+the same or different than #1, that uses the `equals`
+method? Why?
+
+
+
+3. What does `first == third` return? Why?
+
+
+
+4. What does `third == fourth` return? Is the result 
+the same or different than #2, which compared `first`
+and `second` with `==`? Why?
+
+
+
+5. Why are the last two results, when comparing `fifth`
+and `first`, and `sixth` and `third`, both `true`, even
+though `first` and `third` were created using the two 
+different techniques?
+
+
+
+
+6. In summary, if you want to compare the values of two 
+String variables, regardless if they are actually the same
+object or not, which comparison strategy should you use?
+
+
+

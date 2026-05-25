@@ -1,0 +1,43 @@
+// Write your Book class here
+
+public class Book
+{
+    private static int nextId = 1;
+    private static int transactionCount = 1;
+
+    private int bookId;
+    private String title;
+    private String author;
+    private boolean checkedOut;
+
+    public Book(String title, String author)
+    {
+        this.title = title;
+        this.author = author;
+        this.bookId = nextId;
+        nextId++;
+        checkedOut = false;
+    }
+
+    public String checkOut()
+    {
+        if (checkedOut)
+        {
+            return title + " is already checked out.";
+        }
+        checkedOut = true;
+        String message = "Transaction " + transactionCount + ": " + title + ", by " + author + " (ID: " + bookId + ") checked out.";
+        transactionCount++;
+        return message;
+    }
+
+    public String returnBook()
+    {
+        if (!checkedOut)
+        {
+            return title + " was not checked out.";
+        }
+        checkedOut = false;
+        return title + " has been returned.";
+    }
+}

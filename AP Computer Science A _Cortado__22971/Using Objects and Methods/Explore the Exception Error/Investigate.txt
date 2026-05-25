@@ -1,0 +1,9 @@
+You can use this file to record any observations
+
+1. When do you receive an `InputMismatchException` error
+message? What do you think this message means?
+
+
+2. Why is this an example of a run-time error?
+
+

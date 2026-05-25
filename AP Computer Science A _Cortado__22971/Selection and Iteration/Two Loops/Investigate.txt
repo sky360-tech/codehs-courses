@@ -1,0 +1,8 @@
+You can use this file to record any observations
+
+Which is easier for you to read and understand? 
+
+
+In this simple program -- one that uses a loop to 
+count up to a specific number -- which loop would 
+you prefer to use and why?

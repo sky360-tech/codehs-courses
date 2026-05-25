@@ -1,0 +1,15 @@
+Investigate Answers
+1. What are the attributes of the UserAccount class? Are they private or public? What does this mean?
+The attributes are: name, birthday, email, password, and creditCard. All five are private. This means no code outside of the UserAccount class can directly read or modify them — you can't do account.password from AccountRunner. The only way in is through methods the class intentionally exposes.
+2. What methods does the UserAccount class have? Are they private or public? What does this mean?
+It has a constructor UserAccount(...), getEmail(), and setEmail(). All three are public, meaning outside code can call them. This is intentional — the constructor lets you create an account, and the getter/setter let you read and update the email specifically. Everything else (name, birthday, password, credit card) has no getter or setter at all, so it's completely locked down after construction.
+3. Why did the program throw an error? How is this an example of protecting data?
+The line account.email = "byte.bandit@blackhat.com" tries to directly access a private field from outside the class. Java blocks this at compile time and throws an error. This is encapsulation doing exactly what it's supposed to — even if someone gets access to an account object, they can't just overwrite sensitive fields directly. The class controls its own data. Comment out that line and the program runs fine using setEmail() instead.
+4. Is this program secure? What else could a programmer do?
+Honestly, not really — not yet. Encapsulation is a good foundation, but there are some obvious gaps here:
+
+setEmail() has zero validation — right now it accepts literally any string, including "byte.bandit@blackhat.com". A real setter should check that the new email is a valid format before accepting it
+The password is stored as plain text — "password1234" sitting in a String field is a major problem. Real systems hash passwords (using something like bcrypt) so even if the data leaks, the actual password isn't exposed
+The credit card number is stored as plain text too — this is a serious security and legal issue in real applications. It should be encrypted or tokenized
+No authentication — setEmail() lets anyone who has the object change the email with no verification. A real system would require the user to confirm their current password before changing account info
+"password1234" is a terrible password — a setter for password should enforce complexity rules (length, special characters, etc.)

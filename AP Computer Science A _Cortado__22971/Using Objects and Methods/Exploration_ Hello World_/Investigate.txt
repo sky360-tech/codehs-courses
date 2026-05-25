@@ -1,0 +1,33 @@
+Investigate: 
+
+1. Remove the quotation marks around "Hello world". 
+What happens? 
+
+It gives out 3 errors related to Hello World.
+
+What does this tell you about the syntax for a print
+statement in Java? 
+
+It needs to be in quotation.
+
+
+2. Remove the empty line on line 6. What happens 
+when you run the program? 
+
+Nothing happens, it stays the same.
+
+What does this tell you about how Java reads blank lines?
+
+Java read blank lines as empty strings.
+
+
+3. On line 6, add in the command `System.out.println();`.
+What happens? 
+
+It creats a space between the two lines in the output.
+
+Based on this, what does the `System.out.println` 
+command do when there is no text entered into the 
+parentheses? 
+
+It makes a blank line in the output.

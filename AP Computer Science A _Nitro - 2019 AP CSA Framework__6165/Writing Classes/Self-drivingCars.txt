@@ -1,0 +1,5 @@
+1. No traffic violations, safe driving and no need of license.
+
+2. Possiblity of being hacked.
+
+3. Local servers instead of cloud, making the computer in the car work locally without relying on internet or cloud services.

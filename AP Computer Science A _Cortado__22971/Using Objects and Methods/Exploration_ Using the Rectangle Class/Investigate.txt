@@ -1,0 +1,29 @@
+1. How do you know the proper order of the arguments
+on line 6 in the `RectangleRunner` class? In other 
+words, how do you know if you should list the width 
+or the height first?
+
+
+
+
+2. What does the first "Rectangle" on line 6 represent?
+
+
+
+
+3. What does "rect1" on line 6 represent?
+
+
+
+
+4. What does the second "Rectangle" on line 6 represent?
+
+
+
+
+5. What's the purpose of lines 10 and 11 in the Rectangle class?
+
+
+
+
+ 

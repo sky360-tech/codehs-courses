@@ -1,0 +1,26 @@
+1. Fix: Changed public double radius to private double radius 
+Explanation:  Attributes should be private to prevent external classes from modifying them directly, ensuring data integrity.
+
+
+2. Fix:  Changed the constructor from private Circle to public Circle
+Explanation:  Constructors must be public so that other classes (like CircleRunner) can actually create instances of the object.
+
+
+3. Fix:  Changed private void setRadius(int myRadius) to public void setRadius(double myRadius).
+Explanation:  Setters should be public to allow controlled updates, and the parameter should be a double to match the attribute type.
+
+
+4. Fix: Changed private double getDiameter() to public double getDiameter()
+Explanation: This method needs to be public so CircleRunner can access the calculated diameter.
+
+
+5. Fix:  Changed private double getPerimeter() to public double getPerimeter()
+Explanation: This method needs to be public so CircleRunner can access the calculated perimeter.
+
+
+6. Fix:  Changed private String toString() to public String toString()
+Explanation:  The toString method must be public to properly override the Object class method and be accessible for printing.
+
+
+7. Fix: In CircleRunner, changed circ.radius = 5; to circ.setRadius(5.0);
+Explanation: Since radius is now private, we must use the public setter method to change its value.

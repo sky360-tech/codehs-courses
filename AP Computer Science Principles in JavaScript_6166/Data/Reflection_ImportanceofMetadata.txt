@@ -1,0 +1,10 @@
+Why is metadata important for a data set?
+Because it provides additional data
+
+How can metadata help you find specific data?
+
+Since metadata contain all the info about the data 
+
+What should metadata tell you about the data?
+
+It provides additional information for the data.

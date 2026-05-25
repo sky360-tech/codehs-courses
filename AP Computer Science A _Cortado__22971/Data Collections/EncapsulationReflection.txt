@@ -1,0 +1,1 @@
+How do the designs of these classes (`WaterSample` and `Hospital`) apply the practice of encapsulation, successfully protecting the arrays from unintended modifications and ensuring that only valid access is allowed?

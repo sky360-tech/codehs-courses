@@ -1,0 +1,20 @@
+1-2. No response needed. See Assignment description for instructions.
+
+3. How many nanoseconds did it take for `findChar` to execute?
+
+
+
+4. How many nanoseconds did it take for `findCharEfficient` 
+to execute?
+
+
+
+5. Why do you think `findCharEfficient` is so much faster? 
+In your response, consider how many times the if statement 
+executes in each method. 
+
+
+
+6. Why is efficiency in programming important?
+
+

@@ -1,0 +1,3 @@
+1. First, I search up the picture i want to download.
+2. Secondly, I select the pictute I want to use.
+3. Thirdly, I download the picture, to make the process faster, browser downloads the picture by piece by piece.

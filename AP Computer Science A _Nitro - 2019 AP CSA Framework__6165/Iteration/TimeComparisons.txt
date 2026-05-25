@@ -1,0 +1,5 @@
+1. The time for the first problem was about 5 seconds. For the second problem, it was about 4 seconds.
+
+2. I think for loop was faster, because the time was printed in the console.
+
+3. I think this is because while loops check for iteration for each.

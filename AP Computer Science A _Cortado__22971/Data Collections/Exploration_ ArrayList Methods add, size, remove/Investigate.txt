@@ -1,0 +1,10 @@
+Type: The angle brackets <String> specify that this ArrayList holds String objects.
+add(element): It appends an item to the end of the list. You can see this because "Cherry" appears after "Apple" and "Banana" in the printout.
+Return Value: It returns a boolean (true or false). Since the if statement runs, the method must return true upon a successful addition.
+size(): It returns the total number of elements currently in the list. You know this because the printed number matches the count of fruits shown in the brackets.
+Different add: It uses two parameters: an integer (index) and the element.
+Parameter Impact: Changing the number changes the position where the fruit appears. If you use a number larger than the current size, the program will crash (IndexOutOfBoundsException).
+Indexing: This version inserts a fruit at a specific spot and pushes everything else to the right. It reveals that indices start at 0 (0 is the first item, 1 is the second, etc.).
+Changing Line 15: The program will fail to compile. The two-parameter add(int, String) is a void method, meaning it returns nothing and cannot be used as a true/false condition.
+Compare/Contrast: Both increase the list size by one. However, the one-parameter version always adds to the end, while the two-parameter version adds at a specific index.
+remove(index): It deletes the item at that position and shifts the remaining items left to close the gap. You can see the fruit at that index is gone in the next print statement.

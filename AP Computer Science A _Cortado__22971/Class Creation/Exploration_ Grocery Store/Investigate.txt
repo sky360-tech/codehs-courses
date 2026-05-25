@@ -1,0 +1,6 @@
+Accessing storeName: The processCustomer method can access storeName because it is an instance variable (declared at the class level). Instance variables are in scope for all non-static methods within that class.
+customerName in checkoutLane1: This will cause a compiler error. customerName is a local variable (parameter) of the processCustomer method; its scope is limited to that specific method.
+totalCashRegisters in checkoutLane1: This will work correctly and print the value. Like storeName, totalCashRegisters is an instance variable, making it accessible throughout the class.
+Register Interference: They do not interfere because they are local variables defined within their respective methods. Each method creates its own unique "stack frame," so the cashRegister in Lane 1 exists in a completely different memory space than the one in Lane 2.
+aisle before the loop: This will cause a compiler error. The variable aisle is declared inside the for loop header. Its scope is restricted to the body of that loop and does not exist before it starts.
+updateStoreName Issue: This is a classic case of variable shadowing. The parameter is named storeName, which is the same as the instance variable. The method is currently assigning the parameter value to itself (local to local) rather than the class's field.

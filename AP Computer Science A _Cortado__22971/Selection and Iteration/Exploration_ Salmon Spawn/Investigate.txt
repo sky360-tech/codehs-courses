@@ -1,0 +1,17 @@
+1.What happens if you enter a number outside the range 1–12? Why?
+Point to a specific line of code in your explanation.
+
+
+
+2. Which months result in "Spawning season"? How does the 
+program determine this?
+
+
+
+3. How many if and else if statements are used in the current 
+program? What about this current program could be more efficient?
+
+
+4. How many lines are printed as a result of the current program?
+Why?
+

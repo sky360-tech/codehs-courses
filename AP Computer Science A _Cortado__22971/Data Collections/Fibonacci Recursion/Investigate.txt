@@ -1,0 +1,12 @@
+What's the purpose of the `for` loop in the 
+`main` method? What happens if you comment it 
+out and just run `System.out.println(fib(5));`?
+
+
+
+What are the base cases in this recursive 
+method? Why are there two? What would happen if you
+remove one of them?
+
+
+

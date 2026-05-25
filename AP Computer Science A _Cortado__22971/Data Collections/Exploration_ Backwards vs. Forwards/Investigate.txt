@@ -1,0 +1,4 @@
+The Prediction: The removeForward method will likely fail to remove all "gummy worms" if two are sitting next to each other. The removeBackward method will successfully remove all of them.
+What happens (Forward): When an item is removed, the remaining elements shift toward the start of the list (left). Their index positions decrease.
+The Skip: In a forward loop, after list.remove(i), the loop performs i++. Because the next item shifted down into the current index i, the i++ causes the loop to skip over that item entirely.
+Why Backward Works: The loop moves from the end to the start. When you remove an item, the elements that shift are to the "right" of your current position—areas the loop has already visited. The items to the "left" (the ones you haven't checked yet) stay at their original indices.

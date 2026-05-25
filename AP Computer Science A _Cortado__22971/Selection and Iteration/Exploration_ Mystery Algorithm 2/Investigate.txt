@@ -1,0 +1,35 @@
+1. Change line 17 so that newString has an 
+initial value of "test". How do you think this
+change the output? Now run the program. Based
+on your experimentation, what do you think 
+Line 17 does?
+
+
+
+
+
+2. How does this algorithm isolate each letter 
+in the string? 
+
+
+
+
+3. What is the selection statement on line 22 
+checking for? 
+
+
+
+
+4. What happens if the selection statement is true? 
+What happens if the selection statement is false?
+
+
+
+5. On line 11, change the second parameter to
+a different string value. How do you think this
+will impact the output? Make a prediction and then
+run the program. Did it behave as expected?
+
+
+
+ 

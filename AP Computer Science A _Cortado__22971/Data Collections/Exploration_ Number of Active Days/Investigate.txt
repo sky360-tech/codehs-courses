@@ -1,0 +1,6 @@
+1. What methods does the program use to read the data?
+It uses input.next() for the date and input.nextInt() for the three minute values. This makes sense because the date is a String (like "4/12") and the three activity columns are whole numbers. Using nextInt() directly on numbers is cleaner than reading everything as a string and converting manually.
+2. What happens if you change line 18 to input.nextLine()?
+It would break the loop pretty quickly. nextLine() reads the entire rest of the current line including the newline character — so after the first date token is read with next(), switching to nextLine() would grab the remaining numbers on that line as a string instead of leaving them for nextInt(). Then nextInt() would try to read the date of the next line as an integer and crash with an InputMismatchException.
+3. What happens if you remove the lightlyActive line?
+The program breaks. Even though you don't use lightlyActive in the calculation, you still need to read past it in the file. The Scanner reads values in order — if you skip reading the lightly active column, fairlyActive ends up getting the lightly active value, and veryActive gets the fairly active value. The data shifts over by one and the numbers are all wrong.

@@ -1,0 +1,17 @@
+You can use this file to record any observations
+
+There are 2 lines in the `main` method that use 
+concatenation. What are they? How do you know?
+
+
+What line of code concatenates a primitive object 
+with a string?
+
+
+What line of code concatenates an object with a 
+string?
+
+
+Look at the `Painting` class file. What does the 
+`toString` method do? 
+

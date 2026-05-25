@@ -1,0 +1,19 @@
+You can use this file to record any observations
+
+Even though the traditional and enhanced `for` loops
+look different, can you see how each outer and inner
+loop between the two row-major methods are doing the
+same thing?
+
+
+
+Why does the enhanced row-major method need to use a 
+`count` variable to produce a similar output as the 
+traditional row-major method?
+
+
+
+Notice how the print statements on lines 28 and 60 are
+almost identical, despite them being in the two different
+traversal types. Why is this the case?
+

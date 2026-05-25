@@ -1,0 +1,29 @@
+1. What are the valid indexes for the 2D array's rows and columns?
+
+Rows: 0 to 3 (There are 4 quizzes).
+
+Columns: 0 to 4 (There are 5 students).
+
+2. What is the value of gradebook[2][3]?
+
+The value is 90.
+
+Logic: This is row index 2 (Quiz 3) and column index 3 (Omar).
+
+3. What is the value of gradebook[2]? Why the funny output?
+
+The value is a reference (memory address) to the 1D array representing Quiz 3.
+
+The "funny output" (like [I@5f150435) happens because in Java, arrays are objects. Printing an array directly calls its default toString() method, which prints the data type ([ for array, I for int) and the hexadecimal hash code of its memory location rather than its contents.
+
+4. What is the value of gradebook.length?
+
+The value is 4.
+
+In a 2D array, .length returns the number of rows.
+
+5. What is the value of gradebook[0].length?
+
+The value is 5.
+
+This accesses the first row and returns its length, which represents the number of columns.

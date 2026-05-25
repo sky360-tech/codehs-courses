@@ -1,0 +1,29 @@
+1-7. See Assignment description for instructions
+
+8.  What is the result when you compared the 
+first and second Rectangle objects with the `==` 
+logical operator in Step 2? Why was this the result?
+
+Result: false
+Why: The == operator compares memory references (addresses). Because we used the new keyword twice, Java created two distinct objects in different memory locations. Even though their data is the same, they are not the "same" object in memory.
+
+
+
+
+9. What was the result when you compared the first 
+and second Rectangle objects with the custom `.equals` 
+method in step 4? Why was this the result?
+
+Result: true
+Why: The custom .equals method performs content equality. It ignores where the objects are in memory and instead looks at the internal data (width and height). Since both rectangles have identical dimensions, the method returns true.
+
+
+
+
+10. What is the result when you compared the second 
+and third Rectangle objects with the `==` logical operator 
+in Step 6? Why was this the result?
+
+
+Result: true
+Why: When we wrote rect3 = rect2;, we did not create a new object. Instead, we made rect3 point to the exact same memory address as rect2. Since they both point to the same "spot" in memory, the == comparison returns true.

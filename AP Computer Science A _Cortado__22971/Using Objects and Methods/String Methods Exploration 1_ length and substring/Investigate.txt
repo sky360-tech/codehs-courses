@@ -1,0 +1,84 @@
+Mystery Value 1
+-------------------
+1.  What do you think will happen if you 
+change the `mystery1` variable data type to a `String`? Why? 
+
+2. Change the data type to a `String` and then run the program. 
+Were you correct?
+
+3. What is the index of the last character of the String 
+stored in `fullName`? How does this relate to the value of `mystery1`? 
+
+4. What would be a good name for the `mystery1` variable?
+
+===========================================================
+
+Mystery Value 2
+
+5. Change the arguments of the `substring` method to be 1 and 9. 
+How do you think this will impact the output?
+
+6. Run the program with your change. Did the method work as expected? 
+
+7. Change the arguments of the `substring` method to 4 and 5. 
+Predict the outcome. Were you able to accurately predict the output? 
+
+8. Change the arguments of the `substring` method to 8 and 9. 
+Predict the outcome. Were you able to accurately predict the output?
+
+9. Based on your exploration, how can you use the `substring` method 
+to access a single letter in a String?
+
+10. What would be a good name for the `mystery2` variable?
+
+===========================================================
+
+Mystery Value 3
+--------------------
+11. Change the arguments of the `substring` method by 
+removing the first argument. How do you think this will impact the output?
+
+12. Run the program with your change. Did the method work as expected? 
+
+13. What would be a good name for the `mystery3` variable?
+
+===========================================================
+
+Mystery Value 4
+--------------------
+14. Change the argument of the `substring` method from 8 
+to an index of your choosing. How do you think this change 
+will impact the output?
+
+15. Run the program with your change. Did the method work as expected? 
+
+16. Change the argument of the `substring` method to 15. 
+How do you think this change will impact the output?
+
+17. Run the program with your change. Why do you think this specific 
+index results in this output?
+
+18. What would be a good name for the `mystery4` variable?
+
+===========================================================
+
+Mystery Value 5
+--------------------
+19. What is the value of the first `substring` method? 
+
+20. What is the value of the second `substring` method?
+
+21. How can you use the `substring` method to insert a value
+in the middle of a String?
+
+22. What would be a good name for the `mystery5` variable?
+
+===========================================================
+REFLECT
+23. length(): 
+
+substring(): 
+
+24. At the end of the program, print out the value of `fullName`. 
+How has this value changed after calling multiple methods on the string? 
+How does this relate to strings being immutable?

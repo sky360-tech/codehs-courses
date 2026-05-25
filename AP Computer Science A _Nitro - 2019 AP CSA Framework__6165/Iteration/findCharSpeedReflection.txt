@@ -1,0 +1,5 @@
+1. I think the First method is more efficient because it takes up less space.
+
+2. Also, the first methor is more efficeient because it excuted faster.
+
+3. I think efficiency is important in programming because, the user wants something that is faster and reliable to use.

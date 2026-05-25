@@ -1,0 +1,13 @@
+1. In what ways did you use the concept of abstraction in the outline and diagram of your library system program?
+
+
+
+
+
+2. What the benefits of outlining and diagramming a program before starting to develop the code? What are the challenges?
+
+
+
+
+
+3. What's the role of the lines connecting the classes in the full program diagram? Why are they important?

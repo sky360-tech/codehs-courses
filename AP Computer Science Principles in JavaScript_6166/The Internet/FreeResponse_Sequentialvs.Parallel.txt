@@ -1,0 +1,3 @@
+Sequential is a computational model in which operations are performed in order one at a time.
+
+Parallel computing is a type of computation where many calculations or the execution of processes are carried out simultaneously. Large problems can often be divided into smaller ones, which can then be solved at the same time.

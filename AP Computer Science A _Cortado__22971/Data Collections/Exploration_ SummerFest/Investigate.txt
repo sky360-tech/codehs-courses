@@ -1,0 +1,3 @@
+Missing Values: The program displays 0 or 0.0 for missing values because primitive int and double default to zero if they aren't explicitly assigned in the constructor.
+Handling Missing Data: As written, it attempts to skip them using != null checks. However, since the fields are primitives, they are never null, so the "No Data" logic never triggers. The averages are currently skewed because the zeros are treated as actual data points.
+Parsing: Integer.parseInt() and Double.parseDouble() convert strings into numeric values. Checking length() > 0 is critical because these methods throw a NumberFormatException if you pass them an empty string.

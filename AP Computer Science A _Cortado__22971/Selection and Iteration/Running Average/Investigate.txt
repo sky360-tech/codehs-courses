@@ -1,0 +1,20 @@
+What is the purpose of the `TERMINATE` variable
+in this program?
+
+
+
+Why is a `break` statement used on line 43, and
+not a `return` statement, to exit the loop?
+
+
+
+On which line is the program summing the total race time?
+
+
+
+Why is the average calculation a double value 
+(line 62)? What would you have to adjust so that the
+returned and printed average is an integer?
+
+
+

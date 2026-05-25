@@ -1,0 +1,20 @@
+1. Explain why the checkFactors algorithm used
+in the Factors class successfully identifies
+whether one number is a factor of another,
+even though there is no division occurring?
+In other words, why (on line 19) do you know 
+factor is a factor if number eventually equals
+exactly 0?
+
+If you subtract the factor from the number over and over and land exactly on 0, it means the number was composed of a perfect set of "groups" of the factor.
+
+If the factor was not a true factor, you would eventually skip over zero and end up with a small positive number that is less than your factor (a remainder).
+
+
+
+
+2. Why does the algorithm use a while loop 
+instead of a for loop?
+
+Indefinite Iteration: A for loop is generally used when you know exactly how many times you need to run (e.g., "count to 10").
+Condition-Based: In this algorithm, we don't know how many times we need to subtract until we actually do it. We only know the stop condition: "Keep subtracting as long as the number is large enough." A while loop is the natural choice for "repeat until this condition is met."

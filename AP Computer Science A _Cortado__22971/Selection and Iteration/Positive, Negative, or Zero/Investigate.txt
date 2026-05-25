@@ -1,0 +1,13 @@
+You can use this file to record any observations
+
+Can you see how adding the `else-if` statement 
+helps your program check for three unique situations? 
+
+
+
+Does the order of the conditions matter? In 
+other words, could you get the same output by 
+checking for 0 first, then a negative number, 
+and then a positive number?
+
+

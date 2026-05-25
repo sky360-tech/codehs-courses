@@ -1,0 +1,10 @@
+1. Why does length have a larger value than the highest index?
+Because arrays are zero-indexed — the first element is at index 0, so a 3-element array has indexes 0, 1, 2 but a length of 3. Length always equals the number of elements, not the last index. The last valid index is always length - 1.
+2. What are the default values in words before assignment?
+null. If you print words[0] before the assignment lines you'll see:
+null
+Java initializes String array slots to null by default because String is an object, not a primitive.
+3. What happens if you assign 9.9 to numbers[0]?
+It throws a compile-time error — something like "incompatible types: possible lossy conversion from double to int." The array was declared as int[], so Java won't let you stuff a double into it. The type is locked in when the array is created.
+4. What happens if you add words[2] = "!";?
+It compiles fine but throws an ArrayIndexOutOfBoundsException at runtime. The words array was created with size 2, so valid indexes are only 0 and 1. Index 2 doesn't exist — you're trying to write outside the array's allocated space.

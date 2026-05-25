@@ -1,0 +1,13 @@
+You can use this file to record any observations
+
+Why is `this` needed in some places but not others? 
+Specifically, why is it required in this program's 
+constructor but not the methods?
+
+
+
+How do you know which box object, `box1` or `box2`,
+the `this` keyword is referring to on line 24 of the
+`Box` class?
+
+

@@ -1,0 +1,1 @@
+It assigns each computer with unique ip address which is helpful to recognize a particular computer for sending and receiving information.

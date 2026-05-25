@@ -1,0 +1,24 @@
+1. Instant Creation:
+   - Question: Find a method that returns the current moment in time according to the system clock.
+   - Method Name: now()
+   - Description: Obtains an Instant set to the current system millisecond time. This is a static method.
+
+2. Manipulating Time:
+   - Question: Which method would you use to add a specific number of milliseconds to an Instant and return a new Instant?
+   - Method Name: plus(long duration)
+   - Description: Gets a copy of this instant with the specified duration in milliseconds added. Note that because Instant is immutable, it doesn't change the original; it returns a new one.
+
+3. Retrieving Time:
+   - Question: How do you get the number of milliseconds from the Java epoch (1970-01-01T00:00:00Z) that this Instant represents?
+   - Method Name: getMillis()
+   - Description: Gets the milliseconds of the instant, which is the number of milliseconds since the Unix epoch of 1970-01-01T00:00:00Z.
+
+4. Immutable Instant to Mutable Conversion:
+   - Question: Identify a method that can convert an Instant to a mutable builder form.
+   - Method Name: toMutableInstant()
+   - Description: Converts this object to a MutableInstant (a version of the time object that can be changed directly without creating a new object).
+
+5. From Timestamp:
+   - Question: How can you create an Instant from a timestamp string, such as "2023-09-14T10:15:30.00Z"?
+   - Method Name: parse(String str)
+   - Description: Returns a new Instant by parsing the specified string. The string must be in the ISO8601 format.

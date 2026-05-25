@@ -1,0 +1,6 @@
+Which variables were immediately accessible?
+orderNumber, customerName, and quantity. These are instance variables defined at the class level, meaning they are in scope for all non-static methods in the class.
+Which variables were NOT accessible and why?
+totalCost, taxAmount, and finalAmount were not immediately accessible. This is because they are local variables defined inside other methods (calculateTotalCost, etc.). Their scope is limited to the curly braces of the methods where they were created.
+What did you need to do to access them?
+You had to call the respective methods and store their return values into new local variables within printOrderDetails. For the tax and final amount, you also had to pass arguments (parameters) into the methods so they had the data necessary to perform the calculations.

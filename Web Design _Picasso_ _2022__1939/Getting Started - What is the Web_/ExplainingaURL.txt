@@ -1,0 +1,4 @@
+Domain : www.example.com
+Path : homepage.html
+The request is sent to a server that belongs to www.example.com. A server is listening for this request.
+It is asking for the homepage.html . My browser will receive homepage.html as a response.

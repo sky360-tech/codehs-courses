@@ -1,0 +1,15 @@
+How does the program print each GroceryItem in the cart? 
+What type of for loop is used, and why is it appropriate here?
+
+
+
+What is the purpose of i-- inside the removal loop? What would
+happen if it were removed?
+
+
+
+Why is it important not to use an enhanced for loop when removing
+items from an ArrayList? What does the comment in the code warn you
+about?
+
+

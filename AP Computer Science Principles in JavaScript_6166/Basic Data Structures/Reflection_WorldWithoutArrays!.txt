@@ -1,0 +1,3 @@
+1. Data abstraction provides a separation between the abstract properties of a data type and the concrete details of its representation.
+
+2.  Data abstractions manage complexity in programs by giving a collection of data a name without referencing the specific details of the representation.

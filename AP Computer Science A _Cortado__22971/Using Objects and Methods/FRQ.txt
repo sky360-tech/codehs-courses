@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class WeeklyExpenses 
+{
+    public static void main(String[] args) 
+    {
+        // Create a Scanner object to read input from the user
+        Scanner input = new Scanner(System.in);
+        
+        /* Add your code for steps 1 - 6 here */
+        
+        System.out.println("How much did you spend for food?");
+        double food = input.nextDouble();
+        
+        System.out.println("How much did you spend for transportation?");
+        double transportation = input.nextDouble();
+        
+        System.out.println("How much did you spend for entertainment?");
+        double entertainment = input.nextDouble();
+        
+        
+        double totalExpense = food + transportation + entertainment;
+        
+        double averageExpense = totalExpense / 7;
+
+
+        System.out.println("Your total weekly expense is: " + totalExpense);
+        System.out.println("Your average amount spent per category this week is:" + averageExpense);
+       
+        
+    }
+}

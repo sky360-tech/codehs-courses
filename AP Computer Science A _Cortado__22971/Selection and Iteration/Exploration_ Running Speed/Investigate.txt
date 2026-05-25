@@ -1,0 +1,8 @@
+1. What message do you get when you enter a time faster than 223 seconds? Why?
+
+
+2. How would the program's outputs change if you enter exactly 223 seconds?  Why?
+
+
+3. What would happen if you changed the condition from < 223 to <= 223? Why?
+

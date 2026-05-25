@@ -1,0 +1,7 @@
+You can use this file to record any observations
+
+Can you see the difference in how each method is 
+called, depending on where it is defined relative
+to where it is being called?
+
+

@@ -1,0 +1,21 @@
+1. Write out a simple explanation, as if to a friend, about the difference between row-major and column-major traversals.
+
+
+
+2. Regardless of the variable names, which of the array's two indexes in the print statement (left or right) is the row number and which is the column number? How does this change when you switch between row-major and column-major traversals? 
+
+
+
+3. What in the code changes when you switch between row-major and column-major traversals?
+
+
+
+4. Remember that a 2D array is an array of 1D arrays. Is a single row or column or either one of those 1D arrays? How do you know?
+
+
+
+5. What is a real-life scenario where a **row-major** traversal across a 2D array would make the most sense (must be different than examples in this lesson's video). Explain why.
+
+
+
+6. What is a real-life scenario where a **column-major** traversal across a 2D array would make the most sense (must be different than examples in this lesson's video). Explain why.

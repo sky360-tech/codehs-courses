@@ -1,0 +1,29 @@
+1. String Length (example solution done for you):
+   - Question: How can you find out the number of characters in a string?
+   - Method Name: (solution) length()
+   - Description: (solution) Returns the length of this string.
+
+2. Character Replacement:
+   - Question: How can you replace all occurrences of a specified character in a string with another character? 
+   - Method Name: replace(char oldChar, char newChar)
+   - Description: Returns a string resulting from replacing all occurrences of oldChar in this string with newChar
+
+3. Case Conversion:
+   - Question: How can you convert all characters in a string to uppercase?
+   - Method Name: toUpperCase()
+   - Description: Converts all of the characters in this String to upper case using the rules of the default locale.
+
+4. Whitespace Removal:
+   - Question: Which method would you use to remove leading and trailing whitespace from a string?
+   - Method Name: trim()
+   - Description: Returns a string whose value is this string, with all leading and trailing space removed.
+
+5. Searching:
+   - Question: Which method would you use to determine if a string contains a specified substring?
+   - Method Name: contains(CharSequence s)
+   - Description: Returns true if and only if this string contains the specified sequence of char values.
+
+6. Contains Anything:
+   - Question: Which method would you use to determine if a string contains any characters at all?
+   - Method Name: isEmpty()
+   - Description: Returns true if, and only if, length() is 0

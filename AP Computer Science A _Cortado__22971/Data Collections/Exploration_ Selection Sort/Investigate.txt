@@ -1,0 +1,21 @@
+1. Output prediction when sorting arr1:
+
+
+
+
+3. Which specific lines of code drive the 
+three main stages of the selection sort 
+(i.e. moving the current index, finding the
+minimum, and swapping the minimum)?
+
+
+
+
+4. What's the point of the if statement on
+line 29? Can you think of a scenario where 
+the condition would evaluate to false?
+
+
+
+
+5. Output prediction when sorting arr2:

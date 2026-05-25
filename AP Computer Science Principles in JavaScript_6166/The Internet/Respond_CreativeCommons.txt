@@ -1,0 +1,14 @@
+1. CC BY: The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.
+
+2. CC BY-SA: The Creative Commons Attribution Share-Alike license allows re-distribution and re-use of a licensed work on the conditions that the creator is appropriately credited and that any derivative work is made available under “the same, similar or a compatible license”.
+
+3. CC BY-ND: CC-BY-ND or Creative Commons Attribution NoDerivs is a more restrictive license. It allows you to redistribute the material commercially or non-commercially but the user cannot make any changes whatsoever to the original, i.e. no derivatives of the original work.
+
+4. CC BY-NC: A Creative Commons NonCommercial license (CC NC, CC BY-NC or NC license) is a Creative Commons license which a copyright holder can apply to their media to give public permission for anyone to reuse that media only for noncommercial activities.
+
+5. CC BY-NC-SA: This license lets others remix, tweak, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms.
+
+6. CC BY-NC-ND: CC-BY-NC-ND or Creative Commons Attribution NonCommercial NoDerivs, is the most restrictive license offered by Creative Commons. With this license, the user (while attributing the original creator) can only share the work but not change it in any way or ever use it commercially.
+
+Of the six licenses, which type is the most restrictive in terms of how you can use the work? Which type is the least restrictive?
+    CC BY-SA, because it can be redistributed and reuse in a work.

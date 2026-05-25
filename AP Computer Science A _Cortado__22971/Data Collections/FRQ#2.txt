@@ -1,0 +1,64 @@
+import java.util.ArrayList;
+
+public class WeeklySchedule
+{
+    /** schedule[r][c] represents the session for day r and period c.
+     * A null entry indicates that no session is stored in that position.
+     */
+    private ClassSession[][] schedule;
+
+    /** * Part (a)
+     * Returns the number of scheduled sessions (of any subject)
+     * on the day given by dayIndex.
+     */
+    public int countScheduledOnDay(int dayIndex)
+    {
+        int count = 0;
+        // Access the specific row for the day and check every column (period)
+        for (int col = 0; col < schedule[dayIndex].length; col++)
+        {
+            if (schedule[dayIndex][col] != null && schedule[dayIndex][col].isScheduled())
+            {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    /**
+     * Part (b)
+     * Returns the column index (class period) that has the fewest
+     * scheduled sessions matching the given subject name.
+     */
+    public int periodWithFewestSubject(String subject)
+    {
+        int minCount = Integer.MAX_VALUE;
+        int minPeriodIndex = 0;
+
+        // Column-major traversal: check each period (column) across all days (rows)
+        for (int col = 0; col < schedule[0].length; col++)
+        {
+            int currentSubjectCount = 0;
+            
+            for (int row = 0; row < schedule.length; row++)
+            {
+                ClassSession session = schedule[row][col];
+                
+                // Criteria: Not null, is scheduled, and subject name matches
+                if (session != null && session.isScheduled() && session.getSubject().equals(subject))
+                {
+                    currentSubjectCount++;
+                }
+            }
+            
+            // If this period has a lower count than our current minimum, update tracking
+            if (currentSubjectCount < minCount)
+            {
+                minCount = currentSubjectCount;
+                minPeriodIndex = col;
+            }
+        }
+        
+        return minPeriodIndex;
+    }
+}

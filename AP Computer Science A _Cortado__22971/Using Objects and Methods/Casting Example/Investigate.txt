@@ -1,0 +1,21 @@
+You can use this file to record any observations
+
+What line(s) casts an `int` to a `double`? 
+
+
+
+What line(s) cast a `double` to an `int`?
+
+
+
+What is the difference between how you round a 
+positive integer versus rounding a negative integer?
+
+
+
+Look at the results of *Division without casting* 
+and *Rounded to the nearest integer*. How are 
+integer division and rounding to the nearest 
+integer similar and different?
+
+
