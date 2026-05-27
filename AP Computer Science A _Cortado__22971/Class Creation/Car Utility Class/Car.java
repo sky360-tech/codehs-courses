@@ -48,4 +48,4 @@ public class Car
     {
         return "Make: " + make + ", Fuel: " + fuelLevel + ", Distance: " + distanceDriven;
     }
-}
+}// reviewed: 2026-05-27
