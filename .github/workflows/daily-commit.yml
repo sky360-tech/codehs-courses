@@ -30,7 +30,7 @@ jobs:
           for i in {1..9}; do
             CURRENT=$(( (INDEX + i - 1) % TOTAL ))
             FILE="${FILES[$CURRENT]}"
-            touch "$FILE"
+            echo "// reviewed: $(date +'%Y-%m-%d')" >> "$FILE"
             git add "$FILE"
             git commit -m "Review: $(basename "$FILE") - $(date +'%Y-%m-%d') [$i/9]"
           done
