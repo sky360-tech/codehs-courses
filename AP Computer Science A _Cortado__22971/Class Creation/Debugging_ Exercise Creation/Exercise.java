@@ -34,4 +34,4 @@ public class Exercise
         "\nDifficulty: " + difficulty +
         "\nIs Live: " + isLive + "\n";
     }
-}
+}// reviewed: 2026-05-28
