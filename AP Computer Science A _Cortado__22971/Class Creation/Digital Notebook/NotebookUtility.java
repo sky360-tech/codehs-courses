@@ -27,4 +27,4 @@ public class NotebookUtility {
         // Sets the current page back to 1
         notebook.setCurrentPage(1);
     }
-}
+}// reviewed: 2026-05-28
