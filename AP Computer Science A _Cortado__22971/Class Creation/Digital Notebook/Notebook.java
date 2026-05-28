@@ -34,4 +34,4 @@ public class Notebook
     {
         return "Notebook: Currently on page " + currentPage + " of " + totalPages;
     }
-}
+}// reviewed: 2026-05-28
