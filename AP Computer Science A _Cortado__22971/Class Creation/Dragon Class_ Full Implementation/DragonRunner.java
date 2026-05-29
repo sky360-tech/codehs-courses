@@ -23,4 +23,4 @@ public class DragonRunner {
         System.out.println("Fire breather: " + pete.isFireBreather());
         System.out.println("Defense rating: " + pete.getDefenseRating());
     }
-}
+}// reviewed: 2026-05-29
