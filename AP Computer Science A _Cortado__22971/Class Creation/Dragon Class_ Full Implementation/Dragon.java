@@ -49,4 +49,4 @@ public class Dragon {
         }
         return rating;
     }
-}
+}// reviewed: 2026-05-29
