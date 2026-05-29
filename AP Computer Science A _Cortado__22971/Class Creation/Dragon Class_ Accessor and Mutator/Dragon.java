@@ -35,4 +35,4 @@ public class Dragon {
         // Update fire breathing status if level changes
         canBreatheFire = level >= 70;
     }
-}
+}// reviewed: 2026-05-29
