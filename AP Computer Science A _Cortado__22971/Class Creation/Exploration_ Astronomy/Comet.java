@@ -29,4 +29,4 @@ public class Comet
     {
         return "Comet [name = " + name + ", speed = " + speed + " km/s, tailLength = " + tailLength + " km]";
     }
-}
+}// reviewed: 2026-05-30
