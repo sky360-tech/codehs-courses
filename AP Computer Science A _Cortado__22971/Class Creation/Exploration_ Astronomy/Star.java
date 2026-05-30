@@ -18,4 +18,4 @@ public class Star
     {
         return "Star [name = " + name + ", luminosity = " + luminosity + "]";
     }
-}
+}// reviewed: 2026-05-30
