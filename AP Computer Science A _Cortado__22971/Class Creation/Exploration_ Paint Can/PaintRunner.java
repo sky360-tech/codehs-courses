@@ -23,4 +23,4 @@ public class PaintRunner
         // Test getCoverage
         System.out.println("Coverage: " + can.getCoverage() + " sq ft");
     }
-}
+}// reviewed: 2026-05-31
