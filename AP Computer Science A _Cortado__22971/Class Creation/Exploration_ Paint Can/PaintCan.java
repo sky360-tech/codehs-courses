@@ -55,4 +55,4 @@ public class PaintCan
     {
         return "Can of " + color + " paint with " + paintAmount + " gallons.";
     }
-}
+}// reviewed: 2026-05-31
