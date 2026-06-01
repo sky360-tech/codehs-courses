@@ -33,4 +33,4 @@ public class EnrollmentSystem
         return "There are " + studentCount + " students enrolled:\n"
                 + enrolledStudents;
     }
-}
+}// reviewed: 2026-06-01
