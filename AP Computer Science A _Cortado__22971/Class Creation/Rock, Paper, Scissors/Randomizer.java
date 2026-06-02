@@ -12,4 +12,4 @@ public class Randomizer
         int range = max - min;
         return (int)(Math.random() * (range + 1) + min);
     }
-}
+}// reviewed: 2026-06-02
