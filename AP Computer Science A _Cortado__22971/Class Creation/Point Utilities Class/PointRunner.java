@@ -17,4 +17,4 @@ public class PointRunner
         System.out.println("After resetting:");
         System.out.println(myPoint);
     }
-}
+}// reviewed: 2026-06-02
