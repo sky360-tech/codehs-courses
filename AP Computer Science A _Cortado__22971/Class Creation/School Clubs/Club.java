@@ -62,3 +62,4 @@ public class Club
         return "Club: " + clubName + ", Members: " + numMembers;
     }
 }
+// reviewed: 2026-06-02
