@@ -15,4 +15,4 @@ public class PointUtility
         point.setX(0);
         point.setY(0);
     }
-}
+}// reviewed: 2026-06-02
