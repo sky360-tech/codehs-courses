@@ -69,4 +69,4 @@ public class SmartLight
     {
         return "SmartLight [On: " + isOn + ", Brightness: " + brightness + ", Color: " + color + "]";
     }
-}
+}// reviewed: 2026-06-03
