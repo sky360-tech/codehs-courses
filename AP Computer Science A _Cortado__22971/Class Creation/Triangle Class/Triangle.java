@@ -49,3 +49,4 @@ public class Triangle
 		return "Triangle with an area of " + area();
 	}
 }
+// reviewed: 2026-06-04
