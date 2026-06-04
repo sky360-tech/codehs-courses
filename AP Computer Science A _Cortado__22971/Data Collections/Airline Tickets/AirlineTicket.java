@@ -82,4 +82,4 @@ public class AirlineTicket
     {
         return name + " Seat: " + seat + " Row: " + row + " Boarding Group: " + boardingGroup;
     }
-}
+}// reviewed: 2026-06-04
