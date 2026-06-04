@@ -97,4 +97,4 @@ public class VirtualPet {
         System.out.println("Hygiene level: " + hygiene);
         System.out.println("**********************");
     }
-}
+}// reviewed: 2026-06-04
