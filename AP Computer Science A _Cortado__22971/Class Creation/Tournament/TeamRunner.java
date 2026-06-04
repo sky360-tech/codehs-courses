@@ -26,4 +26,4 @@ public class TeamRunner
         // Prints the total number of teams
         System.out.println("Number of teams: " + Team.getTotalTeams());
     }
-}
+}// reviewed: 2026-06-04
