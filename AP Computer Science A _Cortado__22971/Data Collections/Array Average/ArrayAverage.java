@@ -9,4 +9,4 @@ public class ArrayAverage
         }
         return sum / arr.length;
     }
-}
+}// reviewed: 2026-06-05
