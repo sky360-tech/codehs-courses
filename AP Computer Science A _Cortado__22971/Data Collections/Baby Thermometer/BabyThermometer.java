@@ -66,4 +66,4 @@ public class BabyThermometer
         }
         return "\nRecorded Temperatures:\n" + temps;
     }
-}
+}// reviewed: 2026-06-05
