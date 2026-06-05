@@ -64,4 +64,4 @@ public class Art
         }
         return result;
     }
-}
+}// reviewed: 2026-06-05
