@@ -27,4 +27,4 @@ public class BabyThermometerRunner
         // Print final recorded temperatures
         System.out.println(monitor);
     }
-}
+}// reviewed: 2026-06-05
