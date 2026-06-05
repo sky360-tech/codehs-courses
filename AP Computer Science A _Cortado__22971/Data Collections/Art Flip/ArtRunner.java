@@ -26,4 +26,4 @@ public class ArtRunner
         System.out.println(myArt);
         */
     }
-}
+}// reviewed: 2026-06-05
