@@ -12,4 +12,4 @@ public class CollectionRunner
 
         System.out.println("Total Value: $" + myCollection.getTotalValue());
     }
-}
+}// reviewed: 2026-06-06
