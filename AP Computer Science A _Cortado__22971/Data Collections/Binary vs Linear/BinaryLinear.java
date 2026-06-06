@@ -82,4 +82,4 @@ public class BinaryLinear
         }
         return -1;
     }
-}
+}// reviewed: 2026-06-06
