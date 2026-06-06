@@ -18,4 +18,4 @@ public class CityStats
         System.out.println(cities[1] + " averages " + rainfall[1] + " inches of rain per year.");
         System.out.println(cities[2] + " averages " + rainfall[2] + " inches of rain per year.");
     }
-}
+}// reviewed: 2026-06-06
