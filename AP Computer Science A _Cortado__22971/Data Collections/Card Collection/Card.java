@@ -37,4 +37,4 @@ public class Card
     {
         return name + " (" + condition + ") - $" + value + " - Set #" + setNum;
     }
-}
+}// reviewed: 2026-06-06
