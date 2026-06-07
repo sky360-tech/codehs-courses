@@ -43,4 +43,4 @@ public class Chart
         }
         System.out.println();
     }
-}
+}// reviewed: 2026-06-07
