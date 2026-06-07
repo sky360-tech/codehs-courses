@@ -41,4 +41,4 @@ public class Zoo
             System.out.println("Animal: " + animal2.getName() + ", Weight: " + animal2.getWeight() + " kg, Quantity: " + animal2.getQuantity());
         }
     }
-}
+}// reviewed: 2026-06-07
