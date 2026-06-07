@@ -18,4 +18,4 @@ public class ChartRunner
         rectChart.setHorizontalNumbering();
         rectChart.printChart();
     }
-}
+}// reviewed: 2026-06-07
