@@ -15,4 +15,4 @@ public class ZooRunner
         // Print total weight of animals in the zoo
         System.out.println("Total weight: " + zoo.calculateTotalWeight() + " kg");
     }
-}
+}// reviewed: 2026-06-07
