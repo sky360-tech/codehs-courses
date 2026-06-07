@@ -29,4 +29,4 @@ public class AnimalGroup
     {
         return quantity;
     }
-}
+}// reviewed: 2026-06-07
