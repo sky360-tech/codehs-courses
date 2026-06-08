@@ -36,4 +36,4 @@ public class ArrayExploration
         System.out.println("Index 0: " + statuses[0]);
         System.out.println("Index 1: " + statuses[1]);
     }
-}
+}// reviewed: 2026-06-08
