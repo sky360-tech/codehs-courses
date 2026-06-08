@@ -47,4 +47,4 @@ public class ArrayListMethods
         
         System.out.println("Final list: " + fruit);
     }
-}
+}// reviewed: 2026-06-08
