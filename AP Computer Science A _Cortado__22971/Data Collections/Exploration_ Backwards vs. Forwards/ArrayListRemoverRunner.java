@@ -21,4 +21,4 @@ public class ArrayListRemoverRunner {
         ArrayListUtility.removeBackward(snacks, targetSnack);
         ArrayListUtility.printList(snacks);
     }
-}
+}// reviewed: 2026-06-08
