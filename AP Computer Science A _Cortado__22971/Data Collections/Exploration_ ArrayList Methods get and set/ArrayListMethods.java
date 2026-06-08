@@ -41,4 +41,4 @@ public class ArrayListMethods
         // Print the final resulting list
         System.out.println("Final list: " + veggies);
     }
-}
+}// reviewed: 2026-06-08
