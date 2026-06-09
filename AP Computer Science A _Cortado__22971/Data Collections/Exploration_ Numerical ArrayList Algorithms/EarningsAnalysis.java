@@ -42,4 +42,4 @@ public class EarningsAnalysis {
             }
         }
     }
-}
+}// reviewed: 2026-06-09
