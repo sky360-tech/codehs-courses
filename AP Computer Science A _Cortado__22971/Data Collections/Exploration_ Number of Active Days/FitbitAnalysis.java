@@ -47,4 +47,4 @@ public class FitbitAnalysis
         System.out.println("Number of active days: " + numActiveDays);
         System.out.println("Number of inactive days: " + numInactiveDays);
     }
-}
+}// reviewed: 2026-06-09
