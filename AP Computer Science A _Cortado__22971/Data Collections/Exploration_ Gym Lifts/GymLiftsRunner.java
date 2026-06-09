@@ -20,4 +20,4 @@ public class GymLiftsRunner
         System.out.println("\nWeight to add to each side of the barbell: " 
             + weights.computePlateWeight(totalWeight) + " lbs");
     }
-}
+}// reviewed: 2026-06-09
