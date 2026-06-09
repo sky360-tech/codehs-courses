@@ -33,4 +33,4 @@ public class GymLifts
     {
         maxBench = newMax;
     }
-}
+}// reviewed: 2026-06-09
