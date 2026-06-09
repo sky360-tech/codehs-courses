@@ -46,4 +46,4 @@ public class MedalSearch {
         }
         return -1;
     }
-}
+}// reviewed: 2026-06-09
