@@ -47,4 +47,4 @@ public class WordCount
             System.out.println("File not found: " + e.getMessage());
         }
     }
-}
+}// reviewed: 2026-06-10
