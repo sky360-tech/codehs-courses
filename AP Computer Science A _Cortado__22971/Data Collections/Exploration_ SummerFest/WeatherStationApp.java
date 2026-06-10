@@ -82,4 +82,4 @@ public class WeatherStationApp
             System.out.println("Average Humidity: No Data");
         }
     }
-}
+}// reviewed: 2026-06-10
