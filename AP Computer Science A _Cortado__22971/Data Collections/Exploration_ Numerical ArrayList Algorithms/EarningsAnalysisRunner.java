@@ -29,4 +29,4 @@ public class EarningsAnalysisRunner
         // EarningsAnalysis.insertInOrder(babysittingTotals, 22.00);
         // System.out.println("List after Inserting 22.00: " + babysittingTotals);
     }
-}
+}// reviewed: 2026-06-10
