@@ -87,4 +87,4 @@ public class BinaryRecursion
         }
         System.out.println();
     }
-}
+}// reviewed: 2026-06-10
