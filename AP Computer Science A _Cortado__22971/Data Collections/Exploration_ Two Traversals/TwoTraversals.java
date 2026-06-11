@@ -34,4 +34,4 @@ public class TwoTraversals
             arr[i] = arr[i] * 2;
         }
     }
-}
+}// reviewed: 2026-06-11
