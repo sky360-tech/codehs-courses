@@ -17,4 +17,4 @@ public class Factorial
         return x * factorial(x - 1);
     }
 
-}
+}// reviewed: 2026-06-11
