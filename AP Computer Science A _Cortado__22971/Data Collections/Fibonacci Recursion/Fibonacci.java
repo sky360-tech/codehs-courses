@@ -23,4 +23,4 @@ public class Fibonacci
         
         return fib(x - 1) + fib(x - 2);
     }
-}
+}// reviewed: 2026-06-11
