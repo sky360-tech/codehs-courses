@@ -39,4 +39,4 @@ public class Max
         return max;
     }
 
-}
+}// reviewed: 2026-06-11
