@@ -7,4 +7,4 @@ public class DuplicateRunner
         System.out.println("Has Duplicates: " + Duplicates.hasDuplicates(numbers));
         System.out.println("Number of adjacent duplicate pairs: " + Duplicates.countAdjacentDuplicates(numbers));
     }
-}
+}// reviewed: 2026-06-11
