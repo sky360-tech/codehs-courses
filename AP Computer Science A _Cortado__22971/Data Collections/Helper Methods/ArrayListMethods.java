@@ -30,4 +30,4 @@ public class ArrayListMethods
             nums.add(nums.get(i));
         }
     }
-}
+}// reviewed: 2026-06-12
