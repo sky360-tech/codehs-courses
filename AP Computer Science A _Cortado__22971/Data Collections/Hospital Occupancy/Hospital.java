@@ -46,4 +46,4 @@ public class Hospital
             "\nRoom 3 Occupied: " + rooms[2] +
             "\nRoom 4 Occupied: " + rooms[3] + "\n");
     }
-}
+}// reviewed: 2026-06-12
