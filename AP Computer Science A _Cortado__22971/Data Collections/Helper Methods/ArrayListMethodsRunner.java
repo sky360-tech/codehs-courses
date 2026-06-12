@@ -28,4 +28,4 @@ public class ArrayListMethodsRunner
         ArrayListMethods.duplicate(prices);
         ArrayListMethods.print(prices);
     }
-}
+}// reviewed: 2026-06-12
