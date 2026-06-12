@@ -29,4 +29,4 @@ public class KaraokeRunner
         // Close the Scanner object
         input.close();
    }
-}
+}// reviewed: 2026-06-12
