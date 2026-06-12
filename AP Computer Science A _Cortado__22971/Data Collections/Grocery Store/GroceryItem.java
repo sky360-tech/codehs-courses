@@ -33,4 +33,4 @@ public class GroceryItem
     {
         return name + " (" + category + ")";
     }
-}
+}// reviewed: 2026-06-12
