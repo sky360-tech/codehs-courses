@@ -54,4 +54,4 @@ public class EarningsAnalysis
         // Edge Case: If num is larger than everything else, add to the end
         list.add(num);
     }
-}
+}// reviewed: 2026-06-13
