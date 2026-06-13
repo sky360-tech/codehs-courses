@@ -33,4 +33,4 @@ public class EarningsAnalysisRunner
         
         System.out.println("Updated babysitting earnings data: " + babysittingTotals);
     }
-}
+}// reviewed: 2026-06-13
