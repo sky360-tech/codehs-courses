@@ -41,4 +41,4 @@ public class LineOrderAlgorithms
         }
         return false;
     }
-}
+}// reviewed: 2026-06-13
