@@ -39,4 +39,4 @@ public class UserAccount
             System.out.println("Invalid password. Not authorized to change the email.");
         }
     }
-}
+}// reviewed: 2026-06-13
