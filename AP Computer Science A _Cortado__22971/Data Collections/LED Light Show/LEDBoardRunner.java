@@ -15,4 +15,4 @@ public class LEDBoardRunner
         LEDBoardControl.verticalStripes(myBoard);
         LEDBoardControl.printBoard(myBoard);
     }
-}
+}// reviewed: 2026-06-13
