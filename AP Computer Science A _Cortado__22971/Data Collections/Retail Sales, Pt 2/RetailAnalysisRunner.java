@@ -21,4 +21,4 @@ public class RetailAnalysisRunner
         // Calculate average for product index 2
         System.out.println("Average daily sales for product 2: " + analyzer.averageSalesForProduct(2));
     }
-}
+}// reviewed: 2026-06-15
