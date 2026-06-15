@@ -54,4 +54,4 @@ public class SeatingChart
             seats[row][col] = null; // Reset to available
         }
     }
-}
+}// reviewed: 2026-06-15
