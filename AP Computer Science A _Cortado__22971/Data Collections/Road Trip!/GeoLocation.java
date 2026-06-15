@@ -63,4 +63,4 @@ public class GeoLocation
 
         return arcLength * RADIUS;
     }
-}
+}// reviewed: 2026-06-15
