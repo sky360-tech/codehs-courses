@@ -16,4 +16,4 @@ public class Summing
     
     	return n + sum(n - 1);
     }
-}
+}// reviewed: 2026-06-16
