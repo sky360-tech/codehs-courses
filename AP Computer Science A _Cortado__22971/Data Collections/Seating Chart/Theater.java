@@ -15,4 +15,4 @@ public class Theater
         System.out.println(chart.getSeatInfo(1, 2)); 
         System.out.println(chart.getSeatInfo(2, 2)); 
     }
-}
+}// reviewed: 2026-06-16
