@@ -166,4 +166,4 @@ function selectionSort(items){
         }
         addToList(items);
     }
-}
+}// reviewed: 2026-06-17
