@@ -23,4 +23,4 @@ public class Warehouse
             System.out.println("Product " + (i + 1) + ": " + stockLevels[i] + " units");
         }
     }
-}
+}// reviewed: 2026-06-17
