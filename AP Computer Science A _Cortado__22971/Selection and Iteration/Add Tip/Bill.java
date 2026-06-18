@@ -30,4 +30,4 @@ public class Bill
     {
         System.out.println("The total cost including tip is: $" + mealCost);
     }
-}
+}// reviewed: 2026-06-18
