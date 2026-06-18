@@ -22,4 +22,4 @@ public class XYPlotRunner
 
         grapher.graphCoordinates();
     }
-}
+}// reviewed: 2026-06-18
