@@ -13,4 +13,4 @@ public class BooleanExploration
         System.out.println(x >= 20);  // Prediction: 
 
     }
-}
+}// reviewed: 2026-06-19
