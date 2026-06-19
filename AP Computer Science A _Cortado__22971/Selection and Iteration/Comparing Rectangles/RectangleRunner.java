@@ -28,4 +28,4 @@ public class RectangleRunner
         System.out.println("Rect2 representation: " + rect2);
         System.out.println("Rect3 representation: " + rect3);
     }
-}
+}// reviewed: 2026-06-19
