@@ -42,4 +42,4 @@ public class Rectangle
         other.getWidth() == width &&
         other.getHeight() == height;
     }
-}
+}// reviewed: 2026-06-19
