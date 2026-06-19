@@ -24,3 +24,4 @@ public class DeMorgansExample
         System.out.println("!x && !y = " + result4);
     }
 }
+// reviewed: 2026-06-19
