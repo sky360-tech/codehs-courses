@@ -20,4 +20,4 @@ public class ExtractDigits
             num = num / 10;
         }
     }
-}
+}// reviewed: 2026-06-20
