@@ -36,4 +36,4 @@ public class DiceFrequencies
         System.out.println("Number of twos: " + twos);
         System.out.println("Number of ones: " + ones);
     }
-}
+}// reviewed: 2026-06-20
