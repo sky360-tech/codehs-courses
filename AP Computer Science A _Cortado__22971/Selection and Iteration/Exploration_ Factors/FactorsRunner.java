@@ -19,4 +19,4 @@ public class FactorsRunner
         
         System.out.println(factor + " is a factor of " + number + ": " + isFactor);
     }
-}
+}// reviewed: 2026-06-20
