@@ -21,4 +21,4 @@ public class PrimeNumbers
             }
         System.out.println(num + " is a prime number!");
     }
-}
+}// reviewed: 2026-06-20
