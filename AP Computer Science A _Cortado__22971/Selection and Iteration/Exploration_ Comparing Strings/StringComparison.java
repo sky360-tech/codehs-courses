@@ -19,4 +19,4 @@ public class StringComparison
         System.out.println("fifth == first: " + (fifth == first));
         System.out.println("sixth == third: " + (sixth == third));
     }
-}
+}// reviewed: 2026-06-20
