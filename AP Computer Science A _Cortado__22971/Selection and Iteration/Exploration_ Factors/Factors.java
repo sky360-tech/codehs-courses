@@ -12,4 +12,4 @@ public class Factors
       return (number % factor == 0);
     }
     
-}
+}// reviewed: 2026-06-20
