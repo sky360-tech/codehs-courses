@@ -25,4 +25,4 @@ public class InvertedTriangle
         }
         System.out.println("");
    }  } 
-}
+}// reviewed: 2026-06-21
