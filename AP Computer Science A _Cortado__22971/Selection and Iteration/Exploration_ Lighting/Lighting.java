@@ -39,4 +39,4 @@ public class Lighting
     {
         // Complete this method as part of the Modify section
     }
-}
+}// reviewed: 2026-06-21
