@@ -38,4 +38,4 @@ public class DonationCollection
 
     return leftovers;
     }
-}
+}// reviewed: 2026-06-22
