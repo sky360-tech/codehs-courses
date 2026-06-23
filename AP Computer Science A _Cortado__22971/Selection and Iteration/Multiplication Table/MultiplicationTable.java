@@ -17,4 +17,4 @@ public class MultiplicationTable
             System.out.println(); 
         }
     }
-}
+}// reviewed: 2026-06-23
