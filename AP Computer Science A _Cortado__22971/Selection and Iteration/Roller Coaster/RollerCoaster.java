@@ -33,4 +33,4 @@ public class RollerCoaster
             System.out.println("Sorry, you are not eligible to ride.");
         }
     }
-}
+}// reviewed: 2026-06-23
