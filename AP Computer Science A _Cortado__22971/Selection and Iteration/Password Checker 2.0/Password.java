@@ -60,4 +60,4 @@ public class Password
         // 3. Return true only if ALL three conditions were met
         return foundLetter && foundNumber && foundSpecial;
     }
-}
+}// reviewed: 2026-06-23
