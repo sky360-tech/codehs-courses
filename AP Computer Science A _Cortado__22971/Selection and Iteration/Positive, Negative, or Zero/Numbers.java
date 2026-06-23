@@ -25,4 +25,4 @@ public class Numbers
             System.out.println("The number is zero");
         }
     }
-}
+}// reviewed: 2026-06-23
