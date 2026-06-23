@@ -40,4 +40,4 @@ public class MaxMin
             System.out.println("Smallest number: " + min);
         }
     }
-}
+}// reviewed: 2026-06-23
