@@ -27,4 +27,4 @@ public class Password
             System.out.println("Password needs 8 or more characters.");
         }
     }
-}
+}// reviewed: 2026-06-23
