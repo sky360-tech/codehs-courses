@@ -23,4 +23,4 @@ public class MultiplicationTable
         
         
     }
-}
+}// reviewed: 2026-06-23
