@@ -16,4 +16,4 @@ public class RectangleRunner
         rectangle2.isSquare();
         System.out.println();
     }
-}
+}// reviewed: 2026-06-24
