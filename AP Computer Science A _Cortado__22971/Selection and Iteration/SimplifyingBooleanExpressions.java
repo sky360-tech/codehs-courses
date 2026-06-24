@@ -40,3 +40,4 @@ public class SimplifyBooleanExpressions
         // Bonus: Try changing the variable values to test different scenarios
     }
 }
+// reviewed: 2026-06-24
