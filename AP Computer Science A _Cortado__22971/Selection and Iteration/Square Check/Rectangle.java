@@ -27,4 +27,4 @@ public class Rectangle
             System.out.println("This rectangle is not a square.");
         }
     }
-}
+}// reviewed: 2026-06-24
