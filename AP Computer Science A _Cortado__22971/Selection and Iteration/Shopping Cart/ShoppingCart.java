@@ -31,4 +31,4 @@ public class ShoppingCart
     {
         return "Your cart has " + numItems + " items with a total cost of $" + totalCost;
     }
-}
+}// reviewed: 2026-06-24
