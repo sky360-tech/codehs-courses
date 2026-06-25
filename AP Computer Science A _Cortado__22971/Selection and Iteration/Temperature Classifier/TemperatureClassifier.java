@@ -12,3 +12,4 @@ public class TemperatureClassifier
         // Write your code here
     }
 }
+// reviewed: 2026-06-25
