@@ -16,4 +16,4 @@ public class LoopComparison
             System.out.println(j);
         }
     }
-}
+}// reviewed: 2026-06-25
