@@ -33,4 +33,4 @@ public class Averages
         double sum = a + b + c + d;
         return sum / 4.0;
     }
-}
+}// reviewed: 2026-06-26
