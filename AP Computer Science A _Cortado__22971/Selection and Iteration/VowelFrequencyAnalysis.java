@@ -39,4 +39,4 @@ public class VowelFrequency
     }
     }
 
-}
+}// reviewed: 2026-06-26
