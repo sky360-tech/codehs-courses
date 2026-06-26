@@ -41,4 +41,4 @@ public class Calculator
         double second = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
         return first + " and " + second;
     }
-}
+}// reviewed: 2026-06-26
