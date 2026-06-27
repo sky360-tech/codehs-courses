@@ -47,4 +47,4 @@ public class Car
     {
         return "Model: " + model + ", Color: " + color + ", Speed: " + speed + " mph";
     }
-}
+}// reviewed: 2026-06-27
