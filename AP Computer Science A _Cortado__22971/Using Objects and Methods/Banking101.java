@@ -18,4 +18,4 @@ public class Banking101
         balance *= (1 + interestRate);
         System.out.println("Final balance after interest: $" + balance);
     }
-}
+}// reviewed: 2026-06-27
