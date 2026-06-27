@@ -22,4 +22,4 @@ public class BeautyCheckout
         System.out.println("Amount saved with discount: " + amountSavedWithDiscount);
         System.out.println("Total: " + totalAfterDiscount);
     }
-}
+}// reviewed: 2026-06-27
