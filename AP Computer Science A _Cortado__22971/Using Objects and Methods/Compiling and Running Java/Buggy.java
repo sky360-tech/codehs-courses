@@ -19,4 +19,4 @@ public class Buggy
     {
         System.out.println(Hello world);
     }
-}
+}// reviewed: 2026-06-28
