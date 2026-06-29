@@ -59,4 +59,4 @@ public class Rectangle
     {
         return "A rectangle with a width of " + width + ", a height of " + height + ", and a color of " + color + "\n";
     }
-}
+}// reviewed: 2026-06-29
