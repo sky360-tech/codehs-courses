@@ -54,4 +54,4 @@ public class Rectangle
     {
         return "Width: " + width + "\nHeight: " + height;
     }
-}
+}// reviewed: 2026-06-29
