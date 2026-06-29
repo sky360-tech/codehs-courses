@@ -39,4 +39,4 @@ public class BuggyProgram
         System.our.println(numSubjects);
     }
     */
-}
+}// reviewed: 2026-06-29
