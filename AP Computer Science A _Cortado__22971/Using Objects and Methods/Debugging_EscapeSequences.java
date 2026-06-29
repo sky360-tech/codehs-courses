@@ -5,4 +5,4 @@ public class BuggyEscapes
         System.out.print("\"Make it work,\nmake it right,\nmake it fast.\"\n");
         System.out.println("\t-Kent Beck");
     }
-}
+}// reviewed: 2026-06-29
