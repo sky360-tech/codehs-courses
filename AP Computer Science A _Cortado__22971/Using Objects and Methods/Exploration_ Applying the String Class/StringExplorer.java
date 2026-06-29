@@ -21,4 +21,4 @@ public class StringExplorer
         System.out.print("The total length of the subject is: ");
         System.out.println(subjectLength);
     }
-}
+}// reviewed: 2026-06-29
