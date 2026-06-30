@@ -43,4 +43,4 @@ public class Comments
         System.out.print("The average of the two numbers is: ");
         System.out.println(average);
     }
-}
+}// reviewed: 2026-06-30
