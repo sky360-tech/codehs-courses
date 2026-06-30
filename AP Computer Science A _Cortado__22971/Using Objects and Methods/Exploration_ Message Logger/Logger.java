@@ -20,4 +20,4 @@ public class Logger
         String addError = log + "\n[ERROR]: " + message;
         return addError;
     }
-}
+}// reviewed: 2026-06-30
