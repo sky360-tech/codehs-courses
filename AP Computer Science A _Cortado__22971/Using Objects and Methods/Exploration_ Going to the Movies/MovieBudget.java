@@ -38,4 +38,4 @@ public class MovieBudget
         System.out.print("Budget Check: $");
         System.out.println(checkBudget);
     }
-}
+}// reviewed: 2026-06-30
