@@ -21,4 +21,4 @@ public class VariableSwitch
         System.out.println(two);
         System.out.println("----------------------------");
     }
-}
+}// reviewed: 2026-07-01
