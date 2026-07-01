@@ -17,4 +17,4 @@ public class MysteryMethodChange
         // Instead of printing, we return the value to the caller
         return num * 15;
     }
-}
+}// reviewed: 2026-07-01
