@@ -25,4 +25,4 @@ public class ExceptionError
         int myNum = input.nextInt();
         System.out.println("What a great number!");
     }
-}
+}// reviewed: 2026-07-01
