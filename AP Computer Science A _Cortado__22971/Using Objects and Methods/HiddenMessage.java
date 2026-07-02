@@ -22,4 +22,4 @@ public class HiddenMessage
         
         System.out.println(message);
     }
-}
+}// reviewed: 2026-07-02
