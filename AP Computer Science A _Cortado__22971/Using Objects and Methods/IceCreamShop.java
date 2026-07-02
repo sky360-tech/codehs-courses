@@ -16,4 +16,4 @@ public class IceCreamShop
         System.out.println("Number of Scoops: " + numScoops);
         System.out.println("Total: " + total);
     }
-}
+}// reviewed: 2026-07-02
