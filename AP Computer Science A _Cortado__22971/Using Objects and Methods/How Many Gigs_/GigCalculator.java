@@ -21,4 +21,4 @@ public class GigCalculator
         System.out.print("Leftover pics that wouldn't be saved: ");
         System.out.println((numPicsPerWeekday * 5 + numPicsPerWeekendDay * 2) * 52 % numPicsPerGig);
     }
-}
+}// reviewed: 2026-07-02
