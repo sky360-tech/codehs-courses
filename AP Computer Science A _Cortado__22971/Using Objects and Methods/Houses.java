@@ -45,4 +45,4 @@ public class Houses
         System.out.println("   =   ");
         System.out.println("====   ");
     }
-}
+}// reviewed: 2026-07-02
