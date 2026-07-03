@@ -18,4 +18,4 @@ public class Member
     {
         return "Member Name: " + name + "\nMember ID: " + id + "\nOverdue Books: " + hasOverdueBooks + "\n";
     }
-}
+}// reviewed: 2026-07-03
