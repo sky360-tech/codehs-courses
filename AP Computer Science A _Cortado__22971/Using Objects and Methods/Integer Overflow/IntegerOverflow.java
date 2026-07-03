@@ -11,4 +11,4 @@ public class IntegerOverflow
        System.out.println("Max multiplied by 2: " + (max * 2));
        System.out.println("Min divided by 2: " + (min / 2));
     }
-}
+}// reviewed: 2026-07-03
