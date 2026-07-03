@@ -18,4 +18,4 @@ public class Book
     {
         return title + " by " + author + ", " + numPages + " pages\n";
     }
-}
+}// reviewed: 2026-07-03
