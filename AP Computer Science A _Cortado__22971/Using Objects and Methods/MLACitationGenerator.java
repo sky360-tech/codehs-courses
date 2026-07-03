@@ -19,4 +19,4 @@ public class Citation
         System.out.println(author + ". " + title + ".");
         System.out.println(publisher + ", " + year + ".");
     }
-}
+}// reviewed: 2026-07-03
