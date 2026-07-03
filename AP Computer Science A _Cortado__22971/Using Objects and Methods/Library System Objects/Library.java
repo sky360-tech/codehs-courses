@@ -18,4 +18,4 @@ public class Library
     {
         return "Library Name: " + name + "\nAddress: " + address + "\nTotal Books: " + numBooks + "\n";
     }
-}
+}// reviewed: 2026-07-03
