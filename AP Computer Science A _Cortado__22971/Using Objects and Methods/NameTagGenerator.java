@@ -40,4 +40,4 @@ public class NameTagGenerator
         System.out.println("Last Letter: " + lastLetter);
         System.out.println("****************");
     }
-}
+}// reviewed: 2026-07-04
