@@ -29,4 +29,4 @@ public class NoMethods
         }
         System.out.println(thirdReversed);
     }
-}
+}// reviewed: 2026-07-04
