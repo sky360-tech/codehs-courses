@@ -26,4 +26,4 @@ public class Camera
     {
         return "This is a camera with a maxiumum zoom of : " + maxZoom;
     }
-}
+}// reviewed: 2026-07-04
