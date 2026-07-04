@@ -15,4 +15,4 @@ public class Painting
     {
         return title + " by " + artist;
     }
-}
+}// reviewed: 2026-07-04
