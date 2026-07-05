@@ -15,4 +15,4 @@ public class PhotoWallPlanner
         System.out.println("Complete rows: " + completeRows);
         System.out.println("Inches leftover: " + inchesLeftover);
     }
-}
+}// reviewed: 2026-07-05
