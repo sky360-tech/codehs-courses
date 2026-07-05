@@ -26,4 +26,4 @@ public class PetSuppliesCalculator
         System.out.print("Total cost for all cats: ");
         System.out.println(amountForAllCats);
     }
-}
+}// reviewed: 2026-07-05
