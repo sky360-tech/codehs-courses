@@ -25,4 +25,4 @@ public class TrafficEngineer
         double time = Math.sqrt(2 * distance / acceleration);
         return time;
     }
-}
+}// reviewed: 2026-07-06
