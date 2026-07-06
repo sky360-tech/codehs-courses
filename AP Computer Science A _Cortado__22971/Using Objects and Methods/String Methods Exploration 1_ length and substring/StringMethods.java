@@ -19,4 +19,4 @@ public class StringMethods
         String mystery5 = fullName.substring(0, 7) + " \"Pau\" " + fullName.substring(8);
         System.out.println("Mystery Value 5: " + mystery5);
     }
-}
+}// reviewed: 2026-07-06
