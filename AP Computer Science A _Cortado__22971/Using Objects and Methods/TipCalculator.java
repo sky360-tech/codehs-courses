@@ -18,4 +18,4 @@ public class TipCalculator
         System.out.println("20% tip amount: " + tip20 * totalNoTip);
         System.out.println("25% tip amount: " + tip25 * totalNoTip);
     }
-}
+}// reviewed: 2026-07-06
