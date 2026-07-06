@@ -6,4 +6,4 @@ public class StrongPasswords
         System.out.println("Complex Characters\nStrong passwords include a mix of uppercase and lowercase letters, numbers, and special characters. \n");
         System.out.println("Unpredictability\nPasswords should avoid using common words, phrases, and personal information. \n");
     }
-}
+}// reviewed: 2026-07-06
