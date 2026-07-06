@@ -46,4 +46,4 @@ public class TeamRanks
 		System.out.print("6. ");
 		System.out.println(team6);
 	}
-}
+}// reviewed: 2026-07-06
