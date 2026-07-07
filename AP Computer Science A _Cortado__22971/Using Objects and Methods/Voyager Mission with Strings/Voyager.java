@@ -26,4 +26,4 @@ public class Voyager
         System.out.println("Camera status: ");
         System.out.println(cameraStatus);
     }
-}
+}// reviewed: 2026-07-07
