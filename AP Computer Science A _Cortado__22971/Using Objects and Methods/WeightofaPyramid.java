@@ -8,4 +8,4 @@ public class Pyramid
         System.out.println(blockWeight * numBlocks);
 
     }
-}
+}// reviewed: 2026-07-07
