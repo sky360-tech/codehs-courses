@@ -24,4 +24,4 @@ public class Variables
         System.out.println(snackPrice);
         
     }
-}
+}// reviewed: 2026-07-07
