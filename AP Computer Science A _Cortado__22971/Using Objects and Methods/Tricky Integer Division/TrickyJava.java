@@ -35,4 +35,4 @@ public class TrickyJava
         System.out.print("Candy per person: ");
         System.out.println(candyBarsDouble / friends);
     }
-}
+}// reviewed: 2026-07-07
