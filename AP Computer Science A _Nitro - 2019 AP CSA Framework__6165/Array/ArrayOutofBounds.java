@@ -15,4 +15,4 @@ public class OutOfBounds
 	        System.out.println(scores[i]);
         }
     }
-}
+}// reviewed: 2026-07-08
