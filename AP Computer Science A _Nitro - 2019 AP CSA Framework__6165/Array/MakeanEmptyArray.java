@@ -32,4 +32,4 @@ public class MakeArray
         System.out.println(booleanArr[0]);
         System.out.println(booleanArr[3]);
     }
-}
+}// reviewed: 2026-07-09
