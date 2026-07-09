@@ -16,4 +16,4 @@ public class Target
         }   
         System.out.println("The target was found at: " + index);
     }
-}
+}// reviewed: 2026-07-09
