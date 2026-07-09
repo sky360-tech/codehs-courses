@@ -9,4 +9,4 @@ public class MyArray
 	        System.out.println(scores[i]);
         }
     }
-}
+}// reviewed: 2026-07-09
