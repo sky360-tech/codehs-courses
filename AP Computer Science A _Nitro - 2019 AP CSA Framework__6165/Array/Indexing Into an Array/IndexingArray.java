@@ -64,4 +64,4 @@ public class IndexingArray
         // The value at index 1 was never set, so the default value of false is printed
         System.out.println(booleanArr[1]);
     }
-}
+}// reviewed: 2026-07-09
