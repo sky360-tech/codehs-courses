@@ -7,4 +7,4 @@ public class FirstArray
       // Print all 3 arrays according to the output in the description
     
     }
-}
+}// reviewed: 2026-07-10
