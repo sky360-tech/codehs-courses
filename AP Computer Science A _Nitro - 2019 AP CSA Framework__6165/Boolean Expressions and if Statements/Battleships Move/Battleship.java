@@ -36,4 +36,4 @@ public class Battleship
     {
         return shipType + " at " + position;
     }
-}
+}// reviewed: 2026-07-11
