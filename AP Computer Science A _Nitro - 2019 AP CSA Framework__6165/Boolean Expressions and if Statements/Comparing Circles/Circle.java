@@ -52,4 +52,4 @@ public class Circle
         Circle cir = (Circle) other;
         return color.equals(cir.color) && radius == cir.radius && x == cir.x && y == cir.y;
     }
-}
+}// reviewed: 2026-07-12
