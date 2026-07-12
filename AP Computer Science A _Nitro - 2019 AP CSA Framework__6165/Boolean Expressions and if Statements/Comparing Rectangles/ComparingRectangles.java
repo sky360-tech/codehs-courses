@@ -43,4 +43,4 @@ public class ComparingRectangles
             System.out.println(one + " is equal to " + two);
         }
     }
-}
+}// reviewed: 2026-07-12
