@@ -50,4 +50,4 @@ public class Battleship
         return name + "(" + health + ")";    
     }
     
-}
+}// reviewed: 2026-07-12
