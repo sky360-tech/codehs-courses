@@ -21,4 +21,4 @@ public class Divisibility
             System.out.println(dividend + " is divisible by " + divisor + "!");
         }
     }
-}
+}// reviewed: 2026-07-13
