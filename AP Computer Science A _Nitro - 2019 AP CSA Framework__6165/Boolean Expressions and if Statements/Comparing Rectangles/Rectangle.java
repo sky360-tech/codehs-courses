@@ -33,4 +33,4 @@ public class Rectangle
     {
         return width == other.getWidth() && height == other.getHeight();
     }
-}
+}// reviewed: 2026-07-13
