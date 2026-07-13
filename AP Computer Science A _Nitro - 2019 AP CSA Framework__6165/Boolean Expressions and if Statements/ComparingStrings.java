@@ -25,4 +25,4 @@ public class ComparingStrings
             System.out.println("Are you sure that's your favorite website?");
         }
     }
-}
+}// reviewed: 2026-07-13
