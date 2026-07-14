@@ -22,4 +22,4 @@ public class IdentifyAliases
      // refer to the same object so the characters will be the same. 
      System.out.println(str1.equals(str2));
    }
-}
+}// reviewed: 2026-07-14
