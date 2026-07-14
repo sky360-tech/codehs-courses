@@ -46,4 +46,4 @@ public class NegativeNumbers
             System.out.println("DeMorgan was right, again!");
         }
    }
-}
+}// reviewed: 2026-07-14
