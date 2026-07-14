@@ -24,4 +24,4 @@ public class NullTest
      if (str != null && str.indexOf("a") >= 0)
          System.out.println(str + " contains an a");
    }
-}
+}// reviewed: 2026-07-14
