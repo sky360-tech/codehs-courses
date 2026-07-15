@@ -27,4 +27,4 @@ public class RaterTester
         System.out.println(jrs);
         
     }
-}
+}// reviewed: 2026-07-15
