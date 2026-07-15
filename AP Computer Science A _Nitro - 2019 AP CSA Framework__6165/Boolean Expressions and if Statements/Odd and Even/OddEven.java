@@ -13,4 +13,4 @@ public class OddEven
         return n1 % 2 == 0 && n2 % 2 == 0;
     }
     
-}
+}// reviewed: 2026-07-15
