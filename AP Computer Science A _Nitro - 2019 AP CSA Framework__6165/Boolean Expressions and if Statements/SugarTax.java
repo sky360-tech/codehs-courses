@@ -13,4 +13,4 @@ public class AddedSugar
 	    boolean sugarConsumed = sugar < 30;
 	    System.out.println("You can eat more sugar: " + sugarConsumed);  
     }
-}
+}// reviewed: 2026-07-16
