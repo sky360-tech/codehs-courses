@@ -12,4 +12,4 @@ public class ExtractDigits {
             number = number / 10; // Remove the last digit
         }
     }
-}
+}// reviewed: 2026-07-17
