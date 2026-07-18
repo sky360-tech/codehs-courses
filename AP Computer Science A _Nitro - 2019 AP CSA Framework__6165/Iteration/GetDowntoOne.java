@@ -33,4 +33,4 @@ public class GetToOne
         count++;
       }
       return count;1
-}
+}// reviewed: 2026-07-18
