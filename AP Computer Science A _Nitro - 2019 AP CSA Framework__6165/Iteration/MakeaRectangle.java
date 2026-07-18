@@ -20,4 +20,4 @@ public class RectangleOfStars
            System.out.println();
        }
     }
-}
+}// reviewed: 2026-07-18
