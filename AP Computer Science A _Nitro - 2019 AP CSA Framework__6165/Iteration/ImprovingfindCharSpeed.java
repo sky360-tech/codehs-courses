@@ -15,4 +15,4 @@ public class findCharTester
         return string.indexOf(key) != 1;
         
     }
-}
+}// reviewed: 2026-07-18
