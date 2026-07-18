@@ -18,4 +18,4 @@ public class LoopExecution
            System.out.println("\nThe outer loop executes " + (row + 1) + " times");
        }
     }
-}
+}// reviewed: 2026-07-18
