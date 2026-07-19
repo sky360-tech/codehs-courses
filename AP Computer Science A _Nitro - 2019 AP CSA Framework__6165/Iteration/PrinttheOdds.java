@@ -5,4 +5,4 @@ public class Odds
        for(int i = 1; i < 100; i += 2) System.out.println(i);
 
     }
-}
+}// reviewed: 2026-07-19
