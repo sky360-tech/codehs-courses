@@ -18,4 +18,4 @@ public class MultiplicationTable
         }
         System.out.println();
     }
-}
+}// reviewed: 2026-07-19
