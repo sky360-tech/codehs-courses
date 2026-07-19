@@ -8,4 +8,4 @@ public class MultiplicationTable
             
         }
     }
-}
+}// reviewed: 2026-07-19
