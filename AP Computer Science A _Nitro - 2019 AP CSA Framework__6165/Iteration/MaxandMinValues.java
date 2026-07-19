@@ -36,4 +36,4 @@ public class MaxMin
         scanner.close();
     }
 
-}
+}// reviewed: 2026-07-19
