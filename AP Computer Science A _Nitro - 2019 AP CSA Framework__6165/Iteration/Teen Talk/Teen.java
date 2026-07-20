@@ -20,4 +20,4 @@ public class Teen {
         // Replace '.' and '!' with '!!'
         return text.replace(".", "!").replace("!", "!!");
     }
-}
+}// reviewed: 2026-07-20
