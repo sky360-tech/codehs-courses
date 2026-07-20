@@ -27,4 +27,4 @@ public class ReplaceChars
     // Print the new string with the vowels replaced with *s
     System.out.println(str);
   }
-}
+}// reviewed: 2026-07-20
