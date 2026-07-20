@@ -24,4 +24,4 @@ public class NumberTriangle
         }
     }
     
-}
+}// reviewed: 2026-07-20
