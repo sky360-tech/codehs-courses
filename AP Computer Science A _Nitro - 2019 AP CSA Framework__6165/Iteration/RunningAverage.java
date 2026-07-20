@@ -55,4 +55,4 @@ public class RunningAverage
             System.out.println("You didn't enter any times!");
         }
     }
-}
+}// reviewed: 2026-07-20
