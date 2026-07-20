@@ -23,4 +23,4 @@ public class TeenTester {
         // Close the scanner
         scanner.close();
     }
-}
+}// reviewed: 2026-07-20
