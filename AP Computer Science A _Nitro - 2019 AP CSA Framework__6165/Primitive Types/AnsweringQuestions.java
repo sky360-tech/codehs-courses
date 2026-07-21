@@ -12,4 +12,4 @@ public class Variables
         System.out.println(roomSqFootage);
         System.out.println(doesBallet);
     }
-}
+}// reviewed: 2026-07-21
