@@ -29,4 +29,4 @@ public class WhileLoopTime
         long duration = endTime - startTime; 
         System.out.print("This program took "+ duration + " Milliseconds to run.");
     }
-}
+}// reviewed: 2026-07-21
