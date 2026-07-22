@@ -23,4 +23,4 @@ public class IncreaseDecrease
     System.out.print("num2 = ");
     System.out.println(num2);
     }
-}
+}// reviewed: 2026-07-22
