@@ -14,4 +14,4 @@ public class MakingPopcorn
        System.out.println("Radiation");
        System.out.println("A type of heat transfer from infrared rays, such as feeling warmer on hot pavement or a hot sidewalk.");
     }
-}
+}// reviewed: 2026-07-22
