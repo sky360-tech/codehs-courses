@@ -27,4 +27,4 @@ public class CastingToInt
         myInt = (int) myDouble;
         System.out.println(myInt);
     }
-}
+}// reviewed: 2026-07-22
