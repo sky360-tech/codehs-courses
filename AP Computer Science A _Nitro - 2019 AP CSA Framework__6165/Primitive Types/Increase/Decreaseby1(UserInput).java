@@ -22,4 +22,4 @@ public class IncreaseDecrease
         System.out.print("Number 2 is now = ");
         System.out.println(num2);
     }
-}
+}// reviewed: 2026-07-22
