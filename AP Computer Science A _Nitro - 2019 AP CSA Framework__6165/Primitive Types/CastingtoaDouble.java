@@ -21,4 +21,4 @@ public class CastingToDouble
         System.out.println(result);
 
     }
-}
+}// reviewed: 2026-07-22
