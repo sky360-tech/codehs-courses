@@ -17,4 +17,4 @@ public class MovieRatings
         System.out.println("Rating rounded: " + roundedRating);
        
     }
-}
+}// reviewed: 2026-07-23
