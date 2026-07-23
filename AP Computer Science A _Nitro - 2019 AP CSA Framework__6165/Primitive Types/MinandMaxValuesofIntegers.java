@@ -10,4 +10,4 @@ public class IntegersMinAndMax
       System.out.print("The total bit size for an integer in Java is ");
       System.out.println(Integer.SIZE);
     }
-}
+}// reviewed: 2026-07-23
