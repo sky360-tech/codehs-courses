@@ -6,4 +6,4 @@ public class Variables
     System.out.println("The current year is " + currYear);
         
     }
-}
+}// reviewed: 2026-07-23
