@@ -31,4 +31,4 @@ public class TrickyJava
         System.out.println(candyBarsPerPerson);
         
     }
-}
+}// reviewed: 2026-07-24
