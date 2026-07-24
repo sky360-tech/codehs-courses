@@ -45,4 +45,4 @@ public class TeamRanks
 		System.out.print("10. ");
 		System.out.println(team2);
 	}
-}
+}// reviewed: 2026-07-24
