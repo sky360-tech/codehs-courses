@@ -32,4 +32,4 @@ public class Scores
         // Print the average score
         System.out.println("Your average score is: " + averageScore);
     }
-}
+}// reviewed: 2026-07-24
