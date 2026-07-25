@@ -25,4 +25,4 @@ public class Variables
         System.out.println(firstLetter);
     }
 
-}
+}// reviewed: 2026-07-25
