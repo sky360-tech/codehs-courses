@@ -52,4 +52,4 @@ public class Lifts
     {
         return (weight - 45) / 2;
     }
-}
+}// reviewed: 2026-07-26
