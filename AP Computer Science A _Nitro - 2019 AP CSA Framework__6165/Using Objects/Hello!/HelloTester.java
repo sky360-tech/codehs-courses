@@ -14,4 +14,4 @@ public class HelloTester
         hi.german();
         hi.english();
     }
-}
+}// reviewed: 2026-07-30
