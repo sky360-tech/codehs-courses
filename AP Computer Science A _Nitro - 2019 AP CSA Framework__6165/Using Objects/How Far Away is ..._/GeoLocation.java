@@ -61,4 +61,4 @@ public class GeoLocation
         double arcLength = Math.acos(theCos);
         return arcLength * RADIUS;
     }
-}
+}// reviewed: 2026-07-30
