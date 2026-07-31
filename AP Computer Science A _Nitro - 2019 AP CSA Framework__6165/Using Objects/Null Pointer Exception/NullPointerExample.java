@@ -22,4 +22,4 @@ public class NullPointerExample
         System.out.println(ghost);
         
     }
-}
+}// reviewed: 2026-07-31
