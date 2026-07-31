@@ -40,4 +40,4 @@ public class Student
     public void setNumClubs(int numClubs) {
         this.numClubs = numClubs;
     }
-}
+}// reviewed: 2026-07-31
