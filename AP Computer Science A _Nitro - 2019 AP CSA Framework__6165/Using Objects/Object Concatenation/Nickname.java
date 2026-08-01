@@ -22,3 +22,4 @@ public class Nickname
         return firstName + " (" + nickname + ") " + lastName;
     }
 }
+// reviewed: 2026-08-01
