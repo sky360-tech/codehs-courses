@@ -27,4 +27,4 @@ public class QuoteMachine
         
         System.out.println(author_quote);
     }
-}
+}// reviewed: 2026-08-03
