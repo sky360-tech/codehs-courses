@@ -20,4 +20,4 @@ public class RaceMain
         System.out.println("First car finished in " + Math.max(brettTime, julesTime) + " seconds");
 
     }
-}
+}// reviewed: 2026-08-03
