@@ -44,4 +44,4 @@ public class Talker
         return "\"" + speech +  ",\" said the talker";
 
     }
-}
+}// reviewed: 2026-08-04
