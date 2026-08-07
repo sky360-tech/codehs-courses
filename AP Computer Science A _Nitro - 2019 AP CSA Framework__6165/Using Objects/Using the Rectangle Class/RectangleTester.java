@@ -8,4 +8,4 @@ public class RectangleTester
         // Print out the Rectangle object using the toString method
         System.out.println(rect.toString());
     }
-}
+}// reviewed: 2026-08-07
