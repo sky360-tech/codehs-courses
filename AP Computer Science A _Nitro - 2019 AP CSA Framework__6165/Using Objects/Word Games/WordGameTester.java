@@ -45,4 +45,4 @@ public class WordGameTester
         
         input.close(); // Close the scanner to avoid resource leaks
     }
-}
+}// reviewed: 2026-08-07
