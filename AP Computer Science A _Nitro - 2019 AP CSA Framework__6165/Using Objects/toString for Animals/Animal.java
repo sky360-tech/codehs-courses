@@ -19,4 +19,4 @@ public class Animal
         String theNewString = commonName + " lives in "+ habitat + ", eats " + diet + " and usually lives " + typicalAge + " years.";
 return theNewString;
     }
-}
+}// reviewed: 2026-08-08
