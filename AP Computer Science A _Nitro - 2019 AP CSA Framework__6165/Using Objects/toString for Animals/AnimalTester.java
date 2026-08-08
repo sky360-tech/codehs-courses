@@ -5,4 +5,4 @@ public class AnimalTester
        Animal riverOtter = new Animal("North American River Otter", "rivers", "fish", 9);
        System.out.println(riverOtter);
     }
-}
+}// reviewed: 2026-08-08
