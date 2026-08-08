@@ -39,4 +39,4 @@ public class WordGames
     {
         return "[" + word + "]";
     }
-}
+}// reviewed: 2026-08-08
