@@ -96,4 +96,4 @@ public class BaseballPlayer {
 		return name + " plays for the " + team 
 				+" and has an average of " +battingAvg();
 	}
-}
+}// reviewed: 2026-08-09
