@@ -26,4 +26,4 @@ public class Circle {
     public String toString() { // Make toString public so it can be used to print the circle's details
         return "Circle with a radius of " + radius;
     }
-}
+}// reviewed: 2026-08-11
