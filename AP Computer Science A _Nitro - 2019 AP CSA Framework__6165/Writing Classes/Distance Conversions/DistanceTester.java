@@ -10,4 +10,4 @@ public class DistanceTester
         System.out.println(d2.getKilometers() + " km = " + d2.toLeagues() + " leagues");
         System.out.println(d3.getKilometers() + " km (one way) = " + d3.doubleMiles() + " miles (round trip)");
     }
-}
+}// reviewed: 2026-08-11
