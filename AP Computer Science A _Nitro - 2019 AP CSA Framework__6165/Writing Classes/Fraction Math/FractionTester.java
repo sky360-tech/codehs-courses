@@ -22,4 +22,4 @@ public class FractionTester
         System.out.println("Answer: " + first);
     }
 
-}
+}// reviewed: 2026-08-12
