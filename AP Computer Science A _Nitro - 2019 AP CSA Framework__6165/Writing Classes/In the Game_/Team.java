@@ -9,4 +9,4 @@ public class Team {
     public static boolean tournamentReady() {
         return totalTeams >= minTeams; // Check if enough teams are created for a tournament
     }
-}
+}// reviewed: 2026-08-12
