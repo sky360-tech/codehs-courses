@@ -12,4 +12,4 @@ public class TeamTester {
         System.out.println("Total Teams: " + Team.totalTeams);
         System.out.println("Is the tournament ready? " + Team.tournamentReady());
     }
-}
+}// reviewed: 2026-08-12
