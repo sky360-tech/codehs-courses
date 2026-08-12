@@ -14,4 +14,4 @@ public class Rectangle
 	    return "Rectangle width: " + width + " Rectangle height: " + height;
     }
 
-}
+}// reviewed: 2026-08-12
