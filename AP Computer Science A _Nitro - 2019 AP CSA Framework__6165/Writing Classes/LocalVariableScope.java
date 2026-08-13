@@ -57,4 +57,4 @@ public class LocalScope
         
         System.out.println("i does not exist after the loop");
     }
-}
+}// reviewed: 2026-08-13
