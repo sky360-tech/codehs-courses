@@ -13,4 +13,4 @@ public class InstanceScope
     }
     
     
-}
+}// reviewed: 2026-08-13
