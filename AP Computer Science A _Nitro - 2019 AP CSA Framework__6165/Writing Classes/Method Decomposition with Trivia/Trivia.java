@@ -80,4 +80,4 @@ public class Trivia
             return response.equals(a5);
         }
     }
-}
+}// reviewed: 2026-08-13
