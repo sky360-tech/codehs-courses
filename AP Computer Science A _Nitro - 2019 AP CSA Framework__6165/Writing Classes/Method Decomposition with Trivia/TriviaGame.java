@@ -35,4 +35,4 @@ public class TriviaGame
             System.out.println("Sorry, that's not correct.");
         }
     }
-}
+}// reviewed: 2026-08-13
