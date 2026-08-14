@@ -20,4 +20,4 @@ public class RectangleTester
          // Access the width of r2
          System.out.println("r2 width: " + r2.getWidth());
     }
-}
+}// reviewed: 2026-08-14
