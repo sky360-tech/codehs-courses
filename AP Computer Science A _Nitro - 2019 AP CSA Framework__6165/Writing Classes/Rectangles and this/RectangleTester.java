@@ -19,4 +19,4 @@ public class RectangleTester
          System.out.println("Area of r2: " + r2.getArea());
 
     }
-}
+}// reviewed: 2026-08-14
