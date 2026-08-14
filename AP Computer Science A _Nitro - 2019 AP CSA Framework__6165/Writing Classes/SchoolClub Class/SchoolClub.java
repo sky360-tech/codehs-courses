@@ -21,4 +21,4 @@ public class SchoolClub
         
     return leader.getFirstName() + " is the leader of the " + name + " club.";
     }
-}
+}// reviewed: 2026-08-14
