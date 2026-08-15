@@ -7,4 +7,4 @@ public class ScopeTester
 
         s.printScope();
     }
-}
+}// reviewed: 2026-08-15
