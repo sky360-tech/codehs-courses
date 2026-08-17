@@ -32,4 +32,4 @@ public class Power
 	{
 	    return "Power: "+ name +", Strength: " + strength; 
 	}
-}
+}// reviewed: 2026-08-17
