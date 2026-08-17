@@ -42,4 +42,4 @@ public class SuperHero
 	{
 	    return "Name: "+ name +", " + superPower;
 	}
-}
+}// reviewed: 2026-08-17
