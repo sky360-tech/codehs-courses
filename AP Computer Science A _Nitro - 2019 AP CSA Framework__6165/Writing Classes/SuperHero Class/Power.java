@@ -23,4 +23,4 @@ public class Power
 	{
 	    strength = theStrength;
 	}
-}
+}// reviewed: 2026-08-17
