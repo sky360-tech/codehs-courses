@@ -18,4 +18,4 @@ public class SuperHeroTester
         System.out.println("\n"+flash);
         
     }
-}
+}// reviewed: 2026-08-17
