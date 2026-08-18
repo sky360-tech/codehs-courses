@@ -24,4 +24,4 @@ public class SuperHeroTester
         System.out.print("Flash's Strength: ");
         System.out.println(flash.getStrength());
     }
-}
+}// reviewed: 2026-08-18
