@@ -13,4 +13,4 @@ public class RoutineTester
         myWeek.printTotal();
         
     }
-}
+}// reviewed: 2026-08-18
