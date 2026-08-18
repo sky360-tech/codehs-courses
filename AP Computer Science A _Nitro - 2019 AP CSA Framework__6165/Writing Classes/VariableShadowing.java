@@ -30,4 +30,4 @@ public class VariableShadowing
     {
         System.out.println(name);
     }
-}
+}// reviewed: 2026-08-18
