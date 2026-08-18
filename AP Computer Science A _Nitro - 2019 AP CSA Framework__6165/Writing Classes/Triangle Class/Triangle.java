@@ -55,4 +55,4 @@ public class Triangle {
 	public double area() {
 		return 0.5*base*height;
 	}
-}
+}// reviewed: 2026-08-18
