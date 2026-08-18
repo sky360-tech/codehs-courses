@@ -98,4 +98,4 @@ System.out.println("You're busy " + (sleep * 7 + school * 7 + friends * 7 + hobb
 
 }
 
-}
+}// reviewed: 2026-08-18
