@@ -25,4 +25,4 @@ public class SuperHero
 	{
 	    superPower.setStrength(strength);
 	}
-}
+}// reviewed: 2026-08-18
