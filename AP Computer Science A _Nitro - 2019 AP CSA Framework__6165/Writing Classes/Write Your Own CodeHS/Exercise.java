@@ -26,4 +26,4 @@ public class Exercise
     public String getName() {
         return name;
     }
-}
+}// reviewed: 2026-08-18
