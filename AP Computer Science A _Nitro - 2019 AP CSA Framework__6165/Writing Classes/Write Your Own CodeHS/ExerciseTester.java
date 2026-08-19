@@ -8,4 +8,4 @@ public class ExerciseTester
         System.out.println(exercise1.getName());
         System.out.println(exercise2.getName());
     }
-}
+}// reviewed: 2026-08-19
