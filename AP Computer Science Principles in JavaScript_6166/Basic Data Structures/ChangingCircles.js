@@ -31,4 +31,4 @@ function randomCircles(num){
     for(var i = 0; i < NUM_CIRCLES; i++){
     circles.push(drawCircle());
     }
-}
+}// reviewed: 2026-08-19
