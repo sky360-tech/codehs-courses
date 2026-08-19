@@ -20,4 +20,4 @@ function start(){
 	
 	println(list.indexOf("donuts"));
 	println(list.indexOf("apple juice"));	
-}
+}// reviewed: 2026-08-19
