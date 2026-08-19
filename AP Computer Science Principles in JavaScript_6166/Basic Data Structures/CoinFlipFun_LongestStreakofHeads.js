@@ -58,4 +58,4 @@ function longestHeadsStreak(arr){
   }
         println("Longest Streak of Heads: " + larHeads);
         println("Longest Streak of Tails: " + larTails);
-  }
+  }// reviewed: 2026-08-19
