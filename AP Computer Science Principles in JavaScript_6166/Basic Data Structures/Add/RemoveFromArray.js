@@ -18,4 +18,4 @@ function start(){
 	println(last);
 	
 	println(arr[4]);
-}
+}// reviewed: 2026-08-19
