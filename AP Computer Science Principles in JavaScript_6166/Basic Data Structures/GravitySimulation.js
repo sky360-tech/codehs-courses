@@ -87,4 +87,4 @@ function checkForBounce(){
         velocityY *= -1;
         ball.setPosition(ball.getX(), radius);
     }
-}
+}// reviewed: 2026-08-20
