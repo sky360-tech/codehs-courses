@@ -33,4 +33,4 @@ function generateBarcode(lines) {
         barcode[i] = Randomizer.nextBoolean(0.3);
     }
     return barcode;
-}
+}// reviewed: 2026-08-20
