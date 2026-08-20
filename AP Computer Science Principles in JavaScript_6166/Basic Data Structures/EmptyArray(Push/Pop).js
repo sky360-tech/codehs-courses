@@ -11,4 +11,4 @@ function start(){
     println(arr[0]);
     println(arr[1]);
     println(arr[2]);
-}
+}// reviewed: 2026-08-20
