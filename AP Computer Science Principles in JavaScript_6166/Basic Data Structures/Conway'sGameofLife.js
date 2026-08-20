@@ -160,4 +160,4 @@ function drawGrid(grid){
             }
         }
     }
-}
+}// reviewed: 2026-08-20
