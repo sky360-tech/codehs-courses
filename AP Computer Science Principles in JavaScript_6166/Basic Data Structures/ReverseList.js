@@ -12,4 +12,4 @@ function start(){
      reverse.push(arr[i])
     }
         return reverse;
-}
+}// reviewed: 2026-08-21
