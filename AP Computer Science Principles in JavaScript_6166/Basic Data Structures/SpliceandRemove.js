@@ -9,4 +9,4 @@ function start(){
 	println(arr);
 	
 	println("We removed: " + elem);
-}
+}// reviewed: 2026-08-22
