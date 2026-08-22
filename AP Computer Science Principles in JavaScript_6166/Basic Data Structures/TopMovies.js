@@ -6,4 +6,4 @@ function start(){
 
     favMovies[0] = "Star Wars";
     println(favMovies[2]);
-}
+}// reviewed: 2026-08-22
