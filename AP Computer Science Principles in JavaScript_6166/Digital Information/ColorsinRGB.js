@@ -13,4 +13,4 @@ function drawColumn(index, r, g, b)
     {
         setPixelRGB(i, index, r, g, b);
     }
-}
+}// reviewed: 2026-08-23
