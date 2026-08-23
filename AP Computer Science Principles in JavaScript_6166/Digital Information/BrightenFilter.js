@@ -76,4 +76,4 @@ function brighten(pixel) {
     
     // Return the modified pixel
     return pixel;
-}
+}// reviewed: 2026-08-23
