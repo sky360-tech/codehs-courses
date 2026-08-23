@@ -44,4 +44,4 @@ function start() {
     setTimeout(function(){
         removeBlue(image);
     }, IMAGE_LOAD_WAIT_TIME);
-}
+}// reviewed: 2026-08-23
