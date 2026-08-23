@@ -305,4 +305,4 @@ function generateRandomTarget() {
     targetLabel.setColor(FONT_COLOR);
     
     add(targetLabel);
-}
+}// reviewed: 2026-08-23
