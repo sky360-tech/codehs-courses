@@ -87,4 +87,4 @@ function DNAtoAminoChain(dna)
     }
     
     return resultChain;
-}
+}// reviewed: 2026-08-23
