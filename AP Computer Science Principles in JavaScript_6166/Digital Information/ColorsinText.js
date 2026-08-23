@@ -11,4 +11,4 @@ function drawColumn(index, color)
   {
     setPixel(i, index, color);
   }
-}
+}// reviewed: 2026-08-23
