@@ -53,4 +53,4 @@ function start() {
     setTimeout(function(){
         darkenFilter(image);
     }, IMAGE_LOAD_WAIT_TIME);
-}
+}// reviewed: 2026-08-23
