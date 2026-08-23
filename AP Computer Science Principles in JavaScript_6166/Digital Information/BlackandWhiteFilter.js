@@ -74,4 +74,4 @@ function grayscale(pixel) {
     
     // Return the modified pixel array
     return pixel;
-}
+}// reviewed: 2026-08-23
