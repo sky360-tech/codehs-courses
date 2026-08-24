@@ -67,4 +67,4 @@ function hexToDecimal(hexString)
     println(" = " + decimalValue);
     
     return decimalValue;
-}
+}// reviewed: 2026-08-24
