@@ -27,4 +27,4 @@ maximum are stored as +/- Infinity.
     
     println(1e309);   // Infinity
     println(-1e309);   // -Infinity
-    println(1e-324)  // 0
+    println(1e-324)  // 0// reviewed: 2026-08-24
