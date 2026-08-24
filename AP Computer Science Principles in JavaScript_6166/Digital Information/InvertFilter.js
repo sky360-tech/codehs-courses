@@ -69,4 +69,4 @@ function start() {
     setTimeout(function(){
         invert(image);
     }, IMAGE_LOAD_WAIT_TIME);
-}
+}// reviewed: 2026-08-24
