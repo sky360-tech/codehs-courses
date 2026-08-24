@@ -87,4 +87,4 @@ function decimalToBinary(decimalValue)
     }
     
     return binaryResult;
-}
+}// reviewed: 2026-08-24
