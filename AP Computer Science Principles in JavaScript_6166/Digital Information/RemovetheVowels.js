@@ -63,4 +63,4 @@ function isVowel(letter)
 {
     var vowels = "aeiou";
     return vowels.indexOf(letter) != -1;
-}
+}// reviewed: 2026-08-25
