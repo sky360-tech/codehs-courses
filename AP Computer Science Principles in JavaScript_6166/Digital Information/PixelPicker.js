@@ -68,4 +68,4 @@ function printPixelAt(e) {
     // Update the text
     var rgbString = "rgb: (" + red + ", " + green + ", " + blue + ")";
     text.setText(rgbString);
-}
+}// reviewed: 2026-08-25
