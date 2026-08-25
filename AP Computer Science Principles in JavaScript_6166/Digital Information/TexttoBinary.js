@@ -43,4 +43,4 @@ function decimalToBinary(decimalValue)
     }
     
     return binaryValue;
-}
+}// reviewed: 2026-08-25
