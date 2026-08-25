@@ -87,4 +87,4 @@ function saturateColor(colorValue) {
     } else {
         return MIN_COLOR_VALUE;
     }
-}
+}// reviewed: 2026-08-25
