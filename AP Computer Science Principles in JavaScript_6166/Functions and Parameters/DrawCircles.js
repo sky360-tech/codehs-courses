@@ -13,4 +13,4 @@ function start(){
 	drawCircle(40, Color.red, 100, 300);
 	drawCircle(50, Color.green, 50, 100);
 	drawCirrcle(70, Color.blue, getWidth()/2, getHeight()/2);
-}
+}// reviewed: 2026-08-25
