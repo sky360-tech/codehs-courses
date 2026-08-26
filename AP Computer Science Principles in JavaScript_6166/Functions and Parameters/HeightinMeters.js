@@ -9,4 +9,4 @@ function start(){
 function convertHeightToMeters(feet, inch){
 	var total = feet * FEET_TO_INCHES * INCHES_TO_CM * CM_TO_METERS + inch * INCHES_TO_CM * CM_TO_METERS ;
 	println(total);
-}
+}// reviewed: 2026-08-26
