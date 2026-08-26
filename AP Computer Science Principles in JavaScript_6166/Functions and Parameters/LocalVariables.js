@@ -5,4 +5,4 @@
 function start(){
     var name = readLine("what is your name");
     println("Nihao!," + name);
-}
+}// reviewed: 2026-08-26
