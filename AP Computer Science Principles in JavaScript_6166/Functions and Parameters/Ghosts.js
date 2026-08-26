@@ -87,4 +87,4 @@ function drawGhost(centerX, centerY, color){
     add(circle);
     
     
-}
+}// reviewed: 2026-08-26
