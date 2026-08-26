@@ -59,4 +59,4 @@ function setupWorld(){
     
     //Set Karel's initial direction
     direction = EAST;
-}
+}// reviewed: 2026-08-26
