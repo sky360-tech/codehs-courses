@@ -26,4 +26,4 @@ var GRAY_COLOR = "#737071";
     rect.setPosition((getWidth() - width) / 2, (getHeight() - height) / 2); // Center the rectangle
     rect.setColor(color);
     add(rect);
-}
+}// reviewed: 2026-08-26
