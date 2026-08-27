@@ -21,4 +21,4 @@ function drawPoolBall(color, num, x, y){
     add(circle);
     add(txt);
 
-}
+}// reviewed: 2026-08-27
