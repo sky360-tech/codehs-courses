@@ -5,4 +5,4 @@ function start(){
 function triple(x){
 	var tripleX = 3 * x;
 	println(tripleX);
-}
+}// reviewed: 2026-08-28
