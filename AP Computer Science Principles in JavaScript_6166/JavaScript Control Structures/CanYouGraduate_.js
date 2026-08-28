@@ -3,4 +3,4 @@ function start(){
 	var requirement = readBoolean("You met the requirements? ");
 	var canBeGraduate = credits && requirement;
 	println("Can be Graduate: " + canBeGraduate);
-}
+}// reviewed: 2026-08-28
