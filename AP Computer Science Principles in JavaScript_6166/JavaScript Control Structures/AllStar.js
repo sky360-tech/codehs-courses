@@ -5,4 +5,4 @@ function start(){
     var isAllStar = pointsPerGame >= 25 || pointsPerGame >= 10 && reboundsPerGame >= 10 && assistsPerGame >= 10;
 
     println("Is all star? " + isAllStar);
-}
+}// reviewed: 2026-08-28
