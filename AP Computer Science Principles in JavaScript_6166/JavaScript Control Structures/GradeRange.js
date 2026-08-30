@@ -4,4 +4,4 @@ function start(){
 	var grade = readInt("What was your grade?");
 	var gotB = grade >= 80 && grade < 90;
 	println("Got a B: " + gotB);
-}
+}// reviewed: 2026-08-30
