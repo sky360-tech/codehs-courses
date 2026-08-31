@@ -17,4 +17,4 @@ function start(){
 // 	var number = readInt("Number: ");
 // 	var negative = number < 0;
 // 	println("Number is negative: " + negative);
-// }
+// }// reviewed: 2026-08-31
