@@ -10,4 +10,4 @@ function start(){
 	var isUSCitizen = readBoolean("Are you a US Citizen? ");
 	var canBePresident = atLeastThirtyFive && isUSCitizen;
 	println("Can be president: " + canBePresident);
-}
+}// reviewed: 2026-08-31
