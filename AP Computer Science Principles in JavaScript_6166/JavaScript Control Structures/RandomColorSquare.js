@@ -5,4 +5,4 @@ function start(){
     rect.setPosition = Randomizer.nextInt(60,150);
     rect.setColor = Randomizer.nextColor();
     add(rect);
-}
+}// reviewed: 2026-08-31
