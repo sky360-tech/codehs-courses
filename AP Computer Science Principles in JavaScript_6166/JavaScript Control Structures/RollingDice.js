@@ -3,4 +3,4 @@ function start(){
     var diceTwo = readInt("Second Dice Roll? ");
     var rolledDoubles = diceOne == diceTwo;
     println("Got Doubles: " + rolledDoubles);
-}
+}// reviewed: 2026-08-31
