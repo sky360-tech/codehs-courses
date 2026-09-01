@@ -5,4 +5,4 @@ function start(){
 	var age = readInt("What is your age? ");
 	var oldEnough = age >= 18;
 	println("Can vote: " + oldEnough);
-}
+}// reviewed: 2026-09-01
