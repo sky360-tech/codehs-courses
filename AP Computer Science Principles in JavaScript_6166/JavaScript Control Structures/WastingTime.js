@@ -11,4 +11,4 @@ function start(){
 	
 	println("Wasting time? " + 			
 		isWastingTime);
-}
+}// reviewed: 2026-09-01
