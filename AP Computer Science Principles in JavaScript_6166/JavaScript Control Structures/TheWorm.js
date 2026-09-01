@@ -13,4 +13,4 @@ function start(){
     circle.setColor(Color.grey);
     add(circle);
     }
-}
+}// reviewed: 2026-09-01
