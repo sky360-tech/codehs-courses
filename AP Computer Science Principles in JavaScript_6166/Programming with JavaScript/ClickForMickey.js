@@ -46,4 +46,4 @@ function drawMickey(cx, cy, color){
 	drawCircle(EAR_RADIUS, color, cx + EAR_OFFSET, 
 	    cy - EAR_OFFSET);
 	
-}
+}// reviewed: 2026-09-02
