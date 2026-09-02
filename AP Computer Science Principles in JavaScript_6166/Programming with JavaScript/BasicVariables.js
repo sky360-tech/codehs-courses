@@ -12,4 +12,4 @@ function start(){
 	numApples = 0;
 	println("Number of apples: " + numApples);	
 	
-}
+}// reviewed: 2026-09-02
