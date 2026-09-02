@@ -15,4 +15,4 @@ function start(){
 	number.setColor(Color.white);
 	number.setPosition(centerX - number.getWidth()/2, centerY + number.getWidth()/2);
 	add(number);
-}
+}// reviewed: 2026-09-02
