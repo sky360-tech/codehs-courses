@@ -6,4 +6,4 @@ function start(){
 	rect.setPosition(60, 150);
 	rect.setColor(Color.red);
 	add(rect);
-}
+}// reviewed: 2026-09-03
