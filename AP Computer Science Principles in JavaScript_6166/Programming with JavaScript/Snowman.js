@@ -19,4 +19,4 @@ function start(){
     circle.setPosition(200, 380);
     circle.setColor(Color.grey);
     add(circle);
-}
+}// reviewed: 2026-09-03
