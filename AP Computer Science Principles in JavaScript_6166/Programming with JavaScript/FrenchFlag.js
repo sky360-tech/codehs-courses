@@ -11,4 +11,4 @@ function start(){
     redRect.setPosition(rectWidth * 2, 0);
     redRect.setColor(Color.red);
     add(redRect);
-}
+}// reviewed: 2026-09-03
