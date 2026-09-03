@@ -4,4 +4,4 @@ function start(){
 	var text = new Text("Hello world");
 	text.setPosition(100, 100);
 	add(text);
-}
+}// reviewed: 2026-09-03
