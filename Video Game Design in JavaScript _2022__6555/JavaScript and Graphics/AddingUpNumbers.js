@@ -17,4 +17,4 @@ function start(){
 	}
 	
 	println("The total was: " + sum);
-}
+}// reviewed: 2026-09-04
