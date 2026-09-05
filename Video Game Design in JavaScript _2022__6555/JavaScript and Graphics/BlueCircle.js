@@ -5,4 +5,4 @@ function start(){
 	circle.setPosition(100, 50);
 	circle.setColor(Color.blue);
 	add(circle);
-}
+}// reviewed: 2026-09-05
