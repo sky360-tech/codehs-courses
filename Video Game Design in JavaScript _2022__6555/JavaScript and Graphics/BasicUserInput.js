@@ -6,4 +6,4 @@ function start(){
 	
 	var age = readInt("Age? ");
 	println("Age is: " + age);
-}
+}// reviewed: 2026-09-05
