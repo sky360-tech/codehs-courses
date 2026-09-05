@@ -6,4 +6,4 @@ function start(){
         sum += i;
         
     }
-    println("The sum was " + sum);}
+    println("The sum was " + sum);}// reviewed: 2026-09-05
