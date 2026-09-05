@@ -5,4 +5,4 @@ function start(){
 function triangleArea(x,y){
     var area = 1/2 * x * y;
     println(area);
-}
+}// reviewed: 2026-09-05
