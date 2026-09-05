@@ -10,4 +10,4 @@ function start(){
     var allStars = leastPoints || pointsToBeStar &&  leastRebounds || leastAssists >= 25;
     println("The player is all stars: " + allStars);
 	
-}
+}// reviewed: 2026-09-05
