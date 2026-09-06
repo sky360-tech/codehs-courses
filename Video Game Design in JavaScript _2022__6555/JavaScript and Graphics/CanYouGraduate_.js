@@ -5,4 +5,4 @@ function start(){
     println("Can you graduate? :" + canGraduate);
     
 	
-}
+}// reviewed: 2026-09-06
