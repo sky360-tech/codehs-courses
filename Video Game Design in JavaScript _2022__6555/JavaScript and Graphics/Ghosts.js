@@ -86,4 +86,4 @@ function drawGhost(centerX, centerY, color){
 
 function hello{
     var hello = hello;
-}
+}// reviewed: 2026-09-08
