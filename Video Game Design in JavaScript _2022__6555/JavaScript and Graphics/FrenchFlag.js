@@ -17,4 +17,4 @@ function start(){
     red.setColor(Color.red);
     add(red);
 	
-}
+}// reviewed: 2026-09-08
