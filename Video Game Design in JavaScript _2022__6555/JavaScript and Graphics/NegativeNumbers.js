@@ -5,4 +5,4 @@ function start(){
 	if(number < 0){
 		println("Number is negative.");
 	}
-}
+}// reviewed: 2026-09-10
