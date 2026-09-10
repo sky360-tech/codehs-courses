@@ -22,4 +22,4 @@ function drawPoolBall(color, num, x, y){
     number.setPosition(x - number.getWidth() / 2, y + number.getHeight() / 2);
     add(number);
 	
-}
+}// reviewed: 2026-09-10
