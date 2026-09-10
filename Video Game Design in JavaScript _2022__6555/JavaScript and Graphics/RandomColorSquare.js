@@ -8,4 +8,4 @@ function start(){
     rect.setColor(Randomizer.nextColor());
     add(rect);
 	
-}
+}// reviewed: 2026-09-10
