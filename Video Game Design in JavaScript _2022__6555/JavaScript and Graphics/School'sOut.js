@@ -4,4 +4,4 @@ function start(){
     var isSchoolOpen = !weekday || holiday;
     println("School's out? :" + isSchoolOpen);
     
-}
+}// reviewed: 2026-09-11
