@@ -4,4 +4,4 @@ function start(){
 	var second = readInt("Second: ");
 	var sum = first + second;
 	println(sum);
-}
+}// reviewed: 2026-09-11
