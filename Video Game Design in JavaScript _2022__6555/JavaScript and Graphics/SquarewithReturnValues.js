@@ -8,4 +8,4 @@ function start(){
 function square(x){
 	var doubledX = x * x;
 	return doubledX;
-}
+}// reviewed: 2026-09-11
