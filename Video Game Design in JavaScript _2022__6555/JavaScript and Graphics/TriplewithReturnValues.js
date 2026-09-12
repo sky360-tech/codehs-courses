@@ -6,4 +6,4 @@ function start(){
 function triple(x){
 	var doubledX = 3 * x;
 	return doubledX;
-}
+}// reviewed: 2026-09-12
