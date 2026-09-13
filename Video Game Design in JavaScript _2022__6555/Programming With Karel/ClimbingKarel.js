@@ -27,4 +27,4 @@ function moveToWall(){
 	while(frontIsClear()){
 		move();
 	}
-}
+}// reviewed: 2026-09-13
