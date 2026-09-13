@@ -12,4 +12,4 @@ function start(){
         }
     }
     putBall();
-}
+}// reviewed: 2026-09-13
