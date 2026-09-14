@@ -4,4 +4,4 @@ function start() {
 	while (ballsPresent()){
 	    move();
 	}
-}
+}// reviewed: 2026-09-14
