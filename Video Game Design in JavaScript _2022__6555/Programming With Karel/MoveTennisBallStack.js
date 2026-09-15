@@ -20,4 +20,4 @@ function moveOneBall(){
 	turnAround();
 	move();
 	turnAround();
-}
+}// reviewed: 2026-09-15
